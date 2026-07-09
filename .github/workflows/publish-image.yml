@@ -1,0 +1,96 @@
+# Build and publish the demo dataset image:
+#   ghcr.io/cascadia-plm/cascadia-demo-data
+#
+# Consumed by docker-compose.demo.yml in Cascadia-App via a one-shot init
+# container. Only the dataset and the Dockerfile affect the image, so builds are
+# path-filtered: a README-only commit publishes nothing.
+#
+# ONE-TIME SETUP: the cascadia-demo-data GHCR package was originally created by
+# the Cascadia-App repo. For this workflow to push it, the package must grant
+# THIS repo write access:
+#   GitHub -> org Cascadia-PLM -> Packages -> cascadia-demo-data -> Settings ->
+#   "Manage Actions access" -> add Cascadia-PLM/Demo-Data with Write.
+# Its visibility must stay Public or the anonymous quickstart pull fails.
+
+name: publish-image
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+    paths:
+      - 'robot-arm/**'
+      - 'Dockerfile'
+      - '.dockerignore'
+      - '.github/workflows/publish-image.yml'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # The image is `FROM alpine` + one COPY of static files, so there is no
+      # compilation to emulate. QEMU is cheap here, unlike the Node images.
+      - name: Set up QEMU (for arm64)
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Log in to GHCR
+        if: github.event_name != 'pull_request'
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Compute tags and labels
+        id: meta
+        uses: docker/metadata-action@v5
+        with:
+          images: ghcr.io/cascadia-plm/cascadia-demo-data
+          tags: |
+            type=raw,value=latest,enable={{is_default_branch}}
+            type=raw,value=main,enable={{is_default_branch}}
+            type=sha,format=short
+            type=semver,pattern={{version}}
+            type=semver,pattern={{major}}.{{minor}}
+
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: Dockerfile
+          platforms: ${{ github.event_name == 'pull_request' && 'linux/amd64' || 'linux/amd64,linux/arm64' }}
+          push: ${{ github.event_name != 'pull_request' }}
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      # Guards the contract Cascadia-App's seed depends on: 79 GLB + 79
+      # thumbnails at /demo-data/robot-arm, and no STEP files. Runs on PRs too —
+      # that is where a broken dataset should be caught, before it is published.
+      - name: Verify image contents
+        run: |
+          set -euo pipefail
+          docker buildx build --load -t demo-data:verify .
+          docker run --rm demo-data:verify sh -c '
+            set -e
+            test ! -d /demo-data/robot-arm/step || { echo "step/ leaked into the image"; exit 1; }
+            test -f /demo-data/robot-arm/manifest.json
+            glb=$(ls /demo-data/robot-arm/glb | wc -l)
+            png=$(ls /demo-data/robot-arm/thumbnails | wc -l)
+            echo "glb=$glb thumbnails=$png"
+            test "$glb" -eq 79
+            test "$png" -eq 79
+          '

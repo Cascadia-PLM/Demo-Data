@@ -1,0 +1,19 @@
+{
+  "name": "cascadia-demo-data",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "TDJ-25 robot-arm demo dataset for Cascadia PLM",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:manifest": "tsx scripts/build-demo-manifest.ts",
+    "build:cad": "tsx scripts/prepare-demo-cad.ts",
+    "stage:steps": "tsx scripts/stage-demo-steps.ts",
+    "build:all": "npm run build:manifest && npm run build:cad"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}

@@ -1,0 +1,7 @@
+node_modules
+
+# Regenerated from the private Cascadia-App-archive; build-time only.
+# scripts/prepare-demo-cad.ts consumes these to produce glb/ + thumbnails/,
+# which ARE committed. See README.md.
+robot-arm/step/
+robot-arm/step-merged/
