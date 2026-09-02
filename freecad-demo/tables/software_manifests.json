@@ -1,0 +1,95 @@
+[
+  {
+    "id": "ce678c2c-dde6-461b-b9d4-f0c08b22ee26",
+    "entries": [
+      {
+        "hash": "46ec71369482ebc832bde66c27b2e8f6203a9656fe66990be927d883834e86b5",
+        "path": "CMakeLists.txt",
+        "size": 744
+      },
+      {
+        "hash": "9895ba8de0fdfc56efcaa62adebcb8b140be2e4d12e095bee1673990640773c2",
+        "path": "include/config.h",
+        "size": 2518
+      },
+      {
+        "hash": "00a9ded0aa5cb4777a8b83adc11a03212cee1608a40dce5a88ca1f4ec09fa5d1",
+        "path": "README.md",
+        "size": 1701
+      },
+      {
+        "hash": "2c30b0234f0256ecf97fbfc85c49186dcc44e36603a19c6c88c5d0f4b6d32af4",
+        "path": "src/battery.c",
+        "size": 1473
+      },
+      {
+        "hash": "79e5ad7626ddf5e73d19b0d13f6e0f1446463b25d00c0190cfe97eab11b8ed98",
+        "path": "src/battery.h",
+        "size": 439
+      },
+      {
+        "hash": "130ffdc1ce6f7c68133e42f9005ef0bd1b0ca05e355bf4824ea6560288debb1b",
+        "path": "src/estop.c",
+        "size": 2250
+      },
+      {
+        "hash": "1cc2dd969b1aa4b4441ae4f2fb33f44fc8eba52ac5542a4c513eab050aa30346",
+        "path": "src/estop.h",
+        "size": 509
+      },
+      {
+        "hash": "7b1aec2025cbd7d43f13434b05212b209e23e8fdfc0013176ee91d66afba3297",
+        "path": "src/joystick.c",
+        "size": 1253
+      },
+      {
+        "hash": "eac3d1d60a68069f51fa238802b3d7e08344e936520cfca107cb4030b8594550",
+        "path": "src/joystick.h",
+        "size": 475
+      },
+      {
+        "hash": "17532ee68d867a2990aa0f2cb6a20a9f6d051daf1f333687d1d3a9e29cc93796",
+        "path": "src/main.c",
+        "size": 2304
+      },
+      {
+        "hash": "d311060c7b31d4e13c9950291da1876a927d127c36271dac79c45605ef3aa396",
+        "path": "src/sabertooth.c",
+        "size": 1639
+      },
+      {
+        "hash": "70ec92c49b8536a850c57d037f3c9635ac10e6d09672e7a1ac47651da9416b9f",
+        "path": "src/sabertooth.h",
+        "size": 415
+      }
+    ],
+    "file_count": 12,
+    "total_size": "15720",
+    "created_at": "2026-09-02 10:36:09.84629-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "ff0882b0-11b1-4efb-b0a0-3845cc1acfe5",
+    "entries": [
+      {
+        "hash": "bee75bf084cc04cc5a64238814d498f6ee33a26e0c87bbfa64fe627241a72bac",
+        "path": "ardupilot/rover.param",
+        "size": 2060
+      },
+      {
+        "hash": "228200f1510f2b898855d3e937ec1fdd87ee72951b73da28c72296d02e090c96",
+        "path": "lua/vessel_supervisor.lua",
+        "size": 1810
+      },
+      {
+        "hash": "361111ac2c23ef0ff5b9ca0d60e52ac5d3c767c3fd6c774aa25f8b670b2133b5",
+        "path": "README.md",
+        "size": 861
+      }
+    ],
+    "file_count": 3,
+    "total_size": "4731",
+    "created_at": "2026-09-02 10:59:52.802694-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  }
+]

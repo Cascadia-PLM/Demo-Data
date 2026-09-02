@@ -1,0 +1,266 @@
+[
+  {
+    "id": "5635a54a-6252-406b-8b4a-3ad4df57f8c6",
+    "work_order_instruction_id": "5d378102-6a38-4965-8b6d-8aeca77f27f2",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "CART-0001",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:36:14.795644-07",
+    "completed_at": "2026-09-02 10:36:14.87-07",
+    "duration": 0,
+    "step_data": {
+      "1df6f3bc-f382-429b-a511-810c49f85be0": {
+        "value": 5.6,
+        "blockId": "1df6f3bc-f382-429b-a511-810c49f85be0",
+        "capturedAt": "2026-09-02T17:36:14.841Z"
+      },
+      "c1ba12b7-a17a-4952-af10-8641b6476a80": {
+        "value": "pass",
+        "blockId": "c1ba12b7-a17a-4952-af10-8641b6476a80",
+        "capturedAt": "2026-09-02T17:36:14.847Z"
+      }
+    },
+    "notes": "Completed (CART-0001)",
+    "current_step_index": 0
+  },
+  {
+    "id": "ed8a0b79-ff33-4289-b652-adefc9b5d1e2",
+    "work_order_instruction_id": "5d378102-6a38-4965-8b6d-8aeca77f27f2",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "CART-0002",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:36:14.91666-07",
+    "completed_at": "2026-09-02 10:36:14.995-07",
+    "duration": 0,
+    "step_data": {
+      "1df6f3bc-f382-429b-a511-810c49f85be0": {
+        "value": 5.6,
+        "blockId": "1df6f3bc-f382-429b-a511-810c49f85be0",
+        "capturedAt": "2026-09-02T17:36:14.947Z"
+      },
+      "c1ba12b7-a17a-4952-af10-8641b6476a80": {
+        "value": "pass",
+        "blockId": "c1ba12b7-a17a-4952-af10-8641b6476a80",
+        "capturedAt": "2026-09-02T17:36:14.978Z"
+      }
+    },
+    "notes": "Completed (CART-0002)",
+    "current_step_index": 0
+  },
+  {
+    "id": "33ffcd0e-3571-4992-a7cd-462ccb863b49",
+    "work_order_instruction_id": "a5874812-89e5-40d1-9e4c-f3f8f6da878b",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "CART-0001",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:36:15.031338-07",
+    "completed_at": "2026-09-02 10:36:15.089-07",
+    "duration": 0,
+    "step_data": {
+      "1e8c0537-7901-47c4-adc1-ac519ea4befa": {
+        "value": "PUC-1720 rev A",
+        "blockId": "1e8c0537-7901-47c4-adc1-ac519ea4befa",
+        "capturedAt": "2026-09-02T17:36:15.073Z"
+      },
+      "b0b7a70c-1988-45fb-98f3-278b3ed14a07": {
+        "value": true,
+        "blockId": "b0b7a70c-1988-45fb-98f3-278b3ed14a07",
+        "capturedAt": "2026-09-02T17:36:15.079Z"
+      }
+    },
+    "notes": "Completed (CART-0001)",
+    "current_step_index": 0
+  },
+  {
+    "id": "9af719f3-1a60-401e-afd6-99c0230039d1",
+    "work_order_instruction_id": "a5874812-89e5-40d1-9e4c-f3f8f6da878b",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "CART-0002",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:36:15.13173-07",
+    "completed_at": "2026-09-02 10:36:15.21-07",
+    "duration": 0,
+    "step_data": {
+      "1e8c0537-7901-47c4-adc1-ac519ea4befa": {
+        "value": "PUC-1720 rev A",
+        "blockId": "1e8c0537-7901-47c4-adc1-ac519ea4befa",
+        "capturedAt": "2026-09-02T17:36:15.153Z"
+      },
+      "b0b7a70c-1988-45fb-98f3-278b3ed14a07": {
+        "value": true,
+        "blockId": "b0b7a70c-1988-45fb-98f3-278b3ed14a07",
+        "capturedAt": "2026-09-02T17:36:15.184Z"
+      }
+    },
+    "notes": "Completed (CART-0002)",
+    "current_step_index": 0
+  },
+  {
+    "id": "cd8d21f4-2d57-4884-9bbc-27213533ad05",
+    "work_order_instruction_id": "5779e114-e6bd-4aaa-be1e-44f8bc2ad275",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "CART-0001",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:36:15.231374-07",
+    "completed_at": "2026-09-02 10:36:15.263-07",
+    "duration": 0,
+    "step_data": {
+      "de4550e8-3095-4499-b942-bd45a6a26950": {
+        "value": 50,
+        "blockId": "de4550e8-3095-4499-b942-bd45a6a26950",
+        "capturedAt": "2026-09-02T17:36:15.252Z"
+      }
+    },
+    "notes": "Completed (CART-0001)",
+    "current_step_index": 0
+  },
+  {
+    "id": "0055475d-8cbe-44c3-ab77-92542fa1b47d",
+    "work_order_instruction_id": "5779e114-e6bd-4aaa-be1e-44f8bc2ad275",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "CART-0002",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:36:15.294222-07",
+    "completed_at": "2026-09-02 10:36:15.359-07",
+    "duration": 0,
+    "step_data": {
+      "de4550e8-3095-4499-b942-bd45a6a26950": {
+        "value": 50,
+        "blockId": "de4550e8-3095-4499-b942-bd45a6a26950",
+        "capturedAt": "2026-09-02T17:36:15.333Z"
+      }
+    },
+    "notes": "Completed (CART-0002)",
+    "current_step_index": 0
+  },
+  {
+    "id": "c2de7c57-689f-4f5a-bd03-51d9dda57b78",
+    "work_order_instruction_id": "e5a361ca-6d7a-4cfc-80da-efd459370cdc",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "USV-3M-0001",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:59:56.338614-07",
+    "completed_at": "2026-09-02 10:59:56.382-07",
+    "duration": 0,
+    "step_data": {
+      "b312a4bc-b8a3-4c80-9de3-ac654b94405c": {
+        "value": 19,
+        "blockId": "b312a4bc-b8a3-4c80-9de3-ac654b94405c",
+        "capturedAt": "2026-09-02T17:59:56.359Z"
+      },
+      "f809c352-a25f-4285-bb52-4ba2b21ea1ee": {
+        "value": "pass",
+        "blockId": "f809c352-a25f-4285-bb52-4ba2b21ea1ee",
+        "capturedAt": "2026-09-02T17:59:56.375Z"
+      }
+    },
+    "notes": "Completed (USV-3M-0001)",
+    "current_step_index": 0
+  },
+  {
+    "id": "1edcdd0f-4d2f-4e95-811b-aceafdce674d",
+    "work_order_instruction_id": "80393c54-2090-49b2-8a70-17fa7a2d2adc",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "PORT",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:59:56.425349-07",
+    "completed_at": "2026-09-02 10:59:56.488-07",
+    "duration": 0,
+    "step_data": {
+      "210f46b5-94b6-4075-8276-3e6647ee5e4d": {
+        "value": "pass",
+        "blockId": "210f46b5-94b6-4075-8276-3e6647ee5e4d",
+        "capturedAt": "2026-09-02T17:59:56.481Z"
+      },
+      "2789be3c-a32c-4ff8-a779-0ac15102de84": {
+        "value": 18,
+        "blockId": "2789be3c-a32c-4ff8-a779-0ac15102de84",
+        "capturedAt": "2026-09-02T17:59:56.463Z"
+      }
+    },
+    "notes": "Completed (PORT)",
+    "current_step_index": 0
+  },
+  {
+    "id": "37dcf84f-2f52-4d03-a25c-22864862ffcc",
+    "work_order_instruction_id": "80393c54-2090-49b2-8a70-17fa7a2d2adc",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "STBD",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:59:56.524999-07",
+    "completed_at": "2026-09-02 10:59:56.582-07",
+    "duration": 0,
+    "step_data": {
+      "210f46b5-94b6-4075-8276-3e6647ee5e4d": {
+        "value": "pass",
+        "blockId": "210f46b5-94b6-4075-8276-3e6647ee5e4d",
+        "capturedAt": "2026-09-02T17:59:56.569Z"
+      },
+      "2789be3c-a32c-4ff8-a779-0ac15102de84": {
+        "value": 18,
+        "blockId": "2789be3c-a32c-4ff8-a779-0ac15102de84",
+        "capturedAt": "2026-09-02T17:59:56.564Z"
+      }
+    },
+    "notes": "Completed (STBD)",
+    "current_step_index": 0
+  },
+  {
+    "id": "239a0a2d-3dc7-493a-95f3-9b0f39b9b0d6",
+    "work_order_instruction_id": "545eca48-41c0-4c5a-8284-ea70e7db12bc",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "USV-3M-0001",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:59:56.607056-07",
+    "completed_at": "2026-09-02 10:59:56.673-07",
+    "duration": 0,
+    "step_data": {
+      "5deda1cf-3126-4886-a77a-4607346d113b": {
+        "value": "pass",
+        "blockId": "5deda1cf-3126-4886-a77a-4607346d113b",
+        "capturedAt": "2026-09-02T17:59:56.630Z"
+      },
+      "8df8ff93-a26b-4520-b694-acb358c0a8c1": {
+        "value": "82977aef (SW-000002 rev A)",
+        "blockId": "8df8ff93-a26b-4520-b694-acb358c0a8c1",
+        "capturedAt": "2026-09-02T17:59:56.647Z"
+      },
+      "b690ca64-2673-4266-b05e-7e7e34bc6f4f": {
+        "value": true,
+        "blockId": "b690ca64-2673-4266-b05e-7e7e34bc6f4f",
+        "capturedAt": "2026-09-02T17:59:56.664Z"
+      }
+    },
+    "notes": "Completed (USV-3M-0001)",
+    "current_step_index": 0
+  },
+  {
+    "id": "8afe2610-449f-4f70-898f-e43a0b85f23b",
+    "work_order_instruction_id": "109d25d0-7ad6-42b5-b891-92a512654604",
+    "executed_by": "00000000-0000-4000-8000-000000000000",
+    "unit_label": "USV-3M-0001",
+    "status": "Approved",
+    "started_at": "2026-09-02 10:59:56.700744-07",
+    "completed_at": "2026-09-02 10:59:56.742-07",
+    "duration": 0,
+    "step_data": {
+      "11605fe3-85c9-4ca2-8e94-95719d8d3a54": {
+        "value": "pass",
+        "blockId": "11605fe3-85c9-4ca2-8e94-95719d8d3a54",
+        "capturedAt": "2026-09-02T17:59:56.736Z"
+      },
+      "6ca85eb2-2bc2-4d50-ad99-38309bfe651a": {
+        "value": 148,
+        "blockId": "6ca85eb2-2bc2-4d50-ad99-38309bfe651a",
+        "capturedAt": "2026-09-02T17:59:56.714Z"
+      },
+      "9d513c96-7418-4fcb-831b-db906c465b44": {
+        "value": 2.62,
+        "blockId": "9d513c96-7418-4fcb-831b-db906c465b44",
+        "capturedAt": "2026-09-02T17:59:56.730Z"
+      }
+    },
+    "notes": "Completed (USV-3M-0001)",
+    "current_step_index": 0
+  }
+]

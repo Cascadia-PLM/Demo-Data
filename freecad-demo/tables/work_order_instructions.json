@@ -1,0 +1,771 @@
+[
+  {
+    "id": "f4d9fc10-499f-4c80-b4ed-ba54d48dc1df",
+    "work_order_id": "e4be7011-fc8e-47c7-b013-ccd90a31a41b",
+    "work_instruction_id": "615f2db1-2618-411e-941f-27396eae672a",
+    "part_id": "cb6f7bae-9e09-4054-ae6a-7a00323274b6",
+    "order_index": 0,
+    "title": "Electronics Enclosure Build & Harness",
+    "instruction_number": "WI-000003",
+    "instruction_revision": "A",
+    "snapshot": {
+      "name": "Electronics Enclosure Build & Harness",
+      "steps": [
+        {
+          "id": "72f023b9-8833-41e3-ac2c-7c09849c4782",
+          "title": "Mount electronics",
+          "content": {
+            "blocks": [
+              {
+                "id": "30347a94-3c7e-4741-b3f5-533289e155c9",
+                "type": "text",
+                "content": "Mount Sabertooth, SW80, breaker and PUC-1617 board on the back panel (M3 on 92x62)."
+              }
+            ]
+          },
+          "orderIndex": 0,
+          "operationId": null
+        },
+        {
+          "id": "e11b82b1-edc8-475f-be5f-c324375104a8",
+          "title": "Crimp harness",
+          "content": {
+            "blocks": [
+              {
+                "id": "f0e87b36-8ce8-4910-8442-29210a90d2d9",
+                "type": "text",
+                "content": "Crimp JST XH leads with TOOL-CR; battery lugs to 6 Nm."
+              },
+              {
+                "id": "0d8d14db-3026-4e71-b52d-674cb0accedb",
+                "type": "dataField",
+                "fieldType": "passFail",
+                "fieldLabel": "Pull test 20 N OK",
+                "fieldRequired": true
+              }
+            ]
+          },
+          "orderIndex": 1,
+          "operationId": null
+        }
+      ],
+      "difficulty": null,
+      "operations": [
+        {
+          "id": "5c8b434f-0ccb-4753-a26c-e9b8d213782e",
+          "title": "Mount",
+          "orderIndex": 0,
+          "description": "Mount controller, contactor, breaker, PCBA",
+          "estimatedTime": null
+        },
+        {
+          "id": "b658c757-7f9d-4c8b-b13b-738e01ed5864",
+          "title": "Harness",
+          "orderIndex": 1,
+          "description": "Crimp and route the harness",
+          "estimatedTime": null
+        }
+      ],
+      "description": "Routing template for PUC cart production.",
+      "safetyNotes": null,
+      "estimatedTime": null,
+      "requiredTools": null
+    },
+    "snapshot_at": "2026-09-02 10:36:14.118-07",
+    "required_count": 1,
+    "skipped_at": "2026-09-02 10:36:14.748-07",
+    "skipped_by": "00000000-0000-4000-8000-000000000000",
+    "skip_reason": "Enclosures pre-built by vendor batch ENCL-2608; QC record attached.",
+    "created_at": "2026-09-02 10:36:14.109748-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "5d378102-6a38-4965-8b6d-8aeca77f27f2",
+    "work_order_id": "e4be7011-fc8e-47c7-b013-ccd90a31a41b",
+    "work_instruction_id": "d0a188e8-6dc7-4dac-8e0d-58c57144e90c",
+    "part_id": "e41e1f14-3e8e-4eb4-9c3b-1cfdb91b0167",
+    "order_index": 1,
+    "title": "Final Functional Test",
+    "instruction_number": "WI-000005",
+    "instruction_revision": "A",
+    "snapshot": {
+      "name": "Final Functional Test",
+      "steps": [
+        {
+          "id": "4e3ffe4b-c170-4a96-91f7-60f4afe0bc99",
+          "title": "Run acceptance checks",
+          "content": {
+            "blocks": [
+              {
+                "id": "8150108f-81d4-4e91-bcd9-970b57fd25e0",
+                "type": "text",
+                "content": "E-stop reaction, joystick proportionality, hill hold. Record speed."
+              },
+              {
+                "id": "1df6f3bc-f382-429b-a511-810c49f85be0",
+                "type": "dataField",
+                "fieldType": "numeric",
+                "fieldLabel": "Top speed (km/h)",
+                "fieldRequired": true,
+                "fieldValidation": {
+                  "max": 6,
+                  "min": 4.5
+                }
+              },
+              {
+                "id": "c1ba12b7-a17a-4952-af10-8641b6476a80",
+                "type": "dataField",
+                "fieldType": "passFail",
+                "fieldLabel": "E-stop <= 200 ms",
+                "fieldRequired": true
+              }
+            ]
+          },
+          "orderIndex": 0,
+          "operationId": null
+        }
+      ],
+      "difficulty": null,
+      "operations": [
+        {
+          "id": "ec2b6c22-7310-48b1-ae1b-60b50d7bb013",
+          "title": "Test",
+          "orderIndex": 0,
+          "description": "Functional test per TP-000001",
+          "estimatedTime": null
+        }
+      ],
+      "description": "Routing template for PUC cart production.",
+      "safetyNotes": null,
+      "estimatedTime": null,
+      "requiredTools": null
+    },
+    "snapshot_at": "2026-09-02 10:36:14.129-07",
+    "required_count": 1,
+    "skipped_at": null,
+    "skipped_by": null,
+    "skip_reason": null,
+    "created_at": "2026-09-02 10:36:14.123021-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "a5874812-89e5-40d1-9e4c-f3f8f6da878b",
+    "work_order_id": "e4be7011-fc8e-47c7-b013-ccd90a31a41b",
+    "work_instruction_id": "9682f94d-ce9e-4eb7-a72e-d81b1bee210c",
+    "part_id": "e41e1f14-3e8e-4eb4-9c3b-1cfdb91b0167",
+    "order_index": 2,
+    "title": "Flash Firmware & Configure",
+    "instruction_number": "WI-000004",
+    "instruction_revision": "A",
+    "snapshot": {
+      "name": "Flash Firmware & Configure",
+      "steps": [
+        {
+          "id": "8e4f8364-f8c4-43da-a8a1-1fa3c17c90aa",
+          "title": "Flash firmware",
+          "content": {
+            "blocks": [
+              {
+                "id": "a684bd2b-0f31-4b37-ae8f-e0b716f543fb",
+                "type": "text",
+                "content": "Hold BOOTSEL, connect USB, copy puc_drive_interface.uf2 (Software item SW-000001, rev A)."
+              },
+              {
+                "id": "1e8c0537-7901-47c4-adc1-ac519ea4befa",
+                "type": "dataField",
+                "fieldType": "text",
+                "fieldLabel": "Firmware version flashed",
+                "fieldRequired": true
+              }
+            ]
+          },
+          "orderIndex": 0,
+          "operationId": null
+        },
+        {
+          "id": "89e58f8a-8463-40f7-b7f0-1e7c8f759eaa",
+          "title": "Set DIP switches",
+          "content": {
+            "blocks": [
+              {
+                "id": "9cd17d47-98d6-4b1f-9d10-9d6201a054b4",
+                "type": "text",
+                "content": "Sabertooth DIP: packet serial, address 128, 9600 baud (switches 1,2 down; 3-6 up)."
+              },
+              {
+                "id": "b0b7a70c-1988-45fb-98f3-278b3ed14a07",
+                "type": "dataField",
+                "fieldType": "checkbox",
+                "fieldLabel": "DIP verified",
+                "fieldRequired": true
+              }
+            ]
+          },
+          "orderIndex": 1,
+          "operationId": null
+        }
+      ],
+      "difficulty": null,
+      "operations": [
+        {
+          "id": "c182a042-c47a-4ce2-8a1e-cba96a96e56b",
+          "title": "Flash",
+          "orderIndex": 0,
+          "description": "Flash PUC-1720 firmware",
+          "estimatedTime": null
+        },
+        {
+          "id": "66358384-3925-4516-ba48-bd6dcc9b6c1a",
+          "title": "Config",
+          "orderIndex": 1,
+          "description": "Sabertooth DIP setup",
+          "estimatedTime": null
+        }
+      ],
+      "description": "Routing template for PUC cart production.",
+      "safetyNotes": null,
+      "estimatedTime": null,
+      "requiredTools": null
+    },
+    "snapshot_at": "2026-09-02 10:36:14.17-07",
+    "required_count": 2,
+    "skipped_at": null,
+    "skipped_by": null,
+    "skip_reason": null,
+    "created_at": "2026-09-02 10:36:14.164446-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "5779e114-e6bd-4aaa-be1e-44f8bc2ad275",
+    "work_order_id": "e4be7011-fc8e-47c7-b013-ccd90a31a41b",
+    "work_instruction_id": "b1fef493-5fd5-4374-8b16-10d8187f5542",
+    "part_id": "e41e1f14-3e8e-4eb4-9c3b-1cfdb91b0167",
+    "order_index": 3,
+    "title": "Build Drive Module",
+    "instruction_number": "WI-000002",
+    "instruction_revision": "A",
+    "snapshot": {
+      "name": "Build Drive Module",
+      "steps": [
+        {
+          "id": "1017dc9e-237a-4c88-ae54-d23e614b3857",
+          "title": "Fit shaft key",
+          "content": {
+            "blocks": [
+              {
+                "id": "67680ea1-cd22-4cb9-8d19-1c37f3c20dc1",
+                "type": "text",
+                "content": "Press the 6x6x36 key into the gearmotor shaft keyway; deburr first."
+              }
+            ]
+          },
+          "orderIndex": 0,
+          "operationId": null
+        },
+        {
+          "id": "95cec8ff-59cf-418c-8a95-019d7bc609b6",
+          "title": "Torque axle nut",
+          "content": {
+            "blocks": [
+              {
+                "id": "f26e8c67-19f0-4a1a-bb8e-8b8afed77c2b",
+                "type": "text",
+                "content": "Fit the 14x3.00-8 wheel; use TOOL-TW."
+              },
+              {
+                "id": "2caa2cee-e62a-4eb3-8448-4f886d776fda",
+                "type": "parametric",
+                "unit": "kg",
+                "label": "Wheel assembly mass",
+                "partId": "afa047a1-cf5e-4002-9176-587c65ca1235",
+                "attributePath": "weight",
+                "fallbackValue": "3.4"
+              },
+              {
+                "id": "de4550e8-3095-4499-b942-bd45a6a26950",
+                "type": "dataField",
+                "fieldType": "numeric",
+                "fieldLabel": "M12 axle nut torque (Nm)",
+                "fieldRequired": true,
+                "fieldValidation": {
+                  "max": 55,
+                  "min": 45
+                }
+              }
+            ]
+          },
+          "orderIndex": 1,
+          "operationId": null
+        }
+      ],
+      "difficulty": null,
+      "operations": [
+        {
+          "id": "1dfd240f-7f19-400f-b38b-fb741f37ba48",
+          "title": "Press",
+          "orderIndex": 0,
+          "description": "Press key into gearmotor shaft",
+          "estimatedTime": null
+        },
+        {
+          "id": "0c514dcd-4dbc-4f44-967b-3bddab7a24c7",
+          "title": "Wheel",
+          "orderIndex": 1,
+          "description": "Fit wheel and torque axle nut",
+          "estimatedTime": null
+        }
+      ],
+      "description": "Routing template for PUC cart production.",
+      "safetyNotes": null,
+      "estimatedTime": null,
+      "requiredTools": null
+    },
+    "snapshot_at": "2026-09-02 10:36:14.191-07",
+    "required_count": 2,
+    "skipped_at": null,
+    "skipped_by": null,
+    "skip_reason": null,
+    "created_at": "2026-09-02 10:36:14.184277-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "e5a361ca-6d7a-4cfc-80da-efd459370cdc",
+    "work_order_id": "cf8e1c1d-a6d9-4113-963a-ddd1c4fd71f6",
+    "work_instruction_id": "cbc41d35-b83f-4b71-ab16-919125dd30b3",
+    "part_id": "eb840d02-3be8-4bda-9046-bba38ab5959c",
+    "order_index": 0,
+    "title": "Rig Hull Structure",
+    "instruction_number": "WI-000006",
+    "instruction_revision": "A",
+    "snapshot": {
+      "name": "Rig Hull Structure",
+      "steps": [
+        {
+          "id": "758cf23e-a8fc-4452-ab7b-00e6871ab5fd",
+          "title": "Fit beams and saddles",
+          "content": {
+            "blocks": [
+              {
+                "id": "de5b11bc-f426-48a0-b575-1e40b33141c3",
+                "type": "text",
+                "content": "Seat both beams in the pontoon saddles on Sikaflex bead (USV-M001); torque M8 saddle bolts with TOOL-TW2."
+              },
+              {
+                "id": "b312a4bc-b8a3-4c80-9de3-ac654b94405c",
+                "type": "dataField",
+                "fieldType": "numeric",
+                "fieldLabel": "Saddle bolt torque (Nm)",
+                "fieldRequired": true,
+                "fieldValidation": {
+                  "max": 22,
+                  "min": 16
+                }
+              }
+            ]
+          },
+          "orderIndex": 0,
+          "operationId": null
+        },
+        {
+          "id": "6a2b4262-9b0b-4785-9b6b-65c0a027d7c9",
+          "title": "Fit deck and eyes",
+          "content": {
+            "blocks": [
+              {
+                "id": "9e0d475b-0228-4458-bd6b-f32e8fb3e28a",
+                "type": "text",
+                "content": "Bolt deck to beam holes; fit 4 lifting eyes at corners; threadlocker (USV-M003) on eye bolts."
+              },
+              {
+                "id": "f809c352-a25f-4285-bb52-4ba2b21ea1ee",
+                "type": "dataField",
+                "fieldType": "passFail",
+                "fieldLabel": "All eyes torqued + marked",
+                "fieldRequired": true
+              }
+            ]
+          },
+          "orderIndex": 1,
+          "operationId": null
+        }
+      ],
+      "difficulty": null,
+      "operations": [
+        {
+          "id": "ab9c3035-e94d-44ec-badb-2307b5fc580a",
+          "title": "Beams",
+          "orderIndex": 0,
+          "description": "Fit cross beams and saddles to the pontoons",
+          "estimatedTime": null
+        },
+        {
+          "id": "3b89056e-3ac5-43ac-b085-511e1ab09e3e",
+          "title": "Deck",
+          "orderIndex": 1,
+          "description": "Fit deck plate and lifting eyes",
+          "estimatedTime": null
+        }
+      ],
+      "description": "Routing template for USV production.",
+      "safetyNotes": null,
+      "estimatedTime": null,
+      "requiredTools": null
+    },
+    "snapshot_at": "2026-09-02 10:59:55.962-07",
+    "required_count": 1,
+    "skipped_at": null,
+    "skipped_by": null,
+    "skip_reason": null,
+    "created_at": "2026-09-02 10:59:55.959708-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "80393c54-2090-49b2-8a70-17fa7a2d2adc",
+    "work_order_id": "cf8e1c1d-a6d9-4113-963a-ddd1c4fd71f6",
+    "work_instruction_id": "35c1fe1f-c62b-4c85-a5d9-76e5e271b515",
+    "part_id": "2c1f6eb8-62a4-4f5d-8ee1-0b5af5ee4a7f",
+    "order_index": 1,
+    "title": "Fit Thruster Module",
+    "instruction_number": "WI-000007",
+    "instruction_revision": "A",
+    "snapshot": {
+      "name": "Fit Thruster Module",
+      "steps": [
+        {
+          "id": "ff0dec56-cc41-4dd2-86cc-9d35fbd983e0",
+          "title": "Mount thruster bracket",
+          "content": {
+            "blocks": [
+              {
+                "id": "b476f8fc-9d75-4340-9386-6b7ae02be5bc",
+                "type": "text",
+                "content": "Anti-seize (USV-M002) on M8s into the transom doubler; torque with TOOL-TW2."
+              },
+              {
+                "id": "9a6ba153-5f6e-4ed3-894e-e9dc1db131f3",
+                "type": "parametric",
+                "unit": "kg",
+                "label": "Thruster mass",
+                "partId": "525c513d-eff4-4481-91c6-e5a06fd75403",
+                "attributePath": "weight",
+                "fallbackValue": "1.4"
+              },
+              {
+                "id": "2789be3c-a32c-4ff8-a779-0ac15102de84",
+                "type": "dataField",
+                "fieldType": "numeric",
+                "fieldLabel": "Bracket bolt torque (Nm)",
+                "fieldRequired": true,
+                "fieldValidation": {
+                  "max": 22,
+                  "min": 16
+                }
+              }
+            ]
+          },
+          "orderIndex": 0,
+          "operationId": null
+        },
+        {
+          "id": "556ef03e-63a2-4b51-adb0-882b2e9ba441",
+          "title": "Gland the cable",
+          "content": {
+            "blocks": [
+              {
+                "id": "210f46b5-94b6-4075-8276-3e6647ee5e4d",
+                "type": "dataField",
+                "fieldType": "passFail",
+                "fieldLabel": "Gland sealed + pull test OK",
+                "fieldRequired": true
+              }
+            ]
+          },
+          "orderIndex": 1,
+          "operationId": null
+        }
+      ],
+      "difficulty": null,
+      "operations": [
+        {
+          "id": "4f5bd133-96ab-4390-ba2d-129cdc12efd9",
+          "title": "Fit",
+          "orderIndex": 0,
+          "description": "Bracket to transom doubler",
+          "estimatedTime": null
+        },
+        {
+          "id": "d50e5f11-9056-4381-943c-5df8eadeeb87",
+          "title": "Cable",
+          "orderIndex": 1,
+          "description": "Gland and route the cable",
+          "estimatedTime": null
+        }
+      ],
+      "description": "Routing template for USV production.",
+      "safetyNotes": null,
+      "estimatedTime": null,
+      "requiredTools": null
+    },
+    "snapshot_at": "2026-09-02 10:59:55.967-07",
+    "required_count": 1,
+    "skipped_at": null,
+    "skipped_by": null,
+    "skip_reason": null,
+    "created_at": "2026-09-02 10:59:55.965857-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "545eca48-41c0-4c5a-8284-ea70e7db12bc",
+    "work_order_id": "cf8e1c1d-a6d9-4113-963a-ddd1c4fd71f6",
+    "work_instruction_id": "88f9228b-267d-4eba-9743-8c50857ad896",
+    "part_id": "ab2975b3-03b5-4de2-a14a-fb22e008ca43",
+    "order_index": 2,
+    "title": "Electronics Box Build & Config",
+    "instruction_number": "WI-000008",
+    "instruction_revision": "A",
+    "snapshot": {
+      "name": "Electronics Box Build & Config",
+      "steps": [
+        {
+          "id": "fe4a8d44-fe0e-4e62-b30c-4552d71da89e",
+          "title": "Mount and wire",
+          "content": {
+            "blocks": [
+              {
+                "id": "3920ffe2-9d1a-4815-975e-b6416de91e3b",
+                "type": "text",
+                "content": "Mount autopilot, companion, ESCs, PDB, radios, contactor, DC-DC and USV-1620 board; crimp with TOOL-CR2; loom per USV-M004."
+              },
+              {
+                "id": "5deda1cf-3126-4886-a77a-4607346d113b",
+                "type": "dataField",
+                "fieldType": "passFail",
+                "fieldLabel": "Insulation test 500V pass (TOOL-MEG)",
+                "fieldRequired": true
+              }
+            ]
+          },
+          "orderIndex": 0,
+          "operationId": null
+        },
+        {
+          "id": "93ac6d33-7108-43ee-933f-a751b4cd83c6",
+          "title": "Load configuration",
+          "content": {
+            "blocks": [
+              {
+                "id": "e9dafaa0-14d8-43eb-93e0-8707d0885105",
+                "type": "text",
+                "content": "Load rover.param and vessel_supervisor.lua from Software item SW-000002 rev A; verify KILL_CH1/CH2/ARM telemetry on the GCS."
+              },
+              {
+                "id": "8df8ff93-a26b-4520-b694-acb358c0a8c1",
+                "type": "dataField",
+                "fieldType": "text",
+                "fieldLabel": "Config manifest hash",
+                "fieldRequired": true
+              },
+              {
+                "id": "b690ca64-2673-4266-b05e-7e7e34bc6f4f",
+                "type": "dataField",
+                "fieldType": "checkbox",
+                "fieldLabel": "KILL telemetry verified",
+                "fieldRequired": true
+              }
+            ]
+          },
+          "orderIndex": 1,
+          "operationId": null
+        }
+      ],
+      "difficulty": null,
+      "operations": [
+        {
+          "id": "cf4d889c-9271-4fa4-b444-d259a165c784",
+          "title": "Mount",
+          "orderIndex": 0,
+          "description": "Mount electronics on the plate",
+          "estimatedTime": null
+        },
+        {
+          "id": "214a1e13-7ffc-48aa-b6ed-0e06abf86c5b",
+          "title": "Config",
+          "orderIndex": 1,
+          "description": "Load USV-1920 configuration",
+          "estimatedTime": null
+        }
+      ],
+      "description": "Routing template for USV production.",
+      "safetyNotes": null,
+      "estimatedTime": null,
+      "requiredTools": null
+    },
+    "snapshot_at": "2026-09-02 10:59:55.979-07",
+    "required_count": 1,
+    "skipped_at": null,
+    "skipped_by": null,
+    "skip_reason": null,
+    "created_at": "2026-09-02 10:59:55.9771-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "6db507f3-f2be-4cf0-bad7-e1aa643fe119",
+    "work_order_id": "cf8e1c1d-a6d9-4113-963a-ddd1c4fd71f6",
+    "work_instruction_id": "9bbde440-f2e9-4cca-960b-54dfb4fae084",
+    "part_id": "e2fdd574-18ea-4b66-b0b6-363a7bb7bf37",
+    "order_index": 3,
+    "title": "Battery Module Build",
+    "instruction_number": "WI-000009",
+    "instruction_revision": "A",
+    "snapshot": {
+      "name": "Battery Module Build",
+      "steps": [
+        {
+          "id": "64d5af9a-8fc6-41df-a6e2-7740f162718d",
+          "title": "Assemble module",
+          "content": {
+            "blocks": [
+              {
+                "id": "35ecd5ad-b74a-4e4f-91a0-d4e9c55a1276",
+                "type": "text",
+                "content": "Fit battery into box, hold-down brackets and strap; gland the DC lead."
+              },
+              {
+                "id": "ad7f38ac-6395-4eab-885b-2e5938252ae9",
+                "type": "dataField",
+                "fieldType": "passFail",
+                "fieldLabel": "Battery secure + lid latched",
+                "fieldRequired": true
+              }
+            ]
+          },
+          "orderIndex": 0,
+          "operationId": null
+        }
+      ],
+      "difficulty": null,
+      "operations": [
+        {
+          "id": "540b71f3-93f4-4fa9-b733-4e9260d9aaaa",
+          "title": "Build",
+          "orderIndex": 0,
+          "description": "Battery into box with hold-downs",
+          "estimatedTime": null
+        }
+      ],
+      "description": "Routing template for USV production.",
+      "safetyNotes": null,
+      "estimatedTime": null,
+      "requiredTools": null
+    },
+    "snapshot_at": "2026-09-02 10:59:55.983-07",
+    "required_count": 1,
+    "skipped_at": "2026-09-02 10:59:56.689-07",
+    "skipped_by": "00000000-0000-4000-8000-000000000000",
+    "skip_reason": "Battery modules pre-built in the Phase 0 bench batch; QC records attached.",
+    "created_at": "2026-09-02 10:59:55.982282-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "109d25d0-7ad6-42b5-b891-92a512654604",
+    "work_order_id": "cf8e1c1d-a6d9-4113-963a-ddd1c4fd71f6",
+    "work_instruction_id": "b5842647-6b5c-4e41-8d1e-af3cdbc57a99",
+    "part_id": "5a4aac03-35e6-4e03-87d1-02ba9fb48a64",
+    "order_index": 4,
+    "title": "Launch & Water Test",
+    "instruction_number": "WI-000010",
+    "instruction_revision": "A",
+    "snapshot": {
+      "name": "Launch & Water Test",
+      "steps": [
+        {
+          "id": "a8a8bb96-0d60-40d8-908f-6d7e9cb07384",
+          "title": "Hoist to water",
+          "content": {
+            "blocks": [
+              {
+                "id": "34627d14-babf-4927-aa44-49ad6704d3a5",
+                "type": "text",
+                "content": "4-point lift with TOOL-HOIST on the lifting eyes; check trim at rest."
+              },
+              {
+                "id": "6ca85eb2-2bc2-4d50-ad99-38309bfe651a",
+                "type": "dataField",
+                "fieldType": "numeric",
+                "fieldLabel": "Static waterline (mm)",
+                "fieldRequired": true,
+                "fieldValidation": {
+                  "max": 180,
+                  "min": 120
+                }
+              }
+            ]
+          },
+          "orderIndex": 0,
+          "operationId": null
+        },
+        {
+          "id": "01076193-7e99-4b33-8eaa-4c09cb6b2477",
+          "title": "Acceptance checks",
+          "content": {
+            "blocks": [
+              {
+                "id": "d2740232-e394-4672-89d9-c117c5aad532",
+                "type": "text",
+                "content": "E-stop paths, RC override, link-loss failsafe, speed run. Record max speed."
+              },
+              {
+                "id": "9d513c96-7418-4fcb-831b-db906c465b44",
+                "type": "dataField",
+                "fieldType": "numeric",
+                "fieldLabel": "Max speed (m/s)",
+                "fieldRequired": true,
+                "fieldValidation": {
+                  "max": 4,
+                  "min": 2.5
+                }
+              },
+              {
+                "id": "11605fe3-85c9-4ca2-8e94-95719d8d3a54",
+                "type": "dataField",
+                "fieldType": "passFail",
+                "fieldLabel": "All kill paths < 1 s",
+                "fieldRequired": true
+              }
+            ]
+          },
+          "orderIndex": 1,
+          "operationId": null
+        }
+      ],
+      "difficulty": null,
+      "operations": [
+        {
+          "id": "a8e618e1-3c1f-46f5-9adf-068e0c0de2cd",
+          "title": "Launch",
+          "orderIndex": 0,
+          "description": "Hoist and launch",
+          "estimatedTime": null
+        },
+        {
+          "id": "ae719620-a144-4970-8d11-2af26b775655",
+          "title": "Test",
+          "orderIndex": 1,
+          "description": "Acceptance runs per TP-BENCH/TP-LAKE",
+          "estimatedTime": null
+        }
+      ],
+      "description": "Routing template for USV production.",
+      "safetyNotes": null,
+      "estimatedTime": null,
+      "requiredTools": null
+    },
+    "snapshot_at": "2026-09-02 10:59:55.99-07",
+    "required_count": 1,
+    "skipped_at": null,
+    "skipped_by": null,
+    "skip_reason": null,
+    "created_at": "2026-09-02 10:59:55.988306-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  }
+]

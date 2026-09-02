@@ -1,0 +1,13 @@
+# Content-addressed vault blobs: never transform them.
+#
+# Each file's NAME is the SHA-256 of its CONTENT, so any end-of-line conversion
+# silently invalidates the dataset — the seeder would copy bytes into the vault
+# that no longer hash to the name it looked them up by. Git cannot infer this:
+# it classifies by content, and STEP and SVG payloads are plain ASCII, so with
+# core.autocrlf=true it would happily rewrite them on checkout and hand Windows
+# and Linux users different datasets.
+freecad-demo/files/** binary
+
+# The table dumps are JSON and stay LF everywhere, so a re-bake compares clean.
+freecad-demo/**/*.json text eol=lf
+freecad-demo/README.md text eol=lf

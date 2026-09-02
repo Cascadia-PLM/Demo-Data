@@ -1,0 +1,192 @@
+[
+  {
+    "id": "88155e32-3d5a-4d34-93ca-fe6cf615d09d",
+    "work_instruction_id": "b355b2b7-5f4a-4e54-97f9-8fb180c5c8dc",
+    "order_index": 0,
+    "title": "Fit-up",
+    "description": "Clamp rails and cross members in the frame fixture",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:36:13.330838-07",
+    "updated_at": "2026-09-02 10:36:13.330838-07"
+  },
+  {
+    "id": "eaf35d1e-c642-4995-84ba-9a674141cfbe",
+    "work_instruction_id": "b355b2b7-5f4a-4e54-97f9-8fb180c5c8dc",
+    "order_index": 1,
+    "title": "Weld",
+    "description": "MIG weld all joints per WPS-PUC-01",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:36:13.348998-07",
+    "updated_at": "2026-09-02 10:36:13.348998-07"
+  },
+  {
+    "id": "802a4da4-3330-42d4-821a-c0525fba52c5",
+    "work_instruction_id": "b355b2b7-5f4a-4e54-97f9-8fb180c5c8dc",
+    "order_index": 2,
+    "title": "Inspect",
+    "description": "Visual inspection + straightness check",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:36:13.364211-07",
+    "updated_at": "2026-09-02 10:36:13.364211-07"
+  },
+  {
+    "id": "1dfd240f-7f19-400f-b38b-fb741f37ba48",
+    "work_instruction_id": "b1fef493-5fd5-4374-8b16-10d8187f5542",
+    "order_index": 0,
+    "title": "Press",
+    "description": "Press key into gearmotor shaft",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:36:13.505914-07",
+    "updated_at": "2026-09-02 10:36:13.505914-07"
+  },
+  {
+    "id": "0c514dcd-4dbc-4f44-967b-3bddab7a24c7",
+    "work_instruction_id": "b1fef493-5fd5-4374-8b16-10d8187f5542",
+    "order_index": 1,
+    "title": "Wheel",
+    "description": "Fit wheel and torque axle nut",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:36:13.521581-07",
+    "updated_at": "2026-09-02 10:36:13.521581-07"
+  },
+  {
+    "id": "5c8b434f-0ccb-4753-a26c-e9b8d213782e",
+    "work_instruction_id": "615f2db1-2618-411e-941f-27396eae672a",
+    "order_index": 0,
+    "title": "Mount",
+    "description": "Mount controller, contactor, breaker, PCBA",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:36:13.649599-07",
+    "updated_at": "2026-09-02 10:36:13.649599-07"
+  },
+  {
+    "id": "b658c757-7f9d-4c8b-b13b-738e01ed5864",
+    "work_instruction_id": "615f2db1-2618-411e-941f-27396eae672a",
+    "order_index": 1,
+    "title": "Harness",
+    "description": "Crimp and route the harness",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:36:13.666817-07",
+    "updated_at": "2026-09-02 10:36:13.666817-07"
+  },
+  {
+    "id": "c182a042-c47a-4ce2-8a1e-cba96a96e56b",
+    "work_instruction_id": "9682f94d-ce9e-4eb7-a72e-d81b1bee210c",
+    "order_index": 0,
+    "title": "Flash",
+    "description": "Flash PUC-1720 firmware",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:36:13.825262-07",
+    "updated_at": "2026-09-02 10:36:13.825262-07"
+  },
+  {
+    "id": "66358384-3925-4516-ba48-bd6dcc9b6c1a",
+    "work_instruction_id": "9682f94d-ce9e-4eb7-a72e-d81b1bee210c",
+    "order_index": 1,
+    "title": "Config",
+    "description": "Sabertooth DIP setup",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:36:13.843578-07",
+    "updated_at": "2026-09-02 10:36:13.843578-07"
+  },
+  {
+    "id": "ec2b6c22-7310-48b1-ae1b-60b50d7bb013",
+    "work_instruction_id": "d0a188e8-6dc7-4dac-8e0d-58c57144e90c",
+    "order_index": 0,
+    "title": "Test",
+    "description": "Functional test per TP-000001",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:36:13.999826-07",
+    "updated_at": "2026-09-02 10:36:13.999826-07"
+  },
+  {
+    "id": "ab9c3035-e94d-44ec-badb-2307b5fc580a",
+    "work_instruction_id": "cbc41d35-b83f-4b71-ab16-919125dd30b3",
+    "order_index": 0,
+    "title": "Beams",
+    "description": "Fit cross beams and saddles to the pontoons",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:59:55.546459-07",
+    "updated_at": "2026-09-02 10:59:55.546459-07"
+  },
+  {
+    "id": "3b89056e-3ac5-43ac-b085-511e1ab09e3e",
+    "work_instruction_id": "cbc41d35-b83f-4b71-ab16-919125dd30b3",
+    "order_index": 1,
+    "title": "Deck",
+    "description": "Fit deck plate and lifting eyes",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:59:55.555067-07",
+    "updated_at": "2026-09-02 10:59:55.555067-07"
+  },
+  {
+    "id": "4f5bd133-96ab-4390-ba2d-129cdc12efd9",
+    "work_instruction_id": "35c1fe1f-c62b-4c85-a5d9-76e5e271b515",
+    "order_index": 0,
+    "title": "Fit",
+    "description": "Bracket to transom doubler",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:59:55.627016-07",
+    "updated_at": "2026-09-02 10:59:55.627016-07"
+  },
+  {
+    "id": "d50e5f11-9056-4381-943c-5df8eadeeb87",
+    "work_instruction_id": "35c1fe1f-c62b-4c85-a5d9-76e5e271b515",
+    "order_index": 1,
+    "title": "Cable",
+    "description": "Gland and route the cable",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:59:55.636126-07",
+    "updated_at": "2026-09-02 10:59:55.636126-07"
+  },
+  {
+    "id": "cf4d889c-9271-4fa4-b444-d259a165c784",
+    "work_instruction_id": "88f9228b-267d-4eba-9743-8c50857ad896",
+    "order_index": 0,
+    "title": "Mount",
+    "description": "Mount electronics on the plate",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:59:55.719354-07",
+    "updated_at": "2026-09-02 10:59:55.719354-07"
+  },
+  {
+    "id": "214a1e13-7ffc-48aa-b6ed-0e06abf86c5b",
+    "work_instruction_id": "88f9228b-267d-4eba-9743-8c50857ad896",
+    "order_index": 1,
+    "title": "Config",
+    "description": "Load USV-1920 configuration",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:59:55.735122-07",
+    "updated_at": "2026-09-02 10:59:55.735122-07"
+  },
+  {
+    "id": "540b71f3-93f4-4fa9-b733-4e9260d9aaaa",
+    "work_instruction_id": "9bbde440-f2e9-4cca-960b-54dfb4fae084",
+    "order_index": 0,
+    "title": "Build",
+    "description": "Battery into box with hold-downs",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:59:55.831987-07",
+    "updated_at": "2026-09-02 10:59:55.831987-07"
+  },
+  {
+    "id": "a8e618e1-3c1f-46f5-9adf-068e0c0de2cd",
+    "work_instruction_id": "b5842647-6b5c-4e41-8d1e-af3cdbc57a99",
+    "order_index": 0,
+    "title": "Launch",
+    "description": "Hoist and launch",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:59:55.892411-07",
+    "updated_at": "2026-09-02 10:59:55.892411-07"
+  },
+  {
+    "id": "ae719620-a144-4970-8d11-2af26b775655",
+    "work_instruction_id": "b5842647-6b5c-4e41-8d1e-af3cdbc57a99",
+    "order_index": 1,
+    "title": "Test",
+    "description": "Acceptance runs per TP-BENCH/TP-LAKE",
+    "estimated_time": null,
+    "created_at": "2026-09-02 10:59:55.908866-07",
+    "updated_at": "2026-09-02 10:59:55.908866-07"
+  }
+]

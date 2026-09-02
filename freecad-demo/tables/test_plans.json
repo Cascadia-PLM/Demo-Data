@@ -1,0 +1,44 @@
+[
+  {
+    "item_id": "74605561-b3bd-4a38-8209-a82e3e509d06",
+    "scope": "Bench and tank tests before first launch: kill paths, override, ingress, payload basics.",
+    "environment": "Workshop bench + 1 m test tank; bench PSU, scope on contactor coil, spray rig.",
+    "entry_criteria": "All electronics installed, firmware loaded, RC and GCS paired.",
+    "exit_criteria": "All MustHave bench cases pass; failures raise Issues."
+  },
+  {
+    "item_id": "63277037-0c6b-4f69-9188-f3271d8cb8b4",
+    "scope": "Open-water performance and autonomy trials.",
+    "environment": "Reservoir test area, chase kayak, shore GCS with RTK base, wind <= Beaufort 2.",
+    "entry_criteria": "Bench plan passed; insurance and waterway permission in place.",
+    "exit_criteria": "Speed, endurance sample, failsafe and station keeping demonstrated."
+  },
+  {
+    "item_id": "bf4d9b58-6831-4cc4-a8c6-aacd3695bebb",
+    "scope": "System-level acceptance of the assembled cart: payload, speed, grade, E-stop, hill hold, endurance, ingress, noise.",
+    "environment": "Test track: level dry concrete + 10 % ramp; rated load 250 kg steel plates; stopwatch, GPS speed gun",
+    "entry_criteria": "Cart fully assembled, battery >= 90 % SoC, tyre/nut torque checked, firmware/DIP config per drawing.",
+    "exit_criteria": "All MustHave test cases Passed; failures documented as Issues with ECOs raised."
+  },
+  {
+    "item_id": "11f331ad-d43f-435f-ad4a-c08edcab6c25",
+    "scope": "Bench test of each LH/RH drive module before fitting to the chassis.",
+    "environment": "Bench with 24 V supply, ammeter, optical tachometer, torque wrench.",
+    "entry_criteria": "Drive module assembled per PUC-1300/1301, key fitted, nut torqued.",
+    "exit_criteria": "All 4 modules Passed and serialised."
+  },
+  {
+    "item_id": "80f16e68-ee60-4a40-b528-673c91580571",
+    "scope": "Bench verification of the control/power circuit before vehicle tests.",
+    "environment": "Bench, multimeter, bench supply.",
+    "entry_criteria": "Enclosure wired per schematic, harness installed.",
+    "exit_criteria": "All checks Passed; red-lines fed back to the schematic."
+  },
+  {
+    "item_id": "4270724e-5a6a-496e-9f37-7dc9cbe135f3",
+    "scope": "Payload accuracy against reference measurements.",
+    "environment": "Survey site with staff-gauge reference sections.",
+    "entry_criteria": "Lake trials passed; echosounder calibrated for water temperature.",
+    "exit_criteria": "Depth accuracy within specification on reference sections."
+  }
+]

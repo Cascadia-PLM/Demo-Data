@@ -1,0 +1,62 @@
+[
+  {
+    "item_id": "de32ad71-89a8-4984-92e1-10c1260c4b14",
+    "description": "ArduPilot parameter baseline + vessel supervisor Lua for USV-CAT-3M. Imported from usv/config.",
+    "software_type": null,
+    "source_mode": "internal",
+    "external_repository_url": null,
+    "external_ref": null,
+    "external_commit_sha": null,
+    "version": null,
+    "target_hardware": null,
+    "toolchain": null,
+    "manifest_id": "ff0882b0-11b1-4efb-b0a0-3845cc1acfe5",
+    "draft_manifest_id": null,
+    "build_artifact_file_id": null
+  },
+  {
+    "item_id": "f21bcc0a-bf2c-4610-bacb-b917c5292353",
+    "description": "ArduPilot parameter baseline + vessel supervisor Lua for USV-CAT-3M. Imported from usv/config.",
+    "software_type": null,
+    "source_mode": "internal",
+    "external_repository_url": null,
+    "external_ref": null,
+    "external_commit_sha": null,
+    "version": null,
+    "target_hardware": null,
+    "toolchain": null,
+    "manifest_id": "ff0882b0-11b1-4efb-b0a0-3845cc1acfe5",
+    "draft_manifest_id": null,
+    "build_artifact_file_id": null
+  },
+  {
+    "item_id": "6b6b1560-7c48-4d74-a457-ec3093191c66",
+    "description": "RP2040 firmware source for PUC-1617 (pico-sdk, C). Imported from firmware/drive-interface.",
+    "software_type": null,
+    "source_mode": "internal",
+    "external_repository_url": null,
+    "external_ref": null,
+    "external_commit_sha": null,
+    "version": null,
+    "target_hardware": null,
+    "toolchain": null,
+    "manifest_id": "ce678c2c-dde6-461b-b9d4-f0c08b22ee26",
+    "draft_manifest_id": null,
+    "build_artifact_file_id": null
+  },
+  {
+    "item_id": "a0caa318-5c4e-4781-aec1-56c017afa608",
+    "description": "RP2040 firmware source for PUC-1617 (pico-sdk, C). Imported from firmware/drive-interface.",
+    "software_type": null,
+    "source_mode": "internal",
+    "external_repository_url": null,
+    "external_ref": null,
+    "external_commit_sha": null,
+    "version": null,
+    "target_hardware": null,
+    "toolchain": null,
+    "manifest_id": "ce678c2c-dde6-461b-b9d4-f0c08b22ee26",
+    "draft_manifest_id": null,
+    "build_artifact_file_id": null
+  }
+]

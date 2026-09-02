@@ -1,0 +1,1688 @@
+[
+  {
+    "id": "61bf8c32-c63b-47bf-9a4e-cee95dcbd45d",
+    "instance_id": "af2407ac-403f-4af2-b51f-51951bb3af11",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 11:05:32.1088-07",
+    "comments": "Drawings released",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "cb0c4727-bb0e-4ac8-8c35-7d53f8e07654",
+    "instance_id": "352e0b9a-da0d-400d-8105-ae02e1d2309b",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:57:47.183508-07",
+    "comments": "Drawings released",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "1c5e7bfe-748e-4187-af75-5b4cdfc6e0b1",
+    "instance_id": "df1ee3f3-38c9-4eeb-9e99-f61c7e3adc79",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:40.323055-07",
+    "comments": "ECO demo auto-transition",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "0f0ce4e0-1f8b-408b-923b-5b1809b13a58",
+    "instance_id": "da63dc1a-d2a5-41a8-b905-03e5d0dd7f5c",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 11:00:58.228297-07",
+    "comments": "Harness modelled",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "c1a0c476-af4d-4929-82e4-d428a4dd0d06",
+    "instance_id": "cf1f7b73-0368-49d9-99bd-7ce72e0800ef",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:37:12.643469-07",
+    "comments": "Harness modelled",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "4c9b1fd4-3eed-41be-8110-9b0634b88e8f",
+    "instance_id": "4a7e6598-ebeb-4049-b710-faf155c6573f",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:36:10.875687-07",
+    "comments": "Phase 2 board + firmware",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "ef2fa230-735f-487c-8156-e7b8fc79e60b",
+    "instance_id": "aac5dd8f-3799-4ffb-9eff-94d5dda114e1",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:53.585082-07",
+    "comments": "Phase 2 board + firmware",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "98c17fa8-3ed1-46fd-ad74-12b8937e7dd3",
+    "instance_id": "0ae34ee5-15e9-42b2-bd94-6f5477dfa395",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:45.039712-07",
+    "comments": "Requirements baseline",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "af714643-5402-4f22-9622-5ac2f923c176",
+    "instance_id": "39022b4a-7dde-4860-8dc1-c048180270d6",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:37.840687-07",
+    "comments": "Requirements baseline",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "23fa1283-a25e-4b52-94cc-eac2f41c9df3",
+    "instance_id": "e162d1ce-b4b7-484f-870f-5661c9d4d169",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.28982-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "346e3a08-03a8-414b-b7ad-e9a191701e24",
+    "instance_id": "5ff13802-6ad1-456a-82a1-0779007aa31b",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.714077-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "4aae8b50-564e-4609-86fc-07c6d72d3201",
+    "instance_id": "ec5ffaea-f54a-42eb-84f3-57ddaeecc8aa",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.850638-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "4f379e51-e861-4857-a718-a7af867167ae",
+    "instance_id": "f00cc005-cb39-424a-87c7-270707731aaf",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.766567-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "6536e79e-7188-46e1-b3b7-14d55ae77601",
+    "instance_id": "a8e9b551-1eb2-4350-9e4b-a496e778f1f6",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.632632-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "66656030-e06b-43e9-a3c8-a14c1d88f9c8",
+    "instance_id": "36bf5d08-157b-40fb-82f0-20766d82fef5",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.730104-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "6b1c7115-cc0b-438a-b0bd-6e22cea5d813",
+    "instance_id": "2bcb8efd-3e4d-49b3-a13b-da4bd20ec592",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.592006-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "6d0faaea-1fa1-478b-be30-6b3826a64548",
+    "instance_id": "d6d285f4-dd51-4112-a043-8d6f40f68430",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.500123-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "6d4a0ad2-6ce4-4c37-a4ab-8e2a659723a0",
+    "instance_id": "c0ad1365-22f3-42b3-8fe3-81cdadb20ae1",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.827078-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "6fa78f00-331e-4f2e-8d57-55bf99ba72a5",
+    "instance_id": "5cccb069-a430-467a-871b-288f427318ee",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.646881-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "7815c6a8-d80d-45b8-aaac-94b98ed04f18",
+    "instance_id": "42c1c3ba-db34-4ee0-b202-4970c03b45a0",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.543888-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "7c61fa61-0019-4cc4-9eed-c628fd32adeb",
+    "instance_id": "b1a4c593-6451-4f4e-a4cb-0ecb5087e634",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.354372-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "80add922-23e8-4c06-9385-41632b850bae",
+    "instance_id": "a0c311a2-b0c7-47fb-a3f5-84193e00c298",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.949295-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "919cb265-c08f-4234-ac91-723edc071900",
+    "instance_id": "92adfc81-1f0e-4253-96d0-385cec438a4d",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.000188-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "99553e63-f524-4049-a90d-9d26334e1ccb",
+    "instance_id": "8bd6aca8-8fa9-44af-b3eb-81ae48e5ca80",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.058652-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "9cf9aaa4-cc88-4d86-9b99-2d6c69839c6a",
+    "instance_id": "3e42f4d8-e26e-420d-b95e-10f7dc26eb7c",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.919568-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "a2f4c776-2953-4e8a-a9b2-1faf9c22f573",
+    "instance_id": "4e8483d0-25b8-48b5-b04e-42c3b1b692c7",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.418587-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "e1d902cd-1c90-4b12-b5a5-5a0fdd115f62",
+    "instance_id": "271bf691-3638-46ac-a625-104c42bd9a35",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.106356-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "e3c5146e-03fe-40c3-bce6-10c8d799240d",
+    "instance_id": "eb5cf4a8-3897-45ce-bd6a-68974b123781",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.14701-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "e4ed886f-2ef1-449d-b789-eba1b5bbbce8",
+    "instance_id": "32179209-1ff2-44f7-aea3-a6e607e00cf3",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.684752-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "e7845274-d1c7-4e60-a695-6ff3c58328d9",
+    "instance_id": "683bb6a2-7ece-43c0-9c10-87b1c2e8e59b",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.882572-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "e92e7ec1-13c3-4533-b5c4-bf0f889907a2",
+    "instance_id": "7367017f-9135-459c-a131-ef95df276975",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.200225-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "eebd5b59-d3bc-40d2-9fed-34b53b36c433",
+    "instance_id": "db066e9c-de8c-4259-bdbe-fe2bab2a0da2",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.791714-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "fe84a1c9-1911-49b6-8233-3b7674975489",
+    "instance_id": "bc5dad92-692b-4d24-9848-13d62c38197a",
+    "from_state": "Proposed",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.909687-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "71065be2-8eb8-432f-aa9d-af299191aa76",
+    "instance_id": "e31a5077-515d-4896-9d25-a92ab5fe1aee",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:53.198189-07",
+    "comments": "Satisfaction links",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "3cfd44e7-52ed-4c1b-b224-c06e115c7197",
+    "instance_id": "5b00ff89-e591-48bf-aca0-7d641acb821b",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:49.966987-07",
+    "comments": "Traceability links",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "9da50e2c-d0a0-4f7c-8268-63eacc2cfb28",
+    "instance_id": "c379ac7d-350c-4a7e-b9a0-45c3b5695eea",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:36:12.525817-07",
+    "comments": "tracking modes",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "c13c2da6-f302-433d-940c-7e5a465520f0",
+    "instance_id": "e575f389-0026-4b9b-ad42-795187c32083",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:55.005251-07",
+    "comments": "tracking modes",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "21da76bb-14bb-4c69-8fdb-cf9f3c12f374",
+    "instance_id": "eb5cf4a8-3897-45ce-bd6a-68974b123781",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.131736-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "3d8119ef-c9b6-46f3-b81c-2b6fe0766dca",
+    "instance_id": "db066e9c-de8c-4259-bdbe-fe2bab2a0da2",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.774287-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "3dcf9806-a734-41c9-b3e9-90db49465fba",
+    "instance_id": "a8e9b551-1eb2-4350-9e4b-a496e778f1f6",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.617748-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "4db367e6-dbbe-4343-a549-05f62d49caae",
+    "instance_id": "683bb6a2-7ece-43c0-9c10-87b1c2e8e59b",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.866779-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "4e4339c8-0e6b-4647-8888-06e4a839af1e",
+    "instance_id": "5cccb069-a430-467a-871b-288f427318ee",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.62305-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "502945d5-05c0-48c1-9467-3a03c58090dc",
+    "instance_id": "b1a4c593-6451-4f4e-a4cb-0ecb5087e634",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.33884-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "52227085-b306-4169-9b9e-fa67582e3246",
+    "instance_id": "3e42f4d8-e26e-420d-b95e-10f7dc26eb7c",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.904585-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "53c34317-abe6-45dc-9bdc-52598160ae7f",
+    "instance_id": "7367017f-9135-459c-a131-ef95df276975",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.174939-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "66a77183-e7b7-4d40-941b-03b9b7615ea7",
+    "instance_id": "32179209-1ff2-44f7-aea3-a6e607e00cf3",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.668778-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "6f09e741-5dcc-4469-8c92-60f315614441",
+    "instance_id": "d6d285f4-dd51-4112-a043-8d6f40f68430",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.482764-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "85bc15e8-e8f5-45ed-a068-9a34a7d78463",
+    "instance_id": "92adfc81-1f0e-4253-96d0-385cec438a4d",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.96802-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "87f5cd61-8985-46a8-9073-402dc159f7a8",
+    "instance_id": "f00cc005-cb39-424a-87c7-270707731aaf",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.749491-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "930a33c7-dae7-481e-bdee-fbfa076b5cd2",
+    "instance_id": "2bcb8efd-3e4d-49b3-a13b-da4bd20ec592",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.565921-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "9aad68b7-1ab4-428b-9fe2-d4a3bb3c3ced",
+    "instance_id": "271bf691-3638-46ac-a625-104c42bd9a35",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.081611-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "9e066e71-da28-4ebb-9033-845e3213fa03",
+    "instance_id": "42c1c3ba-db34-4ee0-b202-4970c03b45a0",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.523044-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "9f1a90ba-bb25-4b4b-9324-698da2dd7d15",
+    "instance_id": "bc5dad92-692b-4d24-9848-13d62c38197a",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.893623-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "a7072d86-2ac6-419c-bbfe-d226b81bc53b",
+    "instance_id": "8bd6aca8-8fa9-44af-b3eb-81ae48e5ca80",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.023273-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "b6ad714f-619c-4513-bbe5-22c9022ccaac",
+    "instance_id": "ec5ffaea-f54a-42eb-84f3-57ddaeecc8aa",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.818732-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "b9388d68-c316-4194-a80c-3938c833c68a",
+    "instance_id": "36bf5d08-157b-40fb-82f0-20766d82fef5",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.708214-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "c09cdf1d-9f9a-48f6-b7ff-1d66ed71ee08",
+    "instance_id": "a0c311a2-b0c7-47fb-a3f5-84193e00c298",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.93415-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "c0ab6bee-6582-4533-8e1f-2f3941570037",
+    "instance_id": "5ff13802-6ad1-456a-82a1-0779007aa31b",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.693777-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "c8d9343f-c57a-4d59-a35e-ef023a0b76ea",
+    "instance_id": "4e8483d0-25b8-48b5-b04e-42c3b1b692c7",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.402532-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "e44d79f4-1a6f-4fe5-9cde-1a5993dd4d93",
+    "instance_id": "e162d1ce-b4b7-484f-870f-5661c9d4d169",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.25058-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "ea33b6dd-2f6c-4b22-9d28-a5844c977854",
+    "instance_id": "c0ad1365-22f3-42b3-8fe3-81cdadb20ae1",
+    "from_state": "Draft",
+    "to_state": "Proposed",
+    "action": "Propose",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.793558-07",
+    "comments": "Requirements review (baseline)",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "1416353b-e8d4-4d0d-b412-7ed6f82befe8",
+    "instance_id": "d5f043d6-3d52-4ac2-a5aa-23acc069bf68",
+    "from_state": "Not Started",
+    "to_state": "In Progress",
+    "action": "Start",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:56.338106-07",
+    "comments": null,
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "8a0b8fd5-76eb-4ecd-93fe-f6e667bc2823",
+    "instance_id": "524a5734-121d-4049-bfc0-92cde1e8b253",
+    "from_state": "Not Started",
+    "to_state": "In Progress",
+    "action": "Start",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:36:14.794758-07",
+    "comments": null,
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "005f6b6c-4bac-48ad-9e3b-561f7d9a3927",
+    "instance_id": "5ff13802-6ad1-456a-82a1-0779007aa31b",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.685969-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "0197edab-ff95-4fd6-b48d-42b12f28e312",
+    "instance_id": "524a5734-121d-4049-bfc0-92cde1e8b253",
+    "from_state": null,
+    "to_state": "Not Started",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:36:14.784235-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Work Order - Default Lifecycle"
+    }
+  },
+  {
+    "id": "06ca5ff3-0a00-410d-992d-42c56a0d0f50",
+    "instance_id": "7367017f-9135-459c-a131-ef95df276975",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.167444-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "082ed9d1-892a-4c16-a42d-5fcc83b7cf1e",
+    "instance_id": "2bcb8efd-3e4d-49b3-a13b-da4bd20ec592",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.55792-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "0fe3c481-0cc3-4b15-baf3-13040aac3da5",
+    "instance_id": "352e0b9a-da0d-400d-8105-ae02e1d2309b",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:57:46.00479-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "1506ab4f-5fee-49df-b1aa-13b5325de74a",
+    "instance_id": "ec5ffaea-f54a-42eb-84f3-57ddaeecc8aa",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.811126-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "1524b9a0-03f5-49d4-b939-731bd61d3bc4",
+    "instance_id": "32179209-1ff2-44f7-aea3-a6e607e00cf3",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.660064-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "1e995f4b-16df-4244-bebe-354fab552510",
+    "instance_id": "b1a4c593-6451-4f4e-a4cb-0ecb5087e634",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.331229-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "228ee8f5-1f7b-472b-aab4-fd4ac7717e20",
+    "instance_id": "c379ac7d-350c-4a7e-b9a0-45c3b5695eea",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:36:11.822691-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "2b9b122b-4918-4040-8cc8-892c6e908d2f",
+    "instance_id": "aac5dd8f-3799-4ffb-9eff-94d5dda114e1",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:45.443146-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "30ce63be-049e-4830-b382-ab8747927e53",
+    "instance_id": "eb5cf4a8-3897-45ce-bd6a-68974b123781",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.121383-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "37db0e08-818e-45dd-92d1-dbc2e45049db",
+    "instance_id": "d5f043d6-3d52-4ac2-a5aa-23acc069bf68",
+    "from_state": null,
+    "to_state": "Not Started",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:56.331657-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Work Order - Default Lifecycle"
+    }
+  },
+  {
+    "id": "3907db86-c202-4825-8d5e-4de932892424",
+    "instance_id": "a8e9b551-1eb2-4350-9e4b-a496e778f1f6",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.609424-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "3b1a2244-f350-4a33-8fc8-4dbedeea1ac9",
+    "instance_id": "92adfc81-1f0e-4253-96d0-385cec438a4d",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.960054-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "3db4f077-e0dc-4b1c-a181-f295c6403234",
+    "instance_id": "e31a5077-515d-4896-9d25-a92ab5fe1aee",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:51.56955-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "4988fac0-fe65-48da-bad4-045424bbbbe0",
+    "instance_id": "4a7e6598-ebeb-4049-b710-faf155c6573f",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:36:02.2595-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "4a94a0ae-6e30-4177-8ec1-078f9050308a",
+    "instance_id": "4e8483d0-25b8-48b5-b04e-42c3b1b692c7",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.394831-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "4fc369f5-1bfe-475d-9760-a6bae3b115c8",
+    "instance_id": "f00cc005-cb39-424a-87c7-270707731aaf",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.740661-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "59f5d9c6-6ec7-4ced-9e65-a44b815e1f1d",
+    "instance_id": "a0c311a2-b0c7-47fb-a3f5-84193e00c298",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.926559-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "6d3fcf8f-c872-4fe1-9ab3-0ab3b6714446",
+    "instance_id": "0ae34ee5-15e9-42b2-bd94-6f5477dfa395",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:41.282634-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "767468ee-3962-4c64-9095-ec4eb67a5be5",
+    "instance_id": "683bb6a2-7ece-43c0-9c10-87b1c2e8e59b",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.851275-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "8566ef43-0d2d-4a81-be0b-d84b96353324",
+    "instance_id": "8bd6aca8-8fa9-44af-b3eb-81ae48e5ca80",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.015493-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "8c7d8f42-6f55-42f1-8d3a-1f0c1f112d70",
+    "instance_id": "5b00ff89-e591-48bf-aca0-7d641acb821b",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:46.373631-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "8e2276fe-5756-4f93-8b3b-875f270fe450",
+    "instance_id": "5cccb069-a430-467a-871b-288f427318ee",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.6146-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "91fb599f-8fc7-48df-9aa7-6feb9f105465",
+    "instance_id": "39022b4a-7dde-4860-8dc1-c048180270d6",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.562981-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "9cd4d6fe-3139-481c-b572-8aac4088a4b2",
+    "instance_id": "c0ad1365-22f3-42b3-8fe3-81cdadb20ae1",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.785902-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "a134ac97-ffcd-4293-b813-bb22c60048e8",
+    "instance_id": "cf1f7b73-0368-49d9-99bd-7ce72e0800ef",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:36:40.512994-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "aec5d2e0-f5c4-48ad-8f70-466a74ac74dd",
+    "instance_id": "db066e9c-de8c-4259-bdbe-fe2bab2a0da2",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.766372-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "b05a4839-e7b3-44cf-bdea-26a1cab6d51d",
+    "instance_id": "da63dc1a-d2a5-41a8-b905-03e5d0dd7f5c",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 11:00:20.415942-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "b4529b89-b9d1-4628-9a56-d3a97b0a1695",
+    "instance_id": "af2407ac-403f-4af2-b51f-51951bb3af11",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 11:05:31.084285-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "b99e4381-51dc-4750-9ecc-c13597b7d131",
+    "instance_id": "e162d1ce-b4b7-484f-870f-5661c9d4d169",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.24207-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "c3de41a6-6541-4f12-ac85-f62e563e6496",
+    "instance_id": "df1ee3f3-38c9-4eeb-9e99-f61c7e3adc79",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:38.384196-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "cfdc75b3-127c-42e4-9d65-780cf66ccccb",
+    "instance_id": "3e42f4d8-e26e-420d-b95e-10f7dc26eb7c",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:35.897022-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "cff91115-bdbc-4afc-847e-47861ca9a4aa",
+    "instance_id": "d6d285f4-dd51-4112-a043-8d6f40f68430",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.474706-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "d75aac88-901c-4866-8ce4-04bd65261fa3",
+    "instance_id": "42c1c3ba-db34-4ee0-b202-4970c03b45a0",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.515356-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "edd8c9f2-c0e3-488c-822e-9dcb9ad060f4",
+    "instance_id": "bc5dad92-692b-4d24-9848-13d62c38197a",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.8863-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "eee0171e-6813-4db1-9b2b-0dde1a0cab11",
+    "instance_id": "e575f389-0026-4b9b-ad42-795187c32083",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:54.388249-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "ECO - Default Workflow"
+    }
+  },
+  {
+    "id": "f8c75dac-4534-4aba-929e-f64d9f522b33",
+    "instance_id": "36bf5d08-157b-40fb-82f0-20766d82fef5",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.700811-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "fe4ea114-39cb-4bc1-895a-abc96fab587f",
+    "instance_id": "271bf691-3638-46ac-a625-104c42bd9a35",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:36.073413-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Requirement - Default Lifecycle"
+    }
+  },
+  {
+    "id": "53216d72-7099-4520-b20f-1ae3d71c3172",
+    "instance_id": "af2407ac-403f-4af2-b51f-51951bb3af11",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 11:05:31.968068-07",
+    "comments": "Drawings released",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "a93de581-154c-4edf-afb9-bc2594b6f70a",
+    "instance_id": "352e0b9a-da0d-400d-8105-ae02e1d2309b",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:57:47.043929-07",
+    "comments": "Drawings released",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "16e00a49-b0dd-48ed-8cca-1fea41aecad8",
+    "instance_id": "df1ee3f3-38c9-4eeb-9e99-f61c7e3adc79",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:39.649624-07",
+    "comments": "ECO demo auto-transition",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "13594320-8962-4425-94dc-27ec0de08e95",
+    "instance_id": "cf1f7b73-0368-49d9-99bd-7ce72e0800ef",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:37:12.481801-07",
+    "comments": "Harness modelled",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "43b5efbe-3b4b-43ca-a2b0-1aa2ba64a644",
+    "instance_id": "da63dc1a-d2a5-41a8-b905-03e5d0dd7f5c",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 11:00:58.066126-07",
+    "comments": "Harness modelled",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "5ab63d6a-66c6-49d8-8c77-5b98bce84f34",
+    "instance_id": "4a7e6598-ebeb-4049-b710-faf155c6573f",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:36:10.596628-07",
+    "comments": "Phase 2 board + firmware",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "acd1fad3-dcd5-43fe-89f5-3143596104a7",
+    "instance_id": "aac5dd8f-3799-4ffb-9eff-94d5dda114e1",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:53.314243-07",
+    "comments": "Phase 2 board + firmware",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "b75a2bf7-7010-4a0f-9137-94f6cd0de1e7",
+    "instance_id": "39022b4a-7dde-4860-8dc1-c048180270d6",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:37.545347-07",
+    "comments": "Requirements baseline",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "f178234c-a601-4e45-b790-d7d1437d79f9",
+    "instance_id": "0ae34ee5-15e9-42b2-bd94-6f5477dfa395",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:44.683448-07",
+    "comments": "Requirements baseline",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "1797eafd-04e3-46f5-a6da-e0c9d7323988",
+    "instance_id": "e31a5077-515d-4896-9d25-a92ab5fe1aee",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:52.890107-07",
+    "comments": "Satisfaction links",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "f0644f5f-1ec3-4e6a-8746-b404f1d9ddbf",
+    "instance_id": "5b00ff89-e591-48bf-aca0-7d641acb821b",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:35:49.444384-07",
+    "comments": "Traceability links",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "02189ab2-fd93-4aea-b11c-afc104d13339",
+    "instance_id": "c379ac7d-350c-4a7e-b9a0-45c3b5695eea",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:36:12.424686-07",
+    "comments": "tracking modes",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "e56da216-7be1-4573-b61a-67a6a31fd617",
+    "instance_id": "e575f389-0026-4b9b-ad42-795187c32083",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-02 10:59:54.900724-07",
+    "comments": "tracking modes",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  }
+]

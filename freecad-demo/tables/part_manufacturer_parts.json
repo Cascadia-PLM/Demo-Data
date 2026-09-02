@@ -1,0 +1,1182 @@
+[
+  {
+    "id": "f5007327-02cb-443b-8831-39718ff54d31",
+    "part_master_id": "eba77863-8b3b-4f32-b5a0-837e8fe5fef3",
+    "manufacturer_part_id": "345236ac-593a-4ec0-a31e-9d80297da613",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.04774-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "5cf0dc28-9ff6-419e-bb4d-b4f34c78d334",
+    "part_master_id": "ae64d46e-fb46-43c0-becf-0d98e6511952",
+    "manufacturer_part_id": "a795d2cd-8670-4191-814d-68b1dd68158e",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.070849-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "b33084da-cb81-40de-9877-6fffb160c9c9",
+    "part_master_id": "1275923f-9fea-43ea-8eb6-fac47bb26fc7",
+    "manufacturer_part_id": "5f17fc6a-f6b2-46df-bdf4-90830ddbc1ce",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.104102-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "3097293b-3f4a-45e4-804c-6150edc143f4",
+    "part_master_id": "3dc589b0-4568-480c-b47d-5261337709b4",
+    "manufacturer_part_id": "073cdbba-6aff-4299-a499-a9a8f5a674ea",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.142962-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "56473dfb-37cf-4142-be1d-57b08efbb67d",
+    "part_master_id": "b276d9c2-0d0e-4f4a-9045-90955f43404a",
+    "manufacturer_part_id": "5fe146ce-2232-4071-baf9-e0db2ebf0ba7",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.160903-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "066ec741-bd29-4855-8639-92b54e333792",
+    "part_master_id": "54de2b46-ed57-4597-9d4a-dcb6473b89b2",
+    "manufacturer_part_id": "7fb9e285-b781-4f53-8363-ddd6227652ee",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.178423-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "50aa3ebb-7d84-4ccb-acf5-3ab46b7c2fc7",
+    "part_master_id": "d539cfe3-d5e2-40b6-aead-daa6c089e7f1",
+    "manufacturer_part_id": "4ae630d2-66df-459c-a98e-0376052d7141",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.197372-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "520d7747-df6f-4bd5-8409-2dd14f99250b",
+    "part_master_id": "6d6079c1-12d4-4e12-af2a-a5cef806832f",
+    "manufacturer_part_id": "d241a17c-d5b3-4fd1-ba4a-c3fbbe0087bc",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.216261-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "f0802267-3ecb-448b-8a6e-448e653a76b6",
+    "part_master_id": "5df73b1c-6ab3-4dbc-9d98-bd593fb4657b",
+    "manufacturer_part_id": "3140bfd4-0167-486c-8e33-38b2f51670fb",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.252285-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "093d62ba-9f9a-48aa-b6ce-6e2e9d8ce501",
+    "part_master_id": "8616e5c7-5dcd-451d-a03e-18e797a163d6",
+    "manufacturer_part_id": "c9290176-5cc9-434b-8ab8-943d0384fdf5",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.283906-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "777270aa-cd83-4b94-a0c8-ef019d82af92",
+    "part_master_id": "d3cac2bc-00da-483d-8c5e-418684258d44",
+    "manufacturer_part_id": "c95988d3-59a7-4dba-b7f7-dfbf77e34ce1",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.325304-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "d4c8affc-30a5-43e4-89e9-f1e695845f31",
+    "part_master_id": "e7b37d3d-3c08-4087-b2be-8c7d2cea3347",
+    "manufacturer_part_id": "44ac97d3-3a19-4722-b5d2-13e5994ec59d",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.335245-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "e405bff3-591b-4170-bb9e-068ea9b5ef02",
+    "part_master_id": "4d532fb6-2271-4c25-b5ea-a0f62a5ea6ce",
+    "manufacturer_part_id": "ce80157f-0848-4b4a-a040-e9d65e143773",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.344197-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "15c9e49c-89d7-4f87-82be-baa79ee86fee",
+    "part_master_id": "3185c232-b726-41be-8f63-dd4394282546",
+    "manufacturer_part_id": "4d564d3c-8180-4454-a635-a63a1f498f83",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.35168-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "e52d55bf-5373-4b8e-9f6d-8ed9dbf82bf4",
+    "part_master_id": "dffcb046-d627-4cb8-9fb2-63f5f98fe6f9",
+    "manufacturer_part_id": "ccdad7e7-989e-4498-9553-d5389641f7d5",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.371305-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "756c2a1b-912e-45b2-8146-eb99fc0f56ad",
+    "part_master_id": "04005b0b-a8a3-48f2-956d-aed322b9a292",
+    "manufacturer_part_id": "c80d191e-0034-401e-9d85-247daa8e67b7",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.403744-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "477762d7-ef17-4d14-af24-1ed9fa699691",
+    "part_master_id": "585ce9ad-ebef-45ce-a241-48a8572125d9",
+    "manufacturer_part_id": "77379b27-c1f9-48e0-b20d-a478dd3063dc",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.419853-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "d727a6f2-a652-4029-94d1-174fd4675877",
+    "part_master_id": "f4cc460e-70bf-49ac-88e8-b7cf1b8859ed",
+    "manufacturer_part_id": "fe3d7577-e004-46c5-8cf6-ee668f2272dc",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.428928-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "e78d777e-f375-4ef6-884a-828ebc5de10a",
+    "part_master_id": "38a39c05-8be8-4543-9b2e-0852f5503825",
+    "manufacturer_part_id": "442453d8-ddad-4c20-8dd7-262d2b435d78",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.451395-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "1423ee58-52f5-4e80-8d6c-d9bd99e45747",
+    "part_master_id": "65288558-1752-40fc-a915-59737f89c24d",
+    "manufacturer_part_id": "08d1ab5d-f439-43b8-ac32-a56163bb92b7",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.466883-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "4dca019f-a426-42f1-acd0-1fe6e1ab77f2",
+    "part_master_id": "95c5c647-6798-4b36-b4d4-5deba9f63533",
+    "manufacturer_part_id": "a082047a-356d-41d6-9d99-df79fed19bb0",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.483127-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "47000598-9c64-4a15-87f9-e2c9101dd69d",
+    "part_master_id": "583849a5-dd39-4132-824c-9733f21319dd",
+    "manufacturer_part_id": "dfb03f74-8a49-423d-8a84-f798132e9324",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.515338-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "fc06c022-acec-4306-aca7-5f050ceea139",
+    "part_master_id": "2c27c820-59cb-42a6-95dc-29212685da72",
+    "manufacturer_part_id": "cde9a4bd-8efa-4bf7-b772-9ca27e883878",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.530442-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "0684f8f8-01bb-4270-b140-46a7b7eb42e8",
+    "part_master_id": "5f822d47-44d7-4e17-9f2b-867e5c4a320c",
+    "manufacturer_part_id": "1c1712b3-6ced-4be4-95d2-aba27b2d203d",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.562338-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "22b0e350-c2e5-4186-8c32-a4fb87909b07",
+    "part_master_id": "16aaf870-255b-4f2a-81e0-47359b826177",
+    "manufacturer_part_id": "c703eea0-a734-4be7-a33d-d21d7203c21e",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.592241-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "3fac9025-dc60-46f1-a3f9-9ccdc095683f",
+    "part_master_id": "6a7725f5-ca7c-498a-9bcb-86889ee76b8c",
+    "manufacturer_part_id": "b5c4746b-7b5f-4064-87e5-9f8f4b2333ea",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.600634-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "1d39b6a3-4721-4552-91d0-7865b87be76d",
+    "part_master_id": "a743b6ae-20aa-4fad-87e2-0c8589b9d327",
+    "manufacturer_part_id": "ac05b4ab-da88-4de4-94c4-6ed85537d3cc",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.624912-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "b1daf8a8-d754-460e-b8a8-12d175024f25",
+    "part_master_id": "495acd92-ba26-477d-ba2d-79984be89adf",
+    "manufacturer_part_id": "5d4c279b-3ef0-4c14-9c31-3260cf32c119",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.632458-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "6ddb30e2-3357-434b-963f-421002e1baa8",
+    "part_master_id": "a5d15c18-b654-40b4-a0fc-44abbfd7de1c",
+    "manufacturer_part_id": "e0045049-656f-4e9b-a84a-2a1735d6b0cb",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.639826-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "b39b28c7-a41c-4376-9229-4c1296b02047",
+    "part_master_id": "8046c4e8-f45d-4427-a816-557922fba69b",
+    "manufacturer_part_id": "c3094c85-a128-41bb-842b-d43ba38ab7b0",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.656472-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "0d7c8b9d-43b8-4027-a3a7-f18d7d3ea6f1",
+    "part_master_id": "1ad15fce-abab-4060-ae4f-851c7443bcac",
+    "manufacturer_part_id": "dfeccc74-f9ba-4374-ab62-cf695ad739ff",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.664721-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "1d34f223-6dc3-45c7-b1f7-8403805ea6d5",
+    "part_master_id": "648a2f4e-d5c1-41c1-bcc3-90057b7bf6e8",
+    "manufacturer_part_id": "1ba59339-b7f5-4ba9-b039-2ad3fefb70b6",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.675039-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "54350ea4-fb92-42b2-ac28-d089b364950a",
+    "part_master_id": "149412bf-0167-4c5d-b3f7-2b665c5f2237",
+    "manufacturer_part_id": "5ca095c9-1be5-499a-bed4-34af87188585",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.691298-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "cc639ade-bf2e-4df9-a1ff-72193ccc9827",
+    "part_master_id": "9cab285f-04a9-44cb-bb7d-b4a2cdb94f5e",
+    "manufacturer_part_id": "f8673b3c-b845-4c79-aaa7-eff481276a88",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:35:36.708465-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "4bf41f36-9751-416b-8b42-e983c6c47fda",
+    "part_master_id": "9e1c4f9d-48d5-4569-b6b4-5c901e0126ca",
+    "manufacturer_part_id": "261db3a9-6b6f-4361-8ff4-2c6325557d34",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.371213-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "f2f9fb00-c91a-478f-9787-6d665660bda5",
+    "part_master_id": "5de418e4-16dd-4446-9608-ea6434f6e198",
+    "manufacturer_part_id": "14fdbaef-4e38-4989-a48a-b12178a30295",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.384034-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "73d80c88-7c0e-4e82-87d2-0e283e80678d",
+    "part_master_id": "e6199ba0-904a-4447-a16e-85330b89b6ee",
+    "manufacturer_part_id": "00d32d82-92c1-4760-9c79-65618a3cc470",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.40062-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "8c932d27-c05a-4e9b-b862-7a21ce2d2805",
+    "part_master_id": "a8948049-7e3a-4c74-8f5b-6f8839243150",
+    "manufacturer_part_id": "bbe6d146-7ea8-46d5-8068-02dd9cdf88bf",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.416383-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "60d9593a-4d21-45c0-898d-6c0f74861e4d",
+    "part_master_id": "b5baf8f5-50fd-47fc-92c1-0c414d275f09",
+    "manufacturer_part_id": "fbf331be-269c-4236-aafa-f50e19c18b7f",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.432605-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "064b46f5-3411-4503-8748-2cf87e012506",
+    "part_master_id": "c1bd5e17-560c-4b2a-b2c4-a489b58ec370",
+    "manufacturer_part_id": "8364605e-efca-4e23-a633-acf3ddddb9af",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.447539-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "d987ebff-ae02-43ce-8e90-5ee1322731d0",
+    "part_master_id": "f279f07b-feb0-4f53-91ea-63fb2b792343",
+    "manufacturer_part_id": "7f8e5ede-cad5-4ad5-9dfa-1356f5fc2540",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.46378-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "bfea9318-baef-49b1-937b-acbc39a602f6",
+    "part_master_id": "05e1d91a-4311-4771-a58f-05c18f271a3d",
+    "manufacturer_part_id": "c57a6854-b6c2-4e97-b7fb-c7a4248eadb6",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.496271-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "ba1a7fe7-2f41-4ad5-bebf-8ef2a456751d",
+    "part_master_id": "26d127be-0a35-424b-b71c-15aae31c25e7",
+    "manufacturer_part_id": "b0f8a928-71b8-492d-b75c-814e6cf6790e",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.504573-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "83cd72f5-abc2-44bb-8e15-954c08c9ee7d",
+    "part_master_id": "ecea2def-4609-458a-94cf-ca94b3dca6d9",
+    "manufacturer_part_id": "41e1ac15-213f-4b97-8300-89552371e520",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.527601-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "34f96d5c-3829-4291-adb7-0608eaa60bc2",
+    "part_master_id": "94ec5c0d-c5d1-49ae-a38e-2d375ed6d1e6",
+    "manufacturer_part_id": "b0f8a928-71b8-492d-b75c-814e6cf6790e",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.558852-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "654331f3-43c2-4f51-a021-69957e332704",
+    "part_master_id": "6bc365e7-dc80-4d3c-9648-fb76d62fc37a",
+    "manufacturer_part_id": "db4b9a64-5b75-42df-8285-b77de3cf796a",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.585858-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "2a0d42c6-c4e3-4ec8-b5d2-06d4ab384cc1",
+    "part_master_id": "ba350cfd-a30e-4960-b7be-e51cd2d270cf",
+    "manufacturer_part_id": "db4b9a64-5b75-42df-8285-b77de3cf796a",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.605815-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "f08af097-ad27-44ad-b60b-ccbe7574d82c",
+    "part_master_id": "279218b3-865d-46fe-995d-4ad87bc30501",
+    "manufacturer_part_id": "f349b213-48ec-4c76-a733-4aad2468f4c2",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.636991-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "3b493412-479d-457d-8f26-8e230dbf2c34",
+    "part_master_id": "9e43c79b-30a4-43a0-aced-fee34488f946",
+    "manufacturer_part_id": "b3811a4c-8cfb-4ec2-8e29-1e5d16e721ce",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.65247-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "8b848dd0-1b5d-4ffc-9b44-ff1e0b512d88",
+    "part_master_id": "84a50d71-260d-4842-9895-f117e17565e5",
+    "manufacturer_part_id": "f2201d5a-3746-4c4c-87dc-4dcc7ddaa089",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.661319-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "05d43375-97c4-4bb4-9cde-f7822518f4e0",
+    "part_master_id": "261f70df-ff06-46ca-9ba5-e2b0c0bdaf4f",
+    "manufacturer_part_id": "a6f3686e-4627-4c7f-805a-f9125d9c48ee",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.687377-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "1e3a3618-5614-4e77-bcf1-403a0b2deaf4",
+    "part_master_id": "870fa6f7-b71d-45d2-8ca5-f4156925f52f",
+    "manufacturer_part_id": "c8ecc191-8847-471a-935e-aa1a0f9acdf2",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.703184-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "c3155ff3-c224-4988-946d-ca68d46edd4f",
+    "part_master_id": "12a0bb67-585a-4220-b691-e208654a5f07",
+    "manufacturer_part_id": "f2201d5a-3746-4c4c-87dc-4dcc7ddaa089",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.722774-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "909a4d18-64d1-4d26-b45a-001850f82ee3",
+    "part_master_id": "f0a1eb1c-024a-44fb-a3d9-83cce82aa7b8",
+    "manufacturer_part_id": "022af28d-c757-4cd4-9325-b334c3b25db5",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.75291-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "58466855-edf0-4669-955c-aaceb2404f9a",
+    "part_master_id": "ddb55f35-3444-4b36-acca-42c34f7eaa24",
+    "manufacturer_part_id": "022af28d-c757-4cd4-9325-b334c3b25db5",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:36:09.769781-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "c1aa2d4a-0bf5-42a4-a7ef-8d9607bc124e",
+    "part_master_id": "a0ceb093-6678-4451-9a48-e09a1bc5113b",
+    "manufacturer_part_id": "e7da9033-079f-47d1-993c-b95cb160cacf",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:37:12.085537-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "03ccc04b-a84e-48cd-8cc7-6b4967335696",
+    "part_master_id": "4d7d8713-d789-4b85-a9b5-873a74641f62",
+    "manufacturer_part_id": "19a98124-5ce5-4882-a828-c2a5a96d1bf3",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:37:12.116448-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "5d4e8d13-e550-4161-89bd-c8bf8d89eb03",
+    "part_master_id": "a2f58803-a196-49e4-bd32-d76939677874",
+    "manufacturer_part_id": "9f6fc45d-5c01-43ce-ab41-58b120bb5fbb",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:37:12.131048-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "66749c81-0d91-46eb-adba-67c696e3cf34",
+    "part_master_id": "3099dba7-b409-4dd1-bda4-baa048a108b4",
+    "manufacturer_part_id": "e36204d8-4df3-4c17-b084-91ee5eb43d52",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:37:12.144042-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "9344e5bc-e68e-4d0a-a519-940180291727",
+    "part_master_id": "1cc467f6-bdb4-437e-9eb9-7aa369a8a77a",
+    "manufacturer_part_id": "e1431339-bed8-41ee-a637-e3c219518236",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:37:12.156435-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "f4f23873-56a9-47e6-8710-eb65a55b8395",
+    "part_master_id": "95914b85-f761-45a5-a7db-efc92328d049",
+    "manufacturer_part_id": "4f1d0784-c628-42db-a364-066a52516985",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:37:12.170077-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "7391b5f1-56eb-45ea-961e-2ded0207dcc5",
+    "part_master_id": "8b4370c8-7ac8-47b8-a966-96948eca5418",
+    "manufacturer_part_id": "ba73868e-7158-46e7-8da5-5b9c3e32428e",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:37:12.194255-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "10f87160-1778-4f42-ab14-9909fe392440",
+    "part_master_id": "8229ee8d-1565-45ca-ab00-8fd1f30d11c0",
+    "manufacturer_part_id": "89b977c0-a1ff-4742-994a-7939ca3acd09",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.234752-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "777afd1d-af2d-4cad-b37c-bbf783eb6fad",
+    "part_master_id": "71755bf7-b938-4e5d-8a2c-01ed22698cac",
+    "manufacturer_part_id": "431f48fb-0c1a-4f45-9142-92921e6b9138",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.244434-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "e8dc649e-4b1a-40f5-a40e-cf90453aab37",
+    "part_master_id": "29cdbf75-b601-4a27-a968-99d2267ff734",
+    "manufacturer_part_id": "b63a8882-1c3a-4e7c-903f-6a9369923f7a",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.267154-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "c7883c53-33f8-42af-bf60-6c7392e2d39b",
+    "part_master_id": "18d4daaf-4d3e-4b75-9596-49077e4d861d",
+    "manufacturer_part_id": "6b4f5ba6-f999-45bd-939b-f04c5821185a",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.284551-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "079d7a89-25ff-4db3-97c0-28883b61e7f9",
+    "part_master_id": "fe7b1262-1b98-4b1f-8fdc-6077eb37221c",
+    "manufacturer_part_id": "87e7ed04-7736-4ca3-bc5c-a9d1611f2dd6",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.314348-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "ea4a4a0b-8d21-4134-a730-ef8116ca1a77",
+    "part_master_id": "79c9344e-58ab-4fc9-8714-ad69b16e254b",
+    "manufacturer_part_id": "5ad86b59-c44a-4d68-bea2-34d4148d99b0",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.321564-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "5685089e-8c57-444d-85fd-29e94e2bcc3f",
+    "part_master_id": "b8b3f439-b621-4bfe-b084-219d4d561631",
+    "manufacturer_part_id": "24572e36-7a18-45fb-a9b2-aa787a9c6a0a",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.346057-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "c9f18509-d2fd-499f-8740-452757afdb99",
+    "part_master_id": "2c5c3447-cdcf-426d-afbd-828f6b14b758",
+    "manufacturer_part_id": "6d1027ec-9318-4cf3-ad68-8de435da22c7",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.377141-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "40f4eff6-be03-4604-a788-9536120892a3",
+    "part_master_id": "6549b5cd-c1d2-486c-bfa2-80b5ba0d9016",
+    "manufacturer_part_id": "00a28c03-8f38-49b8-aae2-8c3291e687d2",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.393573-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "c26eabdc-925a-4f06-bbd4-dd58dbd20e1d",
+    "part_master_id": "b145e7fe-ff8a-477d-b0a7-2758b69079fe",
+    "manufacturer_part_id": "ac07b694-9bee-4195-ae9a-dfdbfe059906",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.407977-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "2769dc2d-b734-4571-b0ba-e753569ef47f",
+    "part_master_id": "6e49b9e0-070c-43ba-90b3-266f05c16163",
+    "manufacturer_part_id": "48137f08-bc02-4ef0-ade9-201a91b61767",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.423959-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "1ba8f756-8932-45ec-b2e1-b630045e9a43",
+    "part_master_id": "0b801e98-9dbb-4829-8221-ccaf2b727d58",
+    "manufacturer_part_id": "d123d39f-4788-4404-a544-b8ad4193a8a6",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.436558-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "0b1db3ff-c59b-4cc5-80e1-6475be465299",
+    "part_master_id": "b166a629-9707-4035-968c-98295efa2bd1",
+    "manufacturer_part_id": "c58ac14c-bc44-4949-9dfa-4c0e9745a231",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.459439-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "21820198-c47a-4405-b602-c1de3de7ee7d",
+    "part_master_id": "7cd0fcb6-232c-473c-b9ac-43b6657e6ed9",
+    "manufacturer_part_id": "2db1a35c-d859-46c9-a268-3896859277a3",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.491469-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "beee6cd0-0b76-47bd-b2a2-a42b912885d7",
+    "part_master_id": "b56d8403-49fc-4e08-bbf4-2830c2e1bf94",
+    "manufacturer_part_id": "217244d3-e439-4097-887e-5bdbe9934a71",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.522195-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "461b1f77-c942-4c1e-8001-30aea2f2814e",
+    "part_master_id": "09b26d41-b9b1-4957-abf1-ceb58a68f1fc",
+    "manufacturer_part_id": "1d42b8a2-0f64-4e57-9c5a-ead0d20ae37d",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.537604-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "b57a4d89-014f-413d-881e-aba0240be931",
+    "part_master_id": "0f2355f3-cae5-46c8-92c1-241e033fb7e7",
+    "manufacturer_part_id": "9ac0fc6f-bebf-46b6-a996-8a3e20ebdb2e",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.55403-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "8a94d5f3-295c-4035-8c90-2f549c0d7ebd",
+    "part_master_id": "3fa4330b-411a-420f-8137-0673c8a94222",
+    "manufacturer_part_id": "52335321-4053-4d89-991a-784e6249f874",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.561409-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "f122d3ee-4e06-4e3a-ad0e-96962a0c9e5e",
+    "part_master_id": "2af8746d-0a25-4560-b32b-74ae9017bfdc",
+    "manufacturer_part_id": "123edc0d-70a3-42c2-99e0-878e0d4d2858",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.585608-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "bbfffafe-b9f3-449f-a6fc-9552679915ba",
+    "part_master_id": "f394de5d-d049-4ade-9050-b5e49af32dd6",
+    "manufacturer_part_id": "2a0c0bcb-a317-48d6-a648-a499def0f426",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.593046-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "fca7f4a8-235c-4dc6-8cf2-a79b04065ab4",
+    "part_master_id": "24996425-b109-40c7-adb7-b252d6238a23",
+    "manufacturer_part_id": "d46e2713-67df-4fc1-bb4c-145bf3287be4",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.599687-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "adc77bd9-bffb-46e4-ae7b-86a96da768b4",
+    "part_master_id": "3077274a-8a25-4af0-89ac-5b259e0c20a0",
+    "manufacturer_part_id": "7db47098-d0c5-4712-adf1-ecc568a3071b",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.617355-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "8863f4d9-4e93-446e-92c2-7edf054b09b2",
+    "part_master_id": "063745ce-c128-4534-99fb-86a10063ebd4",
+    "manufacturer_part_id": "7d05c8ae-65ce-48bd-91c9-3ca81d4e523a",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.624154-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "8f977d2b-73f3-460f-867e-a65c43a30951",
+    "part_master_id": "a89c5a69-1139-43bd-bac7-1e297ec8b7dd",
+    "manufacturer_part_id": "ee6da833-e2fe-4c86-9ffc-ed951c79305f",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.631098-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "0528d180-2efc-41c8-9e55-fd0b86cfdf4c",
+    "part_master_id": "1f049f0d-d467-44c5-91c7-7b55bbfd4b77",
+    "manufacturer_part_id": "6b0420e9-cea9-44fb-bcad-63604cd78fc3",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:31.63811-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "dfec938a-ac44-4985-ad62-5db53d0fd501",
+    "part_master_id": "7837b1f2-5412-45e3-af5c-1ed8019ae988",
+    "manufacturer_part_id": "14fdbaef-4e38-4989-a48a-b12178a30295",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.438942-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "0354acf2-cf84-46dd-9602-af9a7af33a6a",
+    "part_master_id": "8048a68d-7ee7-4e3c-b1f3-7470657fd493",
+    "manufacturer_part_id": "00d32d82-92c1-4760-9c79-65618a3cc470",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.446121-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "90857460-5cb0-4911-85a6-425b9b19ad18",
+    "part_master_id": "209efe05-75b3-47f8-a3cd-9e2a15c75daa",
+    "manufacturer_part_id": "bbe6d146-7ea8-46d5-8068-02dd9cdf88bf",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.452366-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "24b04fa1-041c-4a88-ad6b-ca1b4ec36b5c",
+    "part_master_id": "64f149e6-901d-4bb5-8091-1da7dc12cc03",
+    "manufacturer_part_id": "fbf331be-269c-4236-aafa-f50e19c18b7f",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.458286-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "ce1b08fe-3df4-4689-907b-952c52b85a23",
+    "part_master_id": "d6ae91bf-18ae-4365-854f-10f8a6e285ef",
+    "manufacturer_part_id": "8364605e-efca-4e23-a633-acf3ddddb9af",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.465571-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "fabca191-2a66-43e0-86e4-796c4b48bafd",
+    "part_master_id": "f4fc873a-4228-47c6-b220-376fd72de464",
+    "manufacturer_part_id": "7f8e5ede-cad5-4ad5-9dfa-1356f5fc2540",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.477263-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "bd5558ce-2c2b-4479-8a69-eb9d799d1605",
+    "part_master_id": "7206c24c-bff2-44ed-afd1-dc7e52ae1777",
+    "manufacturer_part_id": "bb538503-fac3-4e53-a7f3-e6fc7046649d",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.493304-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "ea45742a-5218-4e2c-9145-3e268574d108",
+    "part_master_id": "b80b20d8-a540-4a64-a75b-b6948fc8fa52",
+    "manufacturer_part_id": "b0f8a928-71b8-492d-b75c-814e6cf6790e",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.500658-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "80f50081-12f3-4fbb-880a-2df916fd67b6",
+    "part_master_id": "3a120b0c-e41f-4da5-811e-d0e430c5a755",
+    "manufacturer_part_id": "85b35703-661a-4846-a05d-1c04101a4067",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.512647-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "b1efb2e8-0a6c-4a53-9281-4fb127d296ac",
+    "part_master_id": "7c7d0fab-9057-4093-aa6c-7aa905aad75b",
+    "manufacturer_part_id": "41e1ac15-213f-4b97-8300-89552371e520",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.54456-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "cd81d138-f87d-4020-98d6-317ddd01e778",
+    "part_master_id": "3bf21b63-26fa-465e-838c-8bfeaa48fd3e",
+    "manufacturer_part_id": "db4b9a64-5b75-42df-8285-b77de3cf796a",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.559846-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "9ebec996-7c80-4435-8453-e88b54c950ed",
+    "part_master_id": "646b9f74-b1f8-4bfc-b7b9-006a08e65bc4",
+    "manufacturer_part_id": "db4b9a64-5b75-42df-8285-b77de3cf796a",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.575888-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "8b34c07f-7fce-40a4-9ae8-11468dd3aa60",
+    "part_master_id": "e7b5709b-800d-4c10-a9c8-73cf02574a7b",
+    "manufacturer_part_id": "f349b213-48ec-4c76-a733-4aad2468f4c2",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.590814-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "6e8f438d-95d3-4ece-a77b-6d18a25d6fab",
+    "part_master_id": "8b9b35c5-7b3a-4537-86d8-e41d5c8bec9d",
+    "manufacturer_part_id": "b3811a4c-8cfb-4ec2-8e29-1e5d16e721ce",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.606952-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "9cf7107f-e461-445f-8d07-db881286cde9",
+    "part_master_id": "901fc509-06df-4d36-a61e-3c38d159d97e",
+    "manufacturer_part_id": "e8627238-8733-4762-af0f-ed39f796a319",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.638236-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "da97885d-501e-4efb-b0c5-72961d0218c5",
+    "part_master_id": "817a3045-63d5-43a3-b1a9-6e55a1d00847",
+    "manufacturer_part_id": "a6f3686e-4627-4c7f-805a-f9125d9c48ee",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.653021-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "0630fb81-f090-46db-909c-ed60ae5eadaf",
+    "part_master_id": "e6305f2a-bdb4-4337-863f-4b32ffed6ccd",
+    "manufacturer_part_id": "a6f3686e-4627-4c7f-805a-f9125d9c48ee",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.659311-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "6a140825-c91d-4698-ac6c-3b486b879402",
+    "part_master_id": "802835fc-f10e-47ba-a700-11a63b1d4e2f",
+    "manufacturer_part_id": "55db498f-1ff7-4e40-998a-930bb3c8c929",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.666009-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "34c99f28-2347-4f98-afc6-9832eccab1fc",
+    "part_master_id": "ab1077de-ac63-4880-a013-dc576cf245d7",
+    "manufacturer_part_id": "f2201d5a-3746-4c4c-87dc-4dcc7ddaa089",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.677199-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "92c3b757-f0eb-4f6d-ab25-cb4920768092",
+    "part_master_id": "01c3e0f5-4360-41ae-b575-8517142b0f32",
+    "manufacturer_part_id": "55db498f-1ff7-4e40-998a-930bb3c8c929",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.68413-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "80259cb5-652b-4c49-af5b-c92fa57a632c",
+    "part_master_id": "8ee486b9-c3bc-4126-9352-af0ceb216f4e",
+    "manufacturer_part_id": "f2201d5a-3746-4c4c-87dc-4dcc7ddaa089",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.692366-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "541cd182-724d-4ec0-998b-3c23298afe10",
+    "part_master_id": "063fd949-46ae-45a2-a3fd-c6d592bbece6",
+    "manufacturer_part_id": "c8ecc191-8847-471a-935e-aa1a0f9acdf2",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.699391-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "58e46f2c-a461-4614-866c-284d15d261e2",
+    "part_master_id": "127a0b82-130a-40fe-bf7a-3300c6955896",
+    "manufacturer_part_id": "f2201d5a-3746-4c4c-87dc-4dcc7ddaa089",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.727814-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "cda95c89-cdfd-458a-943f-82908888165e",
+    "part_master_id": "5b86a8fc-6975-4309-b86a-7056eebb94c2",
+    "manufacturer_part_id": "022af28d-c757-4cd4-9325-b334c3b25db5",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.744809-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "45866683-3293-4dc1-8bf9-5bf4080e482c",
+    "part_master_id": "19e32595-2e2d-4774-835b-1f2cdc416c2f",
+    "manufacturer_part_id": "022af28d-c757-4cd4-9325-b334c3b25db5",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 10:59:52.752978-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "6d546487-6822-4f0c-9fb9-542fe21893c0",
+    "part_master_id": "1e1116e2-5482-42be-8a56-b1bca2abfe1d",
+    "manufacturer_part_id": "c9a99f8b-6613-4740-b74c-3ddb58313892",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 11:00:57.660642-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "b1e9bc38-d565-4fed-a29c-b2ad03d81637",
+    "part_master_id": "9abbb08f-9068-460c-ae58-28a040e098b5",
+    "manufacturer_part_id": "348e3e0f-55e0-4a78-aeb2-803c3b4cc243",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 11:00:57.670525-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "939ff2be-4670-46f2-a02a-10af570ab582",
+    "part_master_id": "ab744ee6-a0b3-4ae1-bd15-127c880254be",
+    "manufacturer_part_id": "8bbad7bb-d6b6-4f2b-a024-83e098de623a",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 11:00:57.69961-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "40653685-c10b-417c-ab86-e6b8023669a1",
+    "part_master_id": "2ed6c389-190d-4c0f-9b97-aca82fb93a2d",
+    "manufacturer_part_id": "9fed3963-023c-4788-9b3f-928774046ee0",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 11:00:57.710117-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "f5d77e5f-bb1d-4c68-b62c-78e980eff299",
+    "part_master_id": "4c4bf671-a26b-45ba-87d4-f331c83f5c4f",
+    "manufacturer_part_id": "e8590bf1-e933-4baf-808a-c12027090455",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 11:00:57.732739-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "b64809ee-d432-43c1-bf36-9256c141672a",
+    "part_master_id": "502c3036-bfd7-47c1-9df1-6572b40ae852",
+    "manufacturer_part_id": "f907f09f-7249-4b2a-90d6-70430be5469a",
+    "qualification_status": "proposed",
+    "is_preferred": true,
+    "notes": null,
+    "created_at": "2026-09-02 11:00:57.743474-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  }
+]

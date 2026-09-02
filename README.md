@@ -1,13 +1,20 @@
-# Cascadia Demo Data — TDJ-25 Robot Arm
+# Cascadia Demo Data
 
-The dataset behind the [Cascadia PLM](https://github.com/Cascadia-PLM/Cascadia-App)
-demo: a 6-axis robot arm with ~88 parts and ~101 BOM relationships, pre-converted
-to web-ready GLB with per-face colors.
+The datasets behind the [Cascadia PLM](https://github.com/Cascadia-PLM/Cascadia-App)
+demo:
 
-It lives here rather than in Cascadia-App because it is large (~199 MB) and
-changes rarely, while the application repo is ~5 MiB and changes constantly.
-Keeping them together meant every clone of the app paid for the dataset, and
-every image build shipped it as build context.
+- **`robot-arm/`** — a 6-axis robot arm, ~88 parts and ~101 BOM relationships,
+  pre-converted to web-ready GLB with per-face colors. Geometry and structure.
+- **`freecad-demo/`** — two products taken through the *whole* PLM record: a
+  powered utility cart (`PUC`) and a survey catamaran (`USV`), with BOM and AML,
+  requirements and V&V, ECO history, KiCad boards and firmware source, MES
+  travelers and serialized genealogy, harnesses and drawings. Built with an open
+  toolchain (FreeCAD 1.1, KiCad 10) and baked from a real seeded database.
+
+They live here rather than in Cascadia-App because they are large (~420 MB
+together) and change rarely, while the application repo is ~5 MiB and changes
+constantly. Keeping them together meant every clone of the app paid for the
+datasets, and every image build shipped them as build context.
 
 ## Contents
 
@@ -17,24 +24,38 @@ every image build shipped it as build context.
 | `robot-arm/thumbnails/` | 79 PNG thumbnails, one per model | 2.1 MB |
 | `robot-arm/manifest.json` | Part numbers, BOM structure, Make/Buy classification | 44 KB |
 | `robot-arm/step/` | STEP sources — **gitignored**, regenerated on demand | 393 MB |
+| `freecad-demo/tables/` | One JSON per database table, ids already deterministic | 5.9 MB |
+| `freecad-demo/files/` | 616 vault blobs, each named by its own SHA-256 | 213 MB |
+| `freecad-demo/manifest.json` | Insert order, deferred columns, blob inventory | 130 KB |
+
+See [`freecad-demo/README.md`](./freecad-demo/README.md) for what that dataset
+contains and why it is baked rather than scripted.
 
 ## How it is consumed
 
 Published as `ghcr.io/cascadia-plm/cascadia-demo-data`, an `alpine` image whose
-only content is `/demo-data/robot-arm`. Cascadia-App's `docker-compose.demo.yml`
-runs it as a one-shot init container that copies the dataset into a named volume,
-which the app then reads via `DEMO_DATA_DIR`.
+only content is `/demo-data/robot-arm` and `/demo-data/freecad-demo`.
+Cascadia-App's `docker-compose.demo.yml` runs it as a one-shot init container
+that copies the datasets into a named volume, which the app then reads via
+`DEMO_DATA_DIR`.
 
 The image ships GLB + thumbnails only. Cascadia-App's seed treats STEP files as
 optional and builds its 3D viewer from the GLB, so parts show no "STEP file" pill
 in the demo. That is expected, not a bug.
 
 For local development against Cascadia-App, `npm run demo:fetch` in that repo
-shallow-clones this one at a pinned tag.
+shallow-clones this one at a pinned tag, then `npm run db:seed:demo` seeds the
+robot arm and `npm run seed:freecaddemo` seeds the FreeCAD/KiCad datasets.
 
-## Regenerating the dataset
+## Regenerating the datasets
 
-Maintainer-only, and it needs the private
+`freecad-demo/` is produced by `npm run demo:bake:freecad` in Cascadia-App,
+against a database its Python authoring pipeline has seeded. That pipeline lives
+in the private `Cascadia-PLM/FreeCADDemo` repo and needs FreeCAD 1.1, KiCad 10
+and the CAD-converter workers; baking freezes its result so seeding needs none
+of them.
+
+The robot arm is maintainer-only, and it needs the private
 [`Cascadia-App-archive`](https://github.com/Cascadia-PLM/Cascadia-App-archive)
 repo, which holds the SolidWorks source, `assembly-structure.json`, and
 `step-output/`. Clone it as a sibling of this repo, or set `ARCHIVE_DIR`.

@@ -1,0 +1,323 @@
+[
+  {
+    "id": "a2777c17-e755-45dc-86e3-43ae151a2728",
+    "target_design_id": "c63690f0-f168-4bfb-8cfa-c25c6bdab27c",
+    "source_design_id": "53920542-d4ab-4a92-9d45-643eae596345",
+    "source_commit_id": "b91efc22-4685-428d-9687-03d5ebfbd737",
+    "source_eco_id": "695e32b9-4abe-43ef-bf24-85c53da1b73e",
+    "changed_items": [
+      {
+        "name": "Drawing, Powered Utility Cart, 4WD Skid-Steer, 24 V",
+        "itemType": "Document",
+        "masterId": "3ae08ea3-2e3f-4e7f-9c7a-633535ef7586",
+        "changeType": "added",
+        "itemNumber": "DOC-000003",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Chassis Frame Weldment",
+        "itemType": "Part",
+        "masterId": "7d63d441-ef95-4f77-98d8-d17c5af8d327",
+        "changeType": "modified",
+        "itemNumber": "PUC-1000",
+        "newRevision": "C",
+        "previousRevision": "B"
+      },
+      {
+        "name": "Handle Loop, Ø25.4x2.0 DOM Tube, Bent",
+        "itemType": "Part",
+        "masterId": "ab9c54f4-363f-4f0d-9363-3854ba4e1e0e",
+        "changeType": "modified",
+        "itemNumber": "PUC-1411",
+        "newRevision": "D",
+        "previousRevision": "C"
+      },
+      {
+        "name": "Drawing, Wiring Harness, Main",
+        "itemType": "Document",
+        "masterId": "326fa6d0-ed63-4c77-a298-e26676a55a28",
+        "changeType": "added",
+        "itemNumber": "DOC-000007",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Drawing, Chassis Frame Weldment",
+        "itemType": "Document",
+        "masterId": "30d328d8-75ce-4400-8959-d54bcf806b5d",
+        "changeType": "added",
+        "itemNumber": "DOC-000004",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Drawing, Drive Module, LH",
+        "itemType": "Document",
+        "masterId": "ba91a283-f155-4137-ae1d-d9794ec9570e",
+        "changeType": "added",
+        "itemNumber": "DOC-000005",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Drawing, Handle Loop, Ø25.4x2.0 DOM Tube, Bent",
+        "itemType": "Document",
+        "masterId": "8fe730da-f794-4c4d-aab5-9839b6643968",
+        "changeType": "added",
+        "itemNumber": "DOC-000006",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Drive Module, LH",
+        "itemType": "Part",
+        "masterId": "6943e22d-c4a6-4a14-8b75-d3075420eb5a",
+        "changeType": "modified",
+        "itemNumber": "PUC-1300",
+        "newRevision": "C",
+        "previousRevision": "B"
+      },
+      {
+        "name": "Wiring Harness, Power and Control",
+        "itemType": "Part",
+        "masterId": "3f0e0065-8a59-4c85-a933-90367bc444d0",
+        "changeType": "modified",
+        "itemNumber": "PUC-1700",
+        "newRevision": "B",
+        "previousRevision": "A"
+      },
+      {
+        "name": "Powered Utility Cart, 4WD Skid-Steer, 24 V",
+        "itemType": "Part",
+        "masterId": "08ceb1ef-fcc4-4a01-b3fa-e34d18a652a6",
+        "changeType": "modified",
+        "itemNumber": "PUC-0000",
+        "newRevision": "C",
+        "previousRevision": "B"
+      }
+    ],
+    "status": "pending",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "review_notes": null,
+    "response_eco_id": null,
+    "created_at": "2026-09-02 10:57:47.175714-07"
+  },
+  {
+    "id": "12040f09-a4d9-4e37-aea5-9e8cedb4c213",
+    "target_design_id": "c63690f0-f168-4bfb-8cfa-c25c6bdab27c",
+    "source_design_id": "53920542-d4ab-4a92-9d45-643eae596345",
+    "source_commit_id": "e651cc00-1386-4a82-a1cd-015f9136db2f",
+    "source_eco_id": "aedf84bd-48db-432f-89c1-f25f2620d39f",
+    "changed_items": [
+      {
+        "name": "Cable Assy, Battery Positive, 25 mm2",
+        "itemType": "Part",
+        "masterId": "a0ceb093-6678-4451-9a48-e09a1bc5113b",
+        "changeType": "added",
+        "itemNumber": "PUC-1701",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Motor Rear-Right, 2x4 mm2",
+        "itemType": "Part",
+        "masterId": "95914b85-f761-45a5-a7db-efc92328d049",
+        "changeType": "added",
+        "itemNumber": "PUC-1706",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Battery Negative, 25 mm2",
+        "itemType": "Part",
+        "masterId": "4d7d8713-d789-4b85-a9b5-873a74641f62",
+        "changeType": "added",
+        "itemNumber": "PUC-1702",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Control, 6x0.5 mm2",
+        "itemType": "Part",
+        "masterId": "8b4370c8-7ac8-47b8-a966-96948eca5418",
+        "changeType": "added",
+        "itemNumber": "PUC-1707",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Motor Front-Left, 2x4 mm2",
+        "itemType": "Part",
+        "masterId": "a2f58803-a196-49e4-bd32-d76939677874",
+        "changeType": "added",
+        "itemNumber": "PUC-1703",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Motor Rear-Left, 2x4 mm2",
+        "itemType": "Part",
+        "masterId": "3099dba7-b409-4dd1-bda4-baa048a108b4",
+        "changeType": "added",
+        "itemNumber": "PUC-1704",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Motor Front-Right, 2x4 mm2",
+        "itemType": "Part",
+        "masterId": "1cc467f6-bdb4-437e-9eb9-7aa369a8a77a",
+        "changeType": "added",
+        "itemNumber": "PUC-1705",
+        "newRevision": "A",
+        "previousRevision": ""
+      }
+    ],
+    "status": "pending",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "review_notes": null,
+    "response_eco_id": null,
+    "created_at": "2026-09-02 10:37:12.616034-07"
+  },
+  {
+    "id": "e78973e9-e878-4b6f-9058-aef84743f43d",
+    "target_design_id": "ff4a10e8-0467-4f96-8d44-1ba014649b5a",
+    "source_design_id": "75a17d7f-6cc7-4271-9d54-a4c2a967ed86",
+    "source_commit_id": "65e19f24-7930-4555-830c-03d8b224613d",
+    "source_eco_id": "8cb63b54-a35b-4338-a5ad-37055a317e50",
+    "changed_items": [
+      {
+        "name": "Cable Assy, Battery Starboard, 2x16 mm2",
+        "itemType": "Part",
+        "masterId": "9abbb08f-9068-460c-ae58-28a040e098b5",
+        "changeType": "added",
+        "itemNumber": "USV-1931",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Mast Signal Bundle, 8x0.5 mm2",
+        "itemType": "Part",
+        "masterId": "4c4bf671-a26b-45ba-87d4-f331c83f5c4f",
+        "changeType": "added",
+        "itemNumber": "USV-1934",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Battery Port, 2x16 mm2",
+        "itemType": "Part",
+        "masterId": "1e1116e2-5482-42be-8a56-b1bca2abfe1d",
+        "changeType": "added",
+        "itemNumber": "USV-1930",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Transducer, 2x0.5 mm2 Screened",
+        "itemType": "Part",
+        "masterId": "502c3036-bfd7-47c1-9df1-6572b40ae852",
+        "changeType": "added",
+        "itemNumber": "USV-1935",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Thruster Port, 3x4 mm2",
+        "itemType": "Part",
+        "masterId": "ab744ee6-a0b3-4ae1-bd15-127c880254be",
+        "changeType": "added",
+        "itemNumber": "USV-1932",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Cable Assy, Thruster Starboard, 3x4 mm2",
+        "itemType": "Part",
+        "masterId": "2ed6c389-190d-4c0f-9b97-aca82fb93a2d",
+        "changeType": "added",
+        "itemNumber": "USV-1933",
+        "newRevision": "A",
+        "previousRevision": ""
+      }
+    ],
+    "status": "pending",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "review_notes": null,
+    "response_eco_id": null,
+    "created_at": "2026-09-02 11:00:58.200555-07"
+  },
+  {
+    "id": "3a8e3f01-a64f-4330-a185-0bec1f4e6135",
+    "target_design_id": "ff4a10e8-0467-4f96-8d44-1ba014649b5a",
+    "source_design_id": "75a17d7f-6cc7-4271-9d54-a4c2a967ed86",
+    "source_commit_id": "96309bdd-ad17-4f3d-9bcd-552c7aaba3e6",
+    "source_eco_id": "547da16d-7b9d-4d03-8929-7557ff69a310",
+    "changed_items": [
+      {
+        "name": "Wiring Harness, Main 24 V + Signal",
+        "itemType": "Part",
+        "masterId": "9ef6f0cc-6770-47c2-a2c7-c0e2cb8dbbb6",
+        "changeType": "modified",
+        "itemNumber": "USV-1900",
+        "newRevision": "B",
+        "previousRevision": "A"
+      },
+      {
+        "name": "Drawing, Survey USV, 3 m Catamaran, Semi-Autonomous, 24 V",
+        "itemType": "Document",
+        "masterId": "330945d5-3444-49dc-b249-43d96aa4a286",
+        "changeType": "added",
+        "itemNumber": "DOC-000010",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Drawing, Hull Structure Assembly",
+        "itemType": "Document",
+        "masterId": "098357e3-6d39-491a-866b-44c26109fb4e",
+        "changeType": "added",
+        "itemNumber": "DOC-000011",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Survey USV, 3 m Catamaran, Semi-Autonomous, 24 V",
+        "itemType": "Part",
+        "masterId": "f648d6e2-4423-4336-a053-631000ae2810",
+        "changeType": "modified",
+        "itemNumber": "USV-0000",
+        "newRevision": "C",
+        "previousRevision": "B"
+      },
+      {
+        "name": "Drawing, Thruster Module",
+        "itemType": "Document",
+        "masterId": "bfce8395-840e-4033-8d0a-dc58d823cf67",
+        "changeType": "added",
+        "itemNumber": "DOC-000012",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Drawing, Wiring Harness, Main 24 V + Signal",
+        "itemType": "Document",
+        "masterId": "466b4c65-750a-4d32-a810-fdd9bf9cfe18",
+        "changeType": "added",
+        "itemNumber": "DOC-000013",
+        "newRevision": "A",
+        "previousRevision": ""
+      }
+    ],
+    "status": "pending",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "review_notes": null,
+    "response_eco_id": null,
+    "created_at": "2026-09-02 11:05:32.086732-07"
+  }
+]

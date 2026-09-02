@@ -1,0 +1,30 @@
+[
+  {
+    "item_id": "fa6ca2f0-9554-4421-bd46-32cf0354575e",
+    "description": "TC-03 failed: main contactor opened 260 ms after E-stop actuation (SYS-05 / ELEC-01 require <= 200 ms). Cause: coil flyback diode extends drop-out. Proposed fix: replace diode with TVS/RC snubber or route E-stop to the controller's inhibit input in parallel.",
+    "severity": "High",
+    "priority": "High",
+    "category": "Design",
+    "reported_by": null,
+    "reported_date": null,
+    "assigned_to": null,
+    "resolution": null,
+    "resolved_date": null,
+    "root_cause": null,
+    "program_id": "90e7dda6-b6f7-4734-8a3e-6eef0b38e103"
+  },
+  {
+    "item_id": "57cc45bf-d239-47c1-9797-6bbaa97a1223",
+    "description": "TC-09: packet loss 6 % beyond 1.6 km with shore antenna at 1.5 m; suspect Fresnel clearance. Action: mast-mount the shore antenna at 4 m and retest; fallback is a 6 dBi shore yagi.",
+    "severity": "High",
+    "priority": "Medium",
+    "category": null,
+    "reported_by": null,
+    "reported_date": null,
+    "assigned_to": null,
+    "resolution": null,
+    "resolved_date": null,
+    "root_cause": null,
+    "program_id": null
+  }
+]

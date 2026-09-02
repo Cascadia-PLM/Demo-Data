@@ -1,0 +1,102 @@
+[
+  {
+    "id": "c672a833-b057-4260-954e-1aedf22dfb69",
+    "work_instruction_id": "b355b2b7-5f4a-4e54-97f9-8fb180c5c8dc",
+    "part_id": "9f9053f1-7e5a-4022-8155-38c65fed7a5a",
+    "is_output": true,
+    "inherit_to_mbom": false,
+    "inherited_from_id": null,
+    "created_at": "2026-09-02 10:36:13.277953-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "f2f4a030-21ed-4e28-a38a-07ed57f7d426",
+    "work_instruction_id": "b1fef493-5fd5-4374-8b16-10d8187f5542",
+    "part_id": "b231da36-e22b-473b-bf50-1cd4e99adc7d",
+    "is_output": true,
+    "inherit_to_mbom": false,
+    "inherited_from_id": null,
+    "created_at": "2026-09-02 10:36:13.4789-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "3567a20e-da58-44c5-a13d-2fd6420bd984",
+    "work_instruction_id": "615f2db1-2618-411e-941f-27396eae672a",
+    "part_id": "cb6f7bae-9e09-4054-ae6a-7a00323274b6",
+    "is_output": true,
+    "inherit_to_mbom": false,
+    "inherited_from_id": null,
+    "created_at": "2026-09-02 10:36:13.616037-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "1387484d-bb94-44cf-8167-6e9a5ee90147",
+    "work_instruction_id": "9682f94d-ce9e-4eb7-a72e-d81b1bee210c",
+    "part_id": "e5e2746e-9b8c-43f8-acf3-268e6d305236",
+    "is_output": true,
+    "inherit_to_mbom": false,
+    "inherited_from_id": null,
+    "created_at": "2026-09-02 10:36:13.790275-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "599e4616-7507-420c-9b98-0ebc30022843",
+    "work_instruction_id": "d0a188e8-6dc7-4dac-8e0d-58c57144e90c",
+    "part_id": "e41e1f14-3e8e-4eb4-9c3b-1cfdb91b0167",
+    "is_output": true,
+    "inherit_to_mbom": false,
+    "inherited_from_id": null,
+    "created_at": "2026-09-02 10:36:13.976348-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "2abd5a8d-9416-4864-a4b6-3e41b00a8f19",
+    "work_instruction_id": "cbc41d35-b83f-4b71-ab16-919125dd30b3",
+    "part_id": "eb840d02-3be8-4bda-9046-bba38ab5959c",
+    "is_output": true,
+    "inherit_to_mbom": false,
+    "inherited_from_id": null,
+    "created_at": "2026-09-02 10:59:55.518563-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "586bd914-6811-4b45-8f51-c1cb4cceb22f",
+    "work_instruction_id": "35c1fe1f-c62b-4c85-a5d9-76e5e271b515",
+    "part_id": "2c1f6eb8-62a4-4f5d-8ee1-0b5af5ee4a7f",
+    "is_output": true,
+    "inherit_to_mbom": false,
+    "inherited_from_id": null,
+    "created_at": "2026-09-02 10:59:55.58797-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "d278b159-4126-4703-9efd-f797339b4956",
+    "work_instruction_id": "88f9228b-267d-4eba-9743-8c50857ad896",
+    "part_id": "ab2975b3-03b5-4de2-a14a-fb22e008ca43",
+    "is_output": true,
+    "inherit_to_mbom": false,
+    "inherited_from_id": null,
+    "created_at": "2026-09-02 10:59:55.702329-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "f8f92556-07d2-4647-aab8-6aeb8140d72a",
+    "work_instruction_id": "9bbde440-f2e9-4cca-960b-54dfb4fae084",
+    "part_id": "e2fdd574-18ea-4b66-b0b6-363a7bb7bf37",
+    "is_output": true,
+    "inherit_to_mbom": false,
+    "inherited_from_id": null,
+    "created_at": "2026-09-02 10:59:55.81327-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "128b866d-f49d-4b98-8a64-c894880010d7",
+    "work_instruction_id": "b5842647-6b5c-4e41-8d1e-af3cdbc57a99",
+    "part_id": "5a4aac03-35e6-4e03-87d1-02ba9fb48a64",
+    "is_output": true,
+    "inherit_to_mbom": false,
+    "inherited_from_id": null,
+    "created_at": "2026-09-02 10:59:55.87659-07",
+    "created_by": "00000000-0000-4000-8000-000000000000"
+  }
+]

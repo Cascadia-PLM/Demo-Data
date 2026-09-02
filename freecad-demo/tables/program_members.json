@@ -1,0 +1,24 @@
+[
+  {
+    "id": "2169f6ab-132a-4680-b774-572d7e74a3b1",
+    "program_id": "90e7dda6-b6f7-4734-8a3e-6eef0b38e103",
+    "user_id": "00000000-0000-4000-8000-000000000000",
+    "role": "admin",
+    "can_create_eco": true,
+    "can_approve_eco": true,
+    "can_manage_designs": true,
+    "joined_at": "2026-09-02 10:34:26.854795-07",
+    "invited_by": "00000000-0000-4000-8000-000000000000"
+  },
+  {
+    "id": "24295ecd-f71a-4cfd-81cf-027856dc1f52",
+    "program_id": "8c342487-d2c3-4ec0-b22b-fe2e2f8f1436",
+    "user_id": "00000000-0000-4000-8000-000000000000",
+    "role": "admin",
+    "can_create_eco": true,
+    "can_approve_eco": true,
+    "can_manage_designs": true,
+    "joined_at": "2026-09-02 10:58:57.802166-07",
+    "invited_by": "00000000-0000-4000-8000-000000000000"
+  }
+]

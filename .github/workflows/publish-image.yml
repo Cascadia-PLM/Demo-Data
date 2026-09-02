@@ -20,6 +20,7 @@ on:
     tags: ['v*']
     paths:
       - 'robot-arm/**'
+      - 'freecad-demo/**'
       - 'Dockerfile'
       - '.dockerignore'
       - '.github/workflows/publish-image.yml'

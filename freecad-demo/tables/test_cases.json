@@ -1,0 +1,463 @@
+[
+  {
+    "item_id": "b6398be5-adda-45cc-8e80-f8aa00f87555",
+    "test_plan_id": "bf4d9b58-6831-4cc4-a8c6-aacd3695bebb",
+    "test_type": "System",
+    "preconditions": "Cart fully assembled, battery >= 90 % SoC, tyre/nut torque checked, firmware/DIP config per drawing.",
+    "steps": [
+      {
+        "action": "Spray the enclosure and control box per IEC 60529 IPX5 for 10 min, all directions",
+        "stepNumber": 1,
+        "expectedResult": "No water inside enclosures; cart drives normally afterwards"
+      }
+    ],
+    "execution_status": "Blocked",
+    "last_executed_at": "2026-09-02 10:35:44.196-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "fcff2736-03b2-4679-aca4-39b2be16fa7a",
+    "test_plan_id": "bf4d9b58-6831-4cc4-a8c6-aacd3695bebb",
+    "test_type": "System",
+    "preconditions": "Cart fully assembled, battery >= 90 % SoC, tyre/nut torque checked, firmware/DIP config per drawing.",
+    "steps": [
+      {
+        "action": "Instrument contactor coil and motor current with a scope; drive at 6 km/h on level ground",
+        "stepNumber": 1,
+        "expectedResult": "Trace armed"
+      },
+      {
+        "action": "Press the E-stop",
+        "stepNumber": 2,
+        "expectedResult": "Contactor opens <= 200 ms after actuation; motor current 0 within 50 ms after; cart stops within 0.5 m"
+      },
+      {
+        "action": "Attempt to drive with E-stop latched, then twist to release and centre the joystick",
+        "stepNumber": 3,
+        "expectedResult": "No motion while latched; no uncommanded motion on release"
+      }
+    ],
+    "execution_status": "Failed",
+    "last_executed_at": "2026-09-02 10:35:44.134-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "36d397de-6815-4cd0-a7c7-600a6f3848e9",
+    "test_plan_id": "11f331ad-d43f-435f-ad4a-c08edcab6c25",
+    "test_type": "Integration",
+    "preconditions": "Drive module assembled per PUC-1300/1301, key fitted, nut torqued.",
+    "steps": [
+      {
+        "action": "Check key seating, fit wheel, torque M12x1.25 nut to 50 N.m, mark",
+        "stepNumber": 1,
+        "expectedResult": "Key flush, no radial play, torque mark applied"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:35:44.25-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "666c7889-5975-493b-9c7a-6307686a8101",
+    "test_plan_id": "80f16e68-ee60-4a40-b528-673c91580571",
+    "test_type": "Integration",
+    "preconditions": "Enclosure wired per schematic, harness installed.",
+    "steps": [
+      {
+        "action": "Key OFF: measure contactor coil voltage and try to remove the key",
+        "stepNumber": 1,
+        "expectedResult": "0 V at coil; key removable"
+      },
+      {
+        "action": "Key ON: try to remove key",
+        "stepNumber": 2,
+        "expectedResult": "Key captive; coil energised only with E-stop released"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:35:44.264-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "6a778421-534c-4f0f-8179-1dfdef76cc3d",
+    "test_plan_id": "bf4d9b58-6831-4cc4-a8c6-aacd3695bebb",
+    "test_type": "Acceptance",
+    "preconditions": "Cart fully assembled, battery >= 90 % SoC, tyre/nut torque checked, firmware/DIP config per drawing.",
+    "steps": [
+      {
+        "action": "125 kg payload, 30 % duty cycle course for 8 h (or 6 km continuous)",
+        "stepNumber": 1,
+        "expectedResult": "Cart completes the shift; SoC > 10 %; no thermal cut-out of controller or BMS"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:35:44.179-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "d51bf801-ac9d-4d89-8bdb-42458a00c7be",
+    "test_plan_id": "bf4d9b58-6831-4cc4-a8c6-aacd3695bebb",
+    "test_type": "System",
+    "preconditions": "Cart fully assembled, battery >= 90 % SoC, tyre/nut torque checked, firmware/DIP config per drawing.",
+    "steps": [
+      {
+        "action": "Drive at max speed past a sound meter at 1 m / 1.2 m height",
+        "stepNumber": 1,
+        "expectedResult": "<= 70 dB(A)"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:35:44.213-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "db7905c1-f2b3-4b97-b743-e526d2003ef8",
+    "test_plan_id": "80f16e68-ee60-4a40-b528-673c91580571",
+    "test_type": "Integration",
+    "preconditions": "Enclosure wired per schematic, harness installed.",
+    "steps": [
+      {
+        "action": "Compare meter % with battery voltage at 20/50/80/100 % SoC",
+        "stepNumber": 1,
+        "expectedResult": "Indication within +-10 % of SoC table"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:35:44.282-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "e667e108-c4a8-4c1f-b424-bc9382a5c147",
+    "test_plan_id": "11f331ad-d43f-435f-ad4a-c08edcab6c25",
+    "test_type": "Integration",
+    "preconditions": "Drive module assembled per PUC-1300/1301, key fitted, nut torqued.",
+    "steps": [
+      {
+        "action": "Run module at 25.6 V no load, both directions, 60 s each",
+        "stepNumber": 1,
+        "expectedResult": "Wheel speed 80-92 rpm; current <= 2.5 A; no abnormal gear noise"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:35:44.224-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "ebc0f0fa-9e65-4ffd-9403-76b0e24d13c1",
+    "test_plan_id": "bf4d9b58-6831-4cc4-a8c6-aacd3695bebb",
+    "test_type": "System",
+    "preconditions": "Cart fully assembled, battery >= 90 % SoC, tyre/nut torque checked, firmware/DIP config per drawing.",
+    "steps": [
+      {
+        "action": "Load 250 kg distributed on the deck; measure deck centre deflection",
+        "stepNumber": 1,
+        "expectedResult": "Deflection <= 5 mm, no permanent set after unloading"
+      },
+      {
+        "action": "From rest, drive up the 10 % ramp and stop half-way, then continue",
+        "stepNumber": 2,
+        "expectedResult": "Cart starts on the slope and climbs at >= 2 km/h; no wheel slip > 10 %"
+      },
+      {
+        "action": "Inspect welds and brackets after the test",
+        "stepNumber": 3,
+        "expectedResult": "No cracks, no loosened fasteners"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:35:44.12-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "f06bd5e0-f15e-44e8-8eed-76cbd961f898",
+    "test_plan_id": "bf4d9b58-6831-4cc4-a8c6-aacd3695bebb",
+    "test_type": "System",
+    "preconditions": "Cart fully assembled, battery >= 90 % SoC, tyre/nut torque checked, firmware/DIP config per drawing.",
+    "steps": [
+      {
+        "action": "Stop on the 10 % ramp with 250 kg, release joystick, key OFF",
+        "stepNumber": 1,
+        "expectedResult": "Creep < 50 mm in 60 s, facing up and down slope"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:35:44.165-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "f76b7650-bcac-40ca-892f-f73f2c981803",
+    "test_plan_id": "80f16e68-ee60-4a40-b528-673c91580571",
+    "test_type": "Integration",
+    "preconditions": "Enclosure wired per schematic, harness installed.",
+    "steps": [
+      {
+        "action": "Apply 1.35 x rated current through the breaker",
+        "stepNumber": 1,
+        "expectedResult": "Trips within 60 s; resets manually; no damage"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:35:44.312-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "f9325b87-13ee-4be4-8cd3-c82887669efe",
+    "test_plan_id": "bf4d9b58-6831-4cc4-a8c6-aacd3695bebb",
+    "test_type": "System",
+    "preconditions": "Cart fully assembled, battery >= 90 % SoC, tyre/nut torque checked, firmware/DIP config per drawing.",
+    "steps": [
+      {
+        "action": "Charge battery to >= 90 %, place cart on 30 m level concrete lane",
+        "stepNumber": 1,
+        "expectedResult": "Battery meter shows >= 90 %"
+      },
+      {
+        "action": "Drive forward with full joystick deflection through a timed 20 m section, 3 runs each way",
+        "stepNumber": 2,
+        "expectedResult": "Mean speed 5.0-6.0 km/h"
+      },
+      {
+        "action": "Repeat with 250 kg payload",
+        "stepNumber": 3,
+        "expectedResult": "Mean speed >= 5.0 km/h"
+      },
+      {
+        "action": "Drive at 25 %, 50 %, 75 % joystick",
+        "stepNumber": 4,
+        "expectedResult": "Speed within +-15 % of proportional value, no dead-band > 10 %"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:35:44.106-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "PUC test track / bench"
+  },
+  {
+    "item_id": "e8793622-dd76-438a-81ca-37a40ee056a6",
+    "test_plan_id": "4270724e-5a6a-496e-9f37-7dc9cbe135f3",
+    "test_type": "Acceptance",
+    "preconditions": "Lake trials passed; echosounder calibrated for water temperature.",
+    "steps": [
+      {
+        "action": "Observe at dusk from 4 bearings at distance",
+        "stepNumber": 1,
+        "expectedResult": "All-round white visible, no blind arc"
+      }
+    ],
+    "execution_status": "Blocked",
+    "last_executed_at": "2026-09-02 10:59:35.505-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  },
+  {
+    "item_id": "7074ce43-f9ce-4eb1-a207-69fb153a3c7e",
+    "test_plan_id": "63277037-0c6b-4f69-9188-f3271d8cb8b4",
+    "test_type": "System",
+    "preconditions": "Bench plan passed; insurance and waterway permission in place.",
+    "steps": [
+      {
+        "action": "Run outbound line to 2 km LOS",
+        "stepNumber": 1,
+        "expectedResult": "Telemetry continuous, packet loss < 2 %, RSSI margin >= 20 dB"
+      }
+    ],
+    "execution_status": "Failed",
+    "last_executed_at": "2026-09-02 10:59:35.485-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  },
+  {
+    "item_id": "089b8ec6-b464-4879-9564-cd9d1a341863",
+    "test_plan_id": "74605561-b3bd-4a38-8209-a82e3e509d06",
+    "test_type": "System",
+    "preconditions": "All electronics installed, firmware loaded, RC and GCS paired.",
+    "steps": [
+      {
+        "action": "Engage Auto mission in the tank, then move RC sticks",
+        "stepNumber": 1,
+        "expectedResult": "Helm authority within 500 ms, mode change annunciated"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:59:35.376-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  },
+  {
+    "item_id": "2aed21bf-0eb5-4843-a2d6-8715737d459f",
+    "test_plan_id": "4270724e-5a6a-496e-9f37-7dc9cbe135f3",
+    "test_type": "Acceptance",
+    "preconditions": "Lake trials passed; echosounder calibrated for water temperature.",
+    "steps": [
+      {
+        "action": "Survey 3 reference sections of known depth 0.5-10 m",
+        "stepNumber": 1,
+        "expectedResult": "Error <= 0.5 % + 2 cm on each"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:59:35.495-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  },
+  {
+    "item_id": "4b41be5a-99af-4f25-9756-ac2c8a2c673c",
+    "test_plan_id": "63277037-0c6b-4f69-9188-f3271d8cb8b4",
+    "test_type": "System",
+    "preconditions": "Bench plan passed; insurance and waterway permission in place.",
+    "steps": [
+      {
+        "action": "2 h survey at 1.5 m/s logging battery SoC",
+        "stepNumber": 1,
+        "expectedResult": "Extrapolated endurance >= 6 h with 15 % reserve"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:59:35.474-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  },
+  {
+    "item_id": "5b76b838-95d6-493f-8dae-c927468dd054",
+    "test_plan_id": "74605561-b3bd-4a38-8209-a82e3e509d06",
+    "test_type": "System",
+    "preconditions": "All electronics installed, firmware loaded, RC and GCS paired.",
+    "steps": [
+      {
+        "action": "Command kill from the RC switch at idle thrust",
+        "stepNumber": 1,
+        "expectedResult": "Contactor opens < 200 ms, thrusters stop"
+      },
+      {
+        "action": "Repeat from shore GCS and from the deck mushroom",
+        "stepNumber": 2,
+        "expectedResult": "Same result on each path"
+      },
+      {
+        "action": "Attempt to arm with mushroom latched",
+        "stepNumber": 3,
+        "expectedResult": "Arming refused"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:59:35.363-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  },
+  {
+    "item_id": "67ffdb1a-ce16-4e65-a177-e59e14312378",
+    "test_plan_id": "63277037-0c6b-4f69-9188-f3271d8cb8b4",
+    "test_type": "System",
+    "preconditions": "Bench plan passed; insurance and waterway permission in place.",
+    "steps": [
+      {
+        "action": "Hold station 5 min at RTK fix",
+        "stepNumber": 1,
+        "expectedResult": "Position stays inside 0.5 m radius"
+      },
+      {
+        "action": "Run a 4-line lawnmower pattern",
+        "stepNumber": 2,
+        "expectedResult": "Cross-track RMS <= 0.5 m"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:59:35.464-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  },
+  {
+    "item_id": "7c3b2b8e-9c09-4592-a94a-358fa3ceb0f2",
+    "test_plan_id": "63277037-0c6b-4f69-9188-f3271d8cb8b4",
+    "test_type": "System",
+    "preconditions": "Bench plan passed; insurance and waterway permission in place.",
+    "steps": [
+      {
+        "action": "Power off the shore radio mid-mission",
+        "stepNumber": 1,
+        "expectedResult": "Loiter within 10 s"
+      },
+      {
+        "action": "Keep link off for 60 s",
+        "stepNumber": 2,
+        "expectedResult": "SmartRTL to launch point"
+      },
+      {
+        "action": "Restore link during return",
+        "stepNumber": 3,
+        "expectedResult": "Operator can resume or take over"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:59:35.439-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  },
+  {
+    "item_id": "d6608221-e128-4632-8bf0-5e0fbd55b842",
+    "test_plan_id": "63277037-0c6b-4f69-9188-f3271d8cb8b4",
+    "test_type": "System",
+    "preconditions": "Bench plan passed; insurance and waterway permission in place.",
+    "steps": [
+      {
+        "action": "Full-throttle runs both directions over 100 m",
+        "stepNumber": 1,
+        "expectedResult": "Mean >= 2.5 m/s"
+      },
+      {
+        "action": "Hold 1.5 m/s setpoint for 10 min",
+        "stepNumber": 2,
+        "expectedResult": "Speed within +-0.2 m/s"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:59:35.429-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  },
+  {
+    "item_id": "e4c6d9a8-65e1-4477-976d-11bb44ec5d83",
+    "test_plan_id": "74605561-b3bd-4a38-8209-a82e3e509d06",
+    "test_type": "System",
+    "preconditions": "All electronics installed, firmware loaded, RC and GCS paired.",
+    "steps": [
+      {
+        "action": "30 min spray on e-box and battery boxes per IPX6",
+        "stepNumber": 1,
+        "expectedResult": "No water inside; desiccant colour unchanged"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:59:35.394-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  },
+  {
+    "item_id": "eff1b3ff-88f7-4026-a918-3716ac65cc4f",
+    "test_plan_id": "74605561-b3bd-4a38-8209-a82e3e509d06",
+    "test_type": "Unit",
+    "preconditions": "All electronics installed, firmware loaded, RC and GCS paired.",
+    "steps": [
+      {
+        "action": "Tank target at known 0.60 m",
+        "stepNumber": 1,
+        "expectedResult": "Depth 0.60 +- 0.01 m at >= 10 Hz"
+      }
+    ],
+    "execution_status": "Passed",
+    "last_executed_at": "2026-09-02 10:59:35.404-07",
+    "last_executed_by": "00000000-0000-4000-8000-000000000000",
+    "environment": "USV bench / reservoir"
+  }
+]

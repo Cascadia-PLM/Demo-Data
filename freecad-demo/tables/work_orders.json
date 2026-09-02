@@ -1,0 +1,30 @@
+[
+  {
+    "item_id": "e4be7011-fc8e-47c7-b013-ccd90a31a41b",
+    "part_id": "e41e1f14-3e8e-4eb4-9c3b-1cfdb91b0167",
+    "quantity": 2,
+    "quantity_completed": 2,
+    "priority": "High",
+    "due_date": null,
+    "customer_order": "DEMO-2026-014",
+    "assigned_to": [],
+    "program_id": "90e7dda6-b6f7-4734-8a3e-6eef0b38e103",
+    "requires_sign_off": true,
+    "completed_at": null,
+    "notes": "Build 2 production carts (Phase 3 MES demo)."
+  },
+  {
+    "item_id": "cf8e1c1d-a6d9-4113-963a-ddd1c4fd71f6",
+    "part_id": "5a4aac03-35e6-4e03-87d1-02ba9fb48a64",
+    "quantity": 1,
+    "quantity_completed": 1,
+    "priority": "High",
+    "due_date": null,
+    "customer_order": "DEMO-2026-021",
+    "assigned_to": [],
+    "program_id": "8c342487-d2c3-4ec0-b22b-fe2e2f8f1436",
+    "requires_sign_off": true,
+    "completed_at": null,
+    "notes": "Build hull #1 of the survey USV (Phase 3 MES demo)."
+  }
+]

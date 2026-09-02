@@ -1,0 +1,122 @@
+[
+  {
+    "hash": "228200f1510f2b898855d3e937ec1fdd87ee72951b73da28c72296d02e090c96",
+    "content": "-- USV-CAT-3M vessel supervisor (runs on the autopilot, ArduPilot Lua applet)\n-- Drives the USV-1620 vessel control board:\n--   RELAY1 -> contactor arm (kill): dropped on disarm, kill switch aux fn,\n--             or when either hardwired chain channel (board opto feedback on\n--             GPIOs) reports open — the hardwired chain also cuts the coil\n--             circuit directly; this supervision only adds telemetry + latch.\n--   RELAY2 -> all-round white nav light: ON whenever armed or afloat (always,\n--             per SYS-07 \"on whenever afloat\" — we keep it on from boot).\n-- Feedback: chain channel states + contactor command are sent as named floats\n-- so the GCS shows kill-path health (TC-01 evidence).\n\nlocal CHAIN_CH1_PIN = 50      -- board J1: opto ch1 feedback (RC kill relay)\nlocal CHAIN_CH2_PIN = 51      -- board J1: opto ch2 feedback (deck mushroom)\nlocal LOOP_MS = 100\n\ngpio:pinMode(CHAIN_CH1_PIN, 0)\ngpio:pinMode(CHAIN_CH2_PIN, 0)\nrelay:on(1)                    -- nav light on from boot (SYS-07)\n\nlocal latched = false\n\nfunction update()\n  local ch1 = gpio:read(CHAIN_CH1_PIN)   -- true = chain closed\n  local ch2 = gpio:read(CHAIN_CH2_PIN)\n  local chain_ok = ch1 and ch2\n\n  if not chain_ok then\n    latched = true               -- discrepancy or open: latch until disarm\n  end\n  if not arming:is_armed() then\n    latched = false              -- disarm clears the latch\n  end\n\n  if arming:is_armed() and chain_ok and not latched then\n    relay:on(0)                  -- RELAY1 index 0: contactor armed\n  else\n    relay:off(0)\n  end\n\n  gcs:send_named_float(\"KILL_CH1\", ch1 and 1 or 0)\n  gcs:send_named_float(\"KILL_CH2\", ch2 and 1 or 0)\n  gcs:send_named_float(\"KILL_ARM\", (arming:is_armed() and chain_ok and not latched) and 1 or 0)\n\n  return update, LOOP_MS\nend\n\nreturn update()\n",
+    "vault_file_id": null,
+    "size": 1810,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:59:52.802694-07"
+  },
+  {
+    "hash": "eac3d1d60a68069f51fa238802b3d7e08344e936520cfca107cb4030b8594550",
+    "content": "/* 2-axis analog joystick with wire-break detection (PUC-1720) */\n#ifndef PUC_JOYSTICK_H\n#define PUC_JOYSTICK_H\n\n#include <stdbool.h>\n#include <stdint.h>\n\ntypedef struct {\n    int16_t x;   /* [-DRIVE_MAX_CMD, DRIVE_MAX_CMD], deadband applied */\n    int16_t y;\n} joy_sample_t;\n\nvoid joystick_init(void);\n\n/* false when either axis is outside the valid electrical window\n * (broken wire, short) - caller must treat as neutral. */\nbool joystick_read(joy_sample_t *out);\n\n#endif\n",
+    "vault_file_id": null,
+    "size": 475,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "79e5ad7626ddf5e73d19b0d13f6e0f1446463b25d00c0190cfe97eab11b8ed98",
+    "content": "/* Battery voltage sense + I2C meter (PUC-1720) */\n#ifndef PUC_BATTERY_H\n#define PUC_BATTERY_H\n\n#include <stdint.h>\n\nvoid battery_init(void);\nvoid battery_poll(void);\n\n/* Pack voltage from the resistor divider, filtered. */\nfloat battery_voltage(void);\n\n/* Speed ceiling in Sabertooth counts: DRIVE_MAX_CMD when healthy,\n * ramping down between VBATT_LOW_DERATE and VBATT_LOW_CUTOFF (PWR-01). */\nint32_t battery_speed_limit(void);\n\n#endif\n",
+    "vault_file_id": null,
+    "size": 439,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "1cc2dd969b1aa4b4441ae4f2fb33f44fc8eba52ac5542a4c513eab050aa30346",
+    "content": "/* Dual-channel E-stop monitor + contactor enable (PUC-1720) */\n#ifndef PUC_ESTOP_H\n#define PUC_ESTOP_H\n\n#include <stdbool.h>\n\ntypedef enum {\n    ESTOP_RUN = 0,          /* both channels closed, contactor enabled   */\n    ESTOP_STOPPED,          /* chain open: neutral + contactor released  */\n    ESTOP_FAULT_DISCREPANCY /* channels disagree > limit: latched fault  */\n} estop_state_t;\n\nvoid estop_init(void);\nvoid estop_poll(void);\nbool estop_drive_permitted(void);\nestop_state_t estop_state(void);\n\n#endif\n",
+    "vault_file_id": null,
+    "size": 509,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "130ffdc1ce6f7c68133e42f9005ef0bd1b0ca05e355bf4824ea6560288debb1b",
+    "content": "/* E-stop: two opto-isolated inputs watch the two contacts of the E-stop\n * chain (PC817 pull the GPIO low while the chain is CLOSED and powered).\n * Firmware releases the contactor enable within ESTOP_REACTION_MS of\n * either channel opening; the hardwired chain opens the SW80 coil circuit\n * independently of this code (the MOSFET is in SERIES with the chain).\n *\n * A discrepancy (one channel open, the other closed, for longer than\n * ESTOP_DISCREPANCY_MS) means a welded contact or broken wire: latch a\n * fault that only a power cycle clears (TC-000003 step 3).\n */\n#include \"pico/stdlib.h\"\n#include \"config.h\"\n#include \"estop.h\"\n\nstatic estop_state_t state = ESTOP_STOPPED;\nstatic absolute_time_t discrepancy_since;\nstatic bool discrepancy_timing = false;\n\nvoid estop_init(void)\n{\n    gpio_init(PIN_ESTOP_CH1);\n    gpio_set_dir(PIN_ESTOP_CH1, GPIO_IN);\n    gpio_pull_up(PIN_ESTOP_CH1);\n    gpio_init(PIN_ESTOP_CH2);\n    gpio_set_dir(PIN_ESTOP_CH2, GPIO_IN);\n    gpio_pull_up(PIN_ESTOP_CH2);\n\n    gpio_init(PIN_CONTACTOR_EN);\n    gpio_set_dir(PIN_CONTACTOR_EN, GPIO_OUT);\n    gpio_put(PIN_CONTACTOR_EN, 0);          /* start released */\n}\n\nvoid estop_poll(void)\n{\n    if (state == ESTOP_FAULT_DISCREPANCY)\n        return;                              /* latched until power cycle */\n\n    /* opto ON pulls the pin LOW -> low = channel closed = safe to run */\n    bool ch1_closed = !gpio_get(PIN_ESTOP_CH1);\n    bool ch2_closed = !gpio_get(PIN_ESTOP_CH2);\n\n    if (ch1_closed != ch2_closed) {\n        if (!discrepancy_timing) {\n            discrepancy_timing = true;\n            discrepancy_since = get_absolute_time();\n        } else if (absolute_time_diff_us(discrepancy_since, get_absolute_time())\n                   > (int64_t)ESTOP_DISCREPANCY_MS * 1000) {\n            state = ESTOP_FAULT_DISCREPANCY;\n            gpio_put(PIN_CONTACTOR_EN, 0);\n            return;\n        }\n    } else {\n        discrepancy_timing = false;\n    }\n\n    if (ch1_closed && ch2_closed) {\n        state = ESTOP_RUN;\n        gpio_put(PIN_CONTACTOR_EN, 1);\n    } else {\n        state = ESTOP_STOPPED;\n        gpio_put(PIN_CONTACTOR_EN, 0);\n    }\n}\n\nbool estop_drive_permitted(void) { return state == ESTOP_RUN; }\nestop_state_t estop_state(void)  { return state; }\n",
+    "vault_file_id": null,
+    "size": 2250,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "9895ba8de0fdfc56efcaa62adebcb8b140be2e4d12e095bee1673990640773c2",
+    "content": "/* PUC-1720 drive interface firmware - board configuration\n *\n * Board: PUC-1617 drive interface board (Raspberry Pi Pico module)\n * Cart:  PUC-CART-24V powered utility cart\n *\n * Pin map matches PUC-1617 rev A. Change only through an ECO that revs\n * both the board and this firmware together.\n */\n#ifndef PUC_CONFIG_H\n#define PUC_CONFIG_H\n\n/* ---- Joystick (2-axis analog, centre-return) -------------------------- */\n#define PIN_JOY_X_ADC        26      /* ADC0, 0-3.3 V via divider from 0-5 V */\n#define PIN_JOY_Y_ADC        27      /* ADC1 */\n#define JOY_CENTRE_COUNTS    2048\n#define JOY_DEADBAND_COUNTS  150     /* ~7 % half-scale; SYS-02 asks <= 10 % */\n#define JOY_FAULT_LO         100     /* below = broken wire / short to GND  */\n#define JOY_FAULT_HI         3995    /* above = short to supply             */\n\n/* ---- E-stop (dual channel, monitored) --------------------------------- */\n#define PIN_ESTOP_CH1        10      /* opto input, active low = chain open */\n#define PIN_ESTOP_CH2        11\n#define PIN_CONTACTOR_EN     12      /* gate driver for SW80 coil MOSFET    */\n#define ESTOP_REACTION_MS    50      /* budget; SYS-05 total <= 200 ms      */\n#define ESTOP_DISCREPANCY_MS 500     /* ch1 vs ch2 disagreement -> latch    */\n\n/* ---- Sabertooth 2x60 packet serial ------------------------------------ */\n#define UART_SABER           uart0\n#define PIN_SABER_TX         0\n#define PIN_SABER_RX         1       /* not used by packet serial; reserved */\n#define SABER_BAUD           9600\n#define SABER_ADDRESS        128     /* DIP: packet serial, address 128     */\n#define SABER_TIMEOUT_MS     100     /* controller-side serial watchdog     */\n\n/* ---- Battery ---------------------------------------------------------- */\n#define PIN_VBATT_ADC        28      /* ADC2, 100k/10k divider: 30.4 V FS   */\n#define VBATT_DIVIDER        11.0f\n#define VBATT_LOW_CUTOFF     21.0f   /* LiFePO4 8s empty                    */\n#define VBATT_LOW_DERATE     22.4f   /* start limiting speed below this     */\n#define I2C_BATT             i2c0\n#define PIN_BATT_SDA         4\n#define PIN_BATT_SCL         5\n#define BATT_METER_ADDR      0x0B    /* smart-battery style meter           */\n\n/* ---- Drive limits ----------------------------------------------------- */\n#define DRIVE_MAX_CMD        127     /* Sabertooth full scale               */\n#define DRIVE_RAMP_MS        400     /* 0 -> full in 400 ms                 */\n#define LOOP_PERIOD_MS       10\n#define WATCHDOG_TIMEOUT_MS  100\n\n#endif /* PUC_CONFIG_H */\n",
+    "vault_file_id": null,
+    "size": 2518,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "17532ee68d867a2990aa0f2cb6a20a9f6d051daf1f333687d1d3a9e29cc93796",
+    "content": "/* PUC-1720 drive interface firmware - main loop\n *\n * 100 Hz control loop:\n *   read joystick -> validate -> mix to L/R wheel commands -> ramp ->\n *   Sabertooth packet serial; E-stop chain gates the contactor enable\n *   and forces neutral; battery voltage derates top speed near empty.\n *\n * Safety notes:\n *  - The contactor (Albright SW80) is the actual power break; this MCU\n *    only *releases* it. The hardwired E-stop chain opens the coil\n *    circuit regardless of firmware state (REQ-000005 / ELEC-01).\n *  - The Sabertooth serial watchdog stops the motors if this loop dies.\n */\n#include \"pico/stdlib.h\"\n#include \"hardware/watchdog.h\"\n#include \"config.h\"\n#include \"joystick.h\"\n#include \"estop.h\"\n#include \"sabertooth.h\"\n#include \"battery.h\"\n\nstatic int16_t ramp(int16_t current, int16_t target)\n{\n    const int16_t step = (int16_t)(DRIVE_MAX_CMD * LOOP_PERIOD_MS / DRIVE_RAMP_MS);\n    if (target > current + step) return current + step;\n    if (target < current - step) return current - step;\n    return target;\n}\n\nint main(void)\n{\n    stdio_init_all();\n    joystick_init();\n    estop_init();\n    sabertooth_init();\n    battery_init();\n\n    watchdog_enable(WATCHDOG_TIMEOUT_MS, true);\n\n    int16_t cmd_left = 0, cmd_right = 0;\n\n    while (true) {\n        watchdog_update();\n\n        estop_poll();\n        battery_poll();\n\n        joy_sample_t joy;\n        bool joy_ok = joystick_read(&joy);\n\n        int16_t tgt_left = 0, tgt_right = 0;\n        if (joy_ok && estop_drive_permitted()) {\n            /* arcade mix: y = throttle, x = turn */\n            int32_t l = joy.y + joy.x;\n            int32_t r = joy.y - joy.x;\n            int32_t limit = battery_speed_limit();   /* <= DRIVE_MAX_CMD */\n            if (l >  limit) l =  limit;\n            if (l < -limit) l = -limit;\n            if (r >  limit) r =  limit;\n            if (r < -limit) r = -limit;\n            tgt_left  = (int16_t)l;\n            tgt_right = (int16_t)r;\n        }\n\n        cmd_left  = ramp(cmd_left,  tgt_left);\n        cmd_right = ramp(cmd_right, tgt_right);\n\n        /* E-stop active: skip the ramp, command neutral NOW */\n        if (!estop_drive_permitted()) {\n            cmd_left = cmd_right = 0;\n        }\n\n        sabertooth_drive(SABER_ADDRESS, cmd_left, cmd_right);\n\n        sleep_ms(LOOP_PERIOD_MS);\n    }\n}\n",
+    "vault_file_id": null,
+    "size": 2304,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "d311060c7b31d4e13c9950291da1876a927d127c36271dac79c45605ef3aa396",
+    "content": "/* Sabertooth 2x60 packet serial: addr, cmd, data, checksum((a+c+d)&0x7F).\n * Commands: 0 fwd M1, 1 rev M1, 4 fwd M2, 5 rev M2.\n * The controller's serial timeout (set by DIP wizard, SABER_TIMEOUT_MS)\n * is the backstop if this stream stops.\n */\n#include \"pico/stdlib.h\"\n#include \"hardware/uart.h\"\n#include \"config.h\"\n#include \"sabertooth.h\"\n\nstatic void send_packet(uint8_t address, uint8_t command, uint8_t data)\n{\n    uint8_t pkt[4] = {\n        address, command, data,\n        (uint8_t)((address + command + data) & 0x7F)\n    };\n    uart_write_blocking(UART_SABER, pkt, sizeof pkt);\n}\n\nvoid sabertooth_init(void)\n{\n    uart_init(UART_SABER, SABER_BAUD);\n    gpio_set_function(PIN_SABER_TX, GPIO_FUNC_UART);\n    gpio_set_function(PIN_SABER_RX, GPIO_FUNC_UART);\n    /* Sabertooth autobauds on 0xAA after power-up */\n    uint8_t bauding = 0xAA;\n    sleep_ms(2000);\n    uart_write_blocking(UART_SABER, &bauding, 1);\n    sabertooth_neutral(SABER_ADDRESS);\n}\n\nstatic void drive_channel(uint8_t address, uint8_t fwd_cmd, uint8_t rev_cmd,\n                          int16_t value)\n{\n    if (value >  DRIVE_MAX_CMD) value =  DRIVE_MAX_CMD;\n    if (value < -DRIVE_MAX_CMD) value = -DRIVE_MAX_CMD;\n    if (value >= 0) send_packet(address, fwd_cmd, (uint8_t)value);\n    else            send_packet(address, rev_cmd, (uint8_t)(-value));\n}\n\nvoid sabertooth_drive(uint8_t address, int16_t left, int16_t right)\n{\n    drive_channel(address, 0, 1, left);   /* M1 = left pair  */\n    drive_channel(address, 4, 5, right);  /* M2 = right pair */\n}\n\nvoid sabertooth_neutral(uint8_t address)\n{\n    send_packet(address, 0, 0);\n    send_packet(address, 4, 0);\n}\n",
+    "vault_file_id": null,
+    "size": 1639,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "70ec92c49b8536a850c57d037f3c9635ac10e6d09672e7a1ac47651da9416b9f",
+    "content": "/* Sabertooth 2x60 packet-serial driver (PUC-1720) */\n#ifndef PUC_SABERTOOTH_H\n#define PUC_SABERTOOTH_H\n\n#include <stdint.h>\n\nvoid sabertooth_init(void);\n\n/* left/right in [-127, 127]; 0 = stop. Sends motor 1 + motor 2 packets. */\nvoid sabertooth_drive(uint8_t address, int16_t left, int16_t right);\n\n/* Explicit neutral both channels (used by the E-stop path). */\nvoid sabertooth_neutral(uint8_t address);\n\n#endif\n",
+    "vault_file_id": null,
+    "size": 415,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "00a9ded0aa5cb4777a8b83adc11a03212cee1608a40dce5a88ca1f4ec09fa5d1",
+    "content": "# PUC-1720 — drive interface firmware\n\nFirmware for the PUC-1617 drive interface board (Raspberry Pi Pico / RP2040) of the\nPUC-CART-24V powered utility cart.\n\n## What it does\n\n100 Hz control loop:\n\n1. **Joystick** (2-axis analog, 0–5 V through a divider): deadband, wire-break /\n   short detection — any electrical fault reads as neutral (CTL-02).\n2. **E-stop** (dual-channel, opto-monitored): either channel open → neutral command\n   + contactor enable released within 50 ms; channel discrepancy > 500 ms latches a\n   fault until power cycle. The hardwired chain opens the Albright SW80 coil circuit\n   independently of firmware — the MOSFET sits in series with the chain (ELEC-01/02).\n3. **Mixing**: arcade mix (throttle ± turn) → Sabertooth 2x60 packet serial at\n   address 128, M1 = left pair, M2 = right pair. The Sabertooth serial watchdog is\n   the backstop if the loop dies; the RP2040 hardware watchdog resets on a 100 ms hang.\n4. **Battery**: 100k/10k divider on ADC2 (30.4 V full scale), low-voltage speed\n   derate from 22.4 V down to a quarter-speed floor at 21.0 V (PWR-01); best-effort\n   SoC read from a smart-battery meter on I2C0.\n\n## Build\n\nStandard pico-sdk out-of-tree build:\n\n```\nmkdir build && cd build\ncmake .. -DPICO_SDK_PATH=/path/to/pico-sdk\nmake\n```\n\nProduces `puc_drive_interface.uf2` for drag-drop flashing (work instruction\n\"flash firmware\" step) — in production use `picotool load` in the traveler.\n\n## PLM\n\n- Software item: **PUC-1720** (this tree, zip import)\n- Board: **PUC-1617** drive interface board (KiCad project `pcb/drive-interface`)\n- Pin map lives in `include/config.h` and must rev together with the board — one ECO\n  covering both items.\n",
+    "vault_file_id": null,
+    "size": 1701,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "bee75bf084cc04cc5a64238814d498f6ee33a26e0c87bbfa64fe627241a72bac",
+    "content": "# USV-CAT-3M — ArduPilot Rover (Boat) parameter baseline\n# Satisfies: SYS-03/NAV-01 (link-loss failsafe), SYS-04/CTL-01 (RC override),\n#            SYS-05/SAF-01 (kill paths), SYS-06/NAV-02 (RTK station keeping)\n# Frame / outputs -------------------------------------------------------------\nFRAME_CLASS      2          # Boat\nSERVO1_FUNCTION  73         # ThrottleLeft  -> ESC port\nSERVO3_FUNCTION  74         # ThrottleRight -> ESC starboard\nSERVO5_FUNCTION  0          # (USV-1620 kill arm via relay/PWM below)\nRELAY1_FUNCTION  1          # contactor arm (USV-1620 J1 pin: kill PWM)\nRELAY2_FUNCTION  1          # nav light (USV-1620 J1 pin: light PWM)\n# Failsafe (SYS-03: loiter at 10 s, SmartRTL at 60 s) -------------------------\nFS_ACTION        3          # SmartRTL or RTL\nFS_TIMEOUT       10         # s before failsafe action begins (loiter hold)\nFS_GCS_ENABLE    1          # GCS loss triggers failsafe\nFS_GCS_TIMEOUT   60         # s of GCS loss before SmartRTL\nFS_THR_ENABLE    1          # RC loss failsafe armed\nFS_CRASH_CHECK   1\nSRTL_POINTS      500\n# Manual override (SYS-04) ----------------------------------------------------\nRC_OVERRIDE_TIME 0.5        # s: stick activity takes helm within 500 ms\nMODE_CH          8\nFLTMODE1         0          # Manual\nFLTMODE4         10         # Auto\nFLTMODE6         5          # Loiter\n# GNSS / navigation (SYS-06) --------------------------------------------------\nGPS_TYPE         9          # DroneCAN (Here4)\nEK3_SRC1_POSXY   3          # GNSS\nEK3_SRC1_YAW     2          # GPS+compass fusion\nWPNAV_SPEED      1.5        # m/s survey speed\nLOIT_RADIUS      0.5        # m station-keeping radius target (RTK)\n# Battery / power (SYS-01, vbatt via USV-1620 divider on ADC) -----------------\nBATT_MONITOR     4\nBATT_VOLT_MULT   11.0\nBATT_LOW_VOLT    22.4\nBATT_CRT_VOLT    21.0\nBATT_FS_LOW_ACT  2          # RTL on low battery\nBATT_FS_CRT_ACT  1          # hold on critical\n# Scripting (nav light + kill supervision Lua) --------------------------------\nSCR_ENABLE       1\nSCR_HEAP_SIZE    102400\n",
+    "vault_file_id": null,
+    "size": 2060,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:59:52.802694-07"
+  },
+  {
+    "hash": "361111ac2c23ef0ff5b9ca0d60e52ac5d3c767c3fd6c774aa25f8b670b2133b5",
+    "content": "# USV-CAT-3M — vehicle configuration bundle\n\nDeployed configuration for the autopilot (Pixhawk 6X, ArduPilot Rover/Boat):\n\n- `ardupilot/rover.param` — parameter baseline: frame/outputs, link-loss failsafe\n  (loiter 10 s → SmartRTL 60 s, SYS-03), RC override 500 ms (SYS-04), DroneCAN RTK\n  GNSS (SYS-06), battery monitor via the USV-1620 divider (SYS-01), scripting on.\n- `lua/vessel_supervisor.lua` — applet driving the USV-1620 vessel control board:\n  contactor arm relay with chain-feedback latch (SYS-05), nav light always on\n  afloat (SYS-07), kill-path health telemetry for TC-01 evidence.\n\nThis bundle is the released Software item for BOM part **USV-1920 Vehicle\nConfiguration**; the board it drives is **USV-1620**. Flash/verify step lives in\nthe (future) Phase-3 water-test traveler: load params, install Lua, verify\nKILL_CH1/2/ARM telemetry.\n",
+    "vault_file_id": null,
+    "size": 861,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:59:52.802694-07"
+  },
+  {
+    "hash": "7b1aec2025cbd7d43f13434b05212b209e23e8fdfc0013176ee91d66afba3297",
+    "content": "#include \"pico/stdlib.h\"\n#include \"hardware/adc.h\"\n#include \"config.h\"\n#include \"joystick.h\"\n\nvoid joystick_init(void)\n{\n    adc_init();\n    adc_gpio_init(PIN_JOY_X_ADC);\n    adc_gpio_init(PIN_JOY_Y_ADC);\n}\n\nstatic bool read_axis(unsigned input, int16_t *out)\n{\n    adc_select_input(input);\n    uint16_t raw = adc_read();               /* 12-bit */\n    if (raw < JOY_FAULT_LO || raw > JOY_FAULT_HI)\n        return false;                        /* CTL-02: fail to neutral */\n\n    int32_t centred = (int32_t)raw - JOY_CENTRE_COUNTS;\n    if (centred > -JOY_DEADBAND_COUNTS && centred < JOY_DEADBAND_COUNTS) {\n        *out = 0;\n        return true;\n    }\n    /* rescale the live range outside the deadband to full command */\n    int32_t span = JOY_CENTRE_COUNTS - JOY_DEADBAND_COUNTS;\n    if (centred > 0) centred -= JOY_DEADBAND_COUNTS;\n    else             centred += JOY_DEADBAND_COUNTS;\n    *out = (int16_t)(centred * DRIVE_MAX_CMD / span);\n    return true;\n}\n\nbool joystick_read(joy_sample_t *out)\n{\n    int16_t x, y;\n    /* ADC0 = GPIO26 = input 0, ADC1 = GPIO27 = input 1 */\n    bool ok = read_axis(0, &x) && read_axis(1, &y);\n    if (!ok) {\n        out->x = out->y = 0;\n        return false;\n    }\n    out->x = x;\n    out->y = y;\n    return true;\n}\n",
+    "vault_file_id": null,
+    "size": 1253,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "2c30b0234f0256ecf97fbfc85c49186dcc44e36603a19c6c88c5d0f4b6d32af4",
+    "content": "#include \"pico/stdlib.h\"\n#include \"hardware/adc.h\"\n#include \"hardware/i2c.h\"\n#include \"config.h\"\n#include \"battery.h\"\n\nstatic float vbatt_filt = 24.0f;\n\nvoid battery_init(void)\n{\n    adc_gpio_init(PIN_VBATT_ADC);\n    i2c_init(I2C_BATT, 100 * 1000);\n    gpio_set_function(PIN_BATT_SDA, GPIO_FUNC_I2C);\n    gpio_set_function(PIN_BATT_SCL, GPIO_FUNC_I2C);\n    gpio_pull_up(PIN_BATT_SDA);\n    gpio_pull_up(PIN_BATT_SCL);\n}\n\nvoid battery_poll(void)\n{\n    adc_select_input(2);                     /* GPIO28 */\n    uint16_t raw = adc_read();\n    float v = (float)raw * 3.3f / 4096.0f * VBATT_DIVIDER;\n    vbatt_filt += 0.05f * (v - vbatt_filt);  /* ~200 ms time constant */\n\n    /* Smart-battery style meter on I2C: read RelativeStateOfCharge (0x0d).\n     * Best effort - the divider is the safety-relevant source. */\n    uint8_t reg = 0x0d, soc[2];\n    if (i2c_write_timeout_us(I2C_BATT, BATT_METER_ADDR, &reg, 1, true, 2000) == 1)\n        i2c_read_timeout_us(I2C_BATT, BATT_METER_ADDR, soc, 2, false, 2000);\n}\n\nfloat battery_voltage(void) { return vbatt_filt; }\n\nint32_t battery_speed_limit(void)\n{\n    if (vbatt_filt >= VBATT_LOW_DERATE) return DRIVE_MAX_CMD;\n    if (vbatt_filt <= VBATT_LOW_CUTOFF) return DRIVE_MAX_CMD / 4;\n    float span = VBATT_LOW_DERATE - VBATT_LOW_CUTOFF;\n    float frac = (vbatt_filt - VBATT_LOW_CUTOFF) / span;   /* 0..1 */\n    int32_t lim = DRIVE_MAX_CMD / 4\n                + (int32_t)(frac * (DRIVE_MAX_CMD - DRIVE_MAX_CMD / 4));\n    return lim;\n}\n",
+    "vault_file_id": null,
+    "size": 1473,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  },
+  {
+    "hash": "46ec71369482ebc832bde66c27b2e8f6203a9656fe66990be927d883834e86b5",
+    "content": "cmake_minimum_required(VERSION 3.13)\n\ninclude(pico_sdk_import.cmake)\n\nproject(puc_drive_interface C CXX ASM)\nset(CMAKE_C_STANDARD 11)\n\npico_sdk_init()\n\nadd_executable(puc_drive_interface\n    src/main.c\n    src/joystick.c\n    src/estop.c\n    src/sabertooth.c\n    src/battery.c\n)\n\ntarget_include_directories(puc_drive_interface PRIVATE include)\n\n# UART0 -> Sabertooth packet serial, I2C0 -> battery meter\ntarget_link_libraries(puc_drive_interface\n    pico_stdlib\n    hardware_adc\n    hardware_uart\n    hardware_i2c\n    hardware_watchdog\n)\n\n# USB CDC for service console, UART reserved for the motor controller\npico_enable_stdio_usb(puc_drive_interface 1)\npico_enable_stdio_uart(puc_drive_interface 0)\n\npico_add_extra_outputs(puc_drive_interface)\n",
+    "vault_file_id": null,
+    "size": 744,
+    "is_binary": false,
+    "created_at": "2026-09-02 10:36:09.84629-07"
+  }
+]
