@@ -555,6 +555,21 @@
     }
   },
   {
+    "id": "68f4a91e-99b3-4c1b-b9d8-3c6f09fc7082",
+    "instance_id": "59639793-9370-44d5-9fa8-950e29c2ad42",
+    "from_state": "InReview",
+    "to_state": "Approved",
+    "action": "Approve",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-08 06:31:38.09574-07",
+    "comments": "Wall kit ECO",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
     "id": "21da76bb-14bb-4c69-8fdb-cf9f3c12f374",
     "instance_id": "eb5cf4a8-3897-45ce-bd6a-68974b123781",
     "from_state": "Draft",
@@ -1365,6 +1380,20 @@
     }
   },
   {
+    "id": "b7de5932-168e-4591-88e0-d987ff2b3e8f",
+    "instance_id": "59639793-9370-44d5-9fa8-950e29c2ad42",
+    "from_state": null,
+    "to_state": "Draft",
+    "action": "started",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-08 06:31:14.542721-07",
+    "comments": null,
+    "data": {
+      "isFlexible": false,
+      "definitionName": "Change Order - Standard"
+    }
+  },
+  {
     "id": "b99e4381-51dc-4750-9ecc-c13597b7d131",
     "instance_id": "e162d1ce-b4b7-484f-870f-5661c9d4d169",
     "from_state": null,
@@ -1679,6 +1708,21 @@
     "actor_id": "00000000-0000-4000-8000-000000000000",
     "timestamp": "2026-09-02 10:59:54.900724-07",
     "comments": "tracking modes",
+    "data": {
+      "guardResults": [],
+      "isInstanceLevel": false,
+      "beforeActionResults": []
+    }
+  },
+  {
+    "id": "72fdfe30-1c8a-4a68-9783-075b583c069d",
+    "instance_id": "59639793-9370-44d5-9fa8-950e29c2ad42",
+    "from_state": "Draft",
+    "to_state": "InReview",
+    "action": "Submit for Review",
+    "actor_id": "00000000-0000-4000-8000-000000000000",
+    "timestamp": "2026-09-08 06:31:37.422719-07",
+    "comments": "Wall kit ECO",
     "data": {
       "guardResults": [],
       "isInstanceLevel": false,

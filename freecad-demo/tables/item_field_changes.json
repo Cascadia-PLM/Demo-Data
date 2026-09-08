@@ -1293,6 +1293,34 @@
     "field_category": "attribute"
   },
   {
+    "id": "11016fc5-80cb-4a69-9931-a97dff1a6edc",
+    "item_version_id": "07df0215-59b3-44d5-bbd0-6fe032266914",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "b4ebc135-848e-4750-af25-eb600561252e",
+      "fileName": "PUC-1830.step",
+      "fileSize": 14434,
+      "mimeType": "application/step"
+    },
+    "field_category": "attribute"
+  },
+  {
+    "id": "114d21ba-72df-4e37-868e-b9cf9a5c4e15",
+    "item_version_id": "52a80738-decf-4c79-a614-ba94b782aff7",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "d18d5ae1-487b-47d7-b6ba-46c06f2a5a1d",
+      "fileName": "PUC-1810.FCStd",
+      "fileSize": 5328,
+      "mimeType": "application/octet-stream"
+    },
+    "field_category": "attribute"
+  },
+  {
     "id": "11a13f6d-34b7-416c-9005-fb66ab9559ea",
     "item_version_id": "b979baf1-1e22-42c3-a4e5-dec538caf9a7",
     "field_name": "file_attached",
@@ -1373,6 +1401,20 @@
       "fileName": "USV-1110.png",
       "fileSize": 4438,
       "mimeType": "image/png"
+    },
+    "field_category": "attribute"
+  },
+  {
+    "id": "132673d9-c274-4c95-af88-2c1210a5ae6b",
+    "item_version_id": "0006efd8-1618-427f-9ce0-e80237825e08",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "a296c4e9-b5b1-439d-8142-2e12aa625420",
+      "fileName": "PUC-1800.FCStd",
+      "fileSize": 5244,
+      "mimeType": "application/octet-stream"
     },
     "field_category": "attribute"
   },
@@ -2525,6 +2567,20 @@
     "field_category": "attribute"
   },
   {
+    "id": "4d738004-946a-4096-8f5b-fb9a98a74f62",
+    "item_version_id": "ed3c6172-66b0-4343-84e8-0d9020036269",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "2fcc2701-9d50-42a1-8a16-72012aec931b",
+      "fileName": "PUC-1810.png",
+      "fileSize": 4624,
+      "mimeType": "image/png"
+    },
+    "field_category": "attribute"
+  },
+  {
     "id": "4d8eac90-50fc-44e1-baeb-811cb0723953",
     "item_version_id": "1cf0f8e4-7ddc-44d9-897b-eda74ecd6e92",
     "field_name": "file_attached",
@@ -3239,6 +3295,20 @@
     "field_category": "attribute"
   },
   {
+    "id": "67fb3f45-3f23-4743-b165-3d5c1be00ab6",
+    "item_version_id": "b2f2a2b2-dd8a-4c43-bf35-f0b36269886f",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "f969695b-88d7-4784-bee5-7ce8eaf9d882",
+      "fileName": "PUC-1810.step",
+      "fileSize": 17415,
+      "mimeType": "application/step"
+    },
+    "field_category": "attribute"
+  },
+  {
     "id": "695d26c0-f298-4ee3-95a1-0baf2ba7c258",
     "item_version_id": "0399a85e-f1bb-4edf-95cf-9b3bf2250e28",
     "field_name": "file_attached",
@@ -3827,6 +3897,20 @@
     "field_category": "attribute"
   },
   {
+    "id": "84ea7271-e363-40b9-8f3a-e2eef06deb41",
+    "item_version_id": "7315a12e-fff6-4295-b9f9-b131870754e4",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "df2a23ed-251f-453c-955a-bf7b36445747",
+      "fileName": "PUC-1820.step",
+      "fileSize": 17411,
+      "mimeType": "application/step"
+    },
+    "field_category": "attribute"
+  },
+  {
     "id": "86058c05-eac0-42d3-be44-d7802b0fd403",
     "item_version_id": "4d151c26-82e5-4927-9987-333add4fb02b",
     "field_name": "file_attached",
@@ -3892,6 +3976,20 @@
       "fileId": "48aa013c-fefe-4b3e-aa67-a78a35689f03",
       "fileName": "PUC-1500.png",
       "fileSize": 22749,
+      "mimeType": "image/png"
+    },
+    "field_category": "attribute"
+  },
+  {
+    "id": "887ee439-9470-4f8a-9cf9-7507c122ef95",
+    "item_version_id": "99fc2fd5-6b6a-4c76-9e3c-fdb9bf149437",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "c63a736b-68dd-4f51-a726-65fca76e6496",
+      "fileName": "PUC-1800.png",
+      "fileSize": 7516,
       "mimeType": "image/png"
     },
     "field_category": "attribute"
@@ -4047,6 +4145,20 @@
       "fileName": "USV-1700.step",
       "fileSize": 71899,
       "mimeType": "application/step"
+    },
+    "field_category": "attribute"
+  },
+  {
+    "id": "8e3c2122-a746-4fb8-8f8f-b3459e08a60d",
+    "item_version_id": "31ae13cf-1264-4df2-b5b7-c2e728058988",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "0bdc7655-d47c-4b74-a82c-7bcb57d78672",
+      "fileName": "PUC-1820.FCStd",
+      "fileSize": 5348,
+      "mimeType": "application/octet-stream"
     },
     "field_category": "attribute"
   },
@@ -4368,6 +4480,20 @@
       "fileId": "b47ba449-e4a5-466c-97e0-e7298facf0d2",
       "fileName": "USV-1612.step",
       "fileSize": 27240,
+      "mimeType": "application/step"
+    },
+    "field_category": "attribute"
+  },
+  {
+    "id": "99ca3027-1a7f-4c04-96ea-365aef2e9b2a",
+    "item_version_id": "75d74227-f5a1-4679-b839-8907c13519bf",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "6d3c7f6e-68e6-4584-991d-d7564be99018",
+      "fileName": "PUC-1800.step",
+      "fileSize": 54522,
       "mimeType": "application/step"
     },
     "field_category": "attribute"
@@ -4887,6 +5013,20 @@
       "fileName": "PUC-1009.png",
       "fileSize": 5100,
       "mimeType": "image/png"
+    },
+    "field_category": "attribute"
+  },
+  {
+    "id": "b5301d27-7ff9-401a-a006-7938b0296fba",
+    "item_version_id": "6c6692d3-a1bc-4a53-a7c8-307209386586",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "0060bcd3-9615-4db6-a948-069e96472b7b",
+      "fileName": "PUC-1830.FCStd",
+      "fileSize": 4648,
+      "mimeType": "application/octet-stream"
     },
     "field_category": "attribute"
   },
@@ -5479,6 +5619,20 @@
     "field_category": "attribute"
   },
   {
+    "id": "d5a2f559-9b27-4b00-9e4a-fa5bdc318015",
+    "item_version_id": "97eebc29-c493-4fc1-8ed0-de2e16277098",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "d4d8a2b6-677a-4b81-bd5e-360ce6bba98c",
+      "fileName": "PUC-1820.png",
+      "fileSize": 4803,
+      "mimeType": "image/png"
+    },
+    "field_category": "attribute"
+  },
+  {
     "id": "d638fc42-4b44-4a5a-aebe-833ab394ae26",
     "item_version_id": "a2422bc5-3253-4960-ba56-e38f94357122",
     "field_name": "file_attached",
@@ -5894,6 +6048,20 @@
       "fileId": "007d31f8-340b-4e07-aac4-7dcc39c99fa7",
       "fileName": "PUC-1600.png",
       "fileSize": 8504,
+      "mimeType": "image/png"
+    },
+    "field_category": "attribute"
+  },
+  {
+    "id": "e70f65ea-2eaf-439c-9a80-70adf681a8ae",
+    "item_version_id": "0e17e687-c437-4e9a-943e-aeab0148d29e",
+    "field_name": "file_attached",
+    "field_path": "files",
+    "old_value": null,
+    "new_value": {
+      "fileId": "05742902-1a52-4945-853b-bec3bf401ad4",
+      "fileName": "PUC-1830.png",
+      "fileSize": 4785,
       "mimeType": "image/png"
     },
     "field_category": "attribute"
@@ -6372,6 +6540,34 @@
       "fileSize": 12684,
       "mimeType": "application/octet-stream"
     },
+    "field_category": "attribute"
+  },
+  {
+    "id": "34ea64f9-6a30-4bd3-9a29-714da66bac8f",
+    "item_version_id": "ed5ed3fd-9d6c-45e4-8014-b83106f4dd97",
+    "field_name": "file_removed",
+    "field_path": "files",
+    "old_value": {
+      "fileId": "2cdfc160-28bc-4485-a1cc-1d69dd3fb955",
+      "fileName": "PUC-0000.step.glb",
+      "fileSize": 23495864,
+      "mimeType": "model/gltf-binary"
+    },
+    "new_value": null,
+    "field_category": "attribute"
+  },
+  {
+    "id": "b2ba8634-f9ed-4af7-b212-d4961367e197",
+    "item_version_id": "bdf6f00e-ff57-4bf6-a6ad-d1e34f24479a",
+    "field_name": "file_removed",
+    "field_path": "files",
+    "old_value": {
+      "fileId": "a2e2cfa7-d4f9-482e-bbaf-e5e1a566a677",
+      "fileName": "PUC-1200.step.glb",
+      "fileSize": 616536,
+      "mimeType": "model/gltf-binary"
+    },
+    "new_value": null,
     "field_category": "attribute"
   },
   {
@@ -17178,6 +17374,20 @@
     "field_category": "relationship"
   },
   {
+    "id": "4531221c-af62-4e36-8a08-0a1a909ab52c",
+    "item_version_id": "96124d59-adac-4790-b96e-2cc9500cde43",
+    "field_name": "bom_added",
+    "field_path": "relationships.BOM",
+    "old_value": null,
+    "new_value": {
+      "quantity": "4",
+      "targetId": "f0b59717-f8a5-490e-8bc1-0d604bae78cd",
+      "findNumber": 30,
+      "targetItemNumber": "PUC-1830"
+    },
+    "field_category": "relationship"
+  },
+  {
     "id": "4547059b-77a4-4dea-a92f-6f29a6636331",
     "item_version_id": "7225a387-3cf1-4502-a62e-e353e89d615d",
     "field_name": "bom_added",
@@ -17230,6 +17440,20 @@
       "targetId": "e63d02d4-9241-41a1-a026-2bfcfd21cdba",
       "findNumber": 130,
       "targetItemNumber": "USV-1620"
+    },
+    "field_category": "relationship"
+  },
+  {
+    "id": "48b0ff58-7339-4900-b9fc-9c1472f8e289",
+    "item_version_id": "96124d59-adac-4790-b96e-2cc9500cde43",
+    "field_name": "bom_added",
+    "field_path": "relationships.BOM",
+    "old_value": null,
+    "new_value": {
+      "quantity": "8",
+      "targetId": "34685d0b-30d7-4f04-b081-a2d10e0be316",
+      "findNumber": 50,
+      "targetItemNumber": "PUC-9018"
     },
     "field_category": "relationship"
   },
@@ -17724,6 +17948,20 @@
     "field_category": "relationship"
   },
   {
+    "id": "7a696bca-7053-4b37-93a4-c77370f10200",
+    "item_version_id": "96124d59-adac-4790-b96e-2cc9500cde43",
+    "field_name": "bom_added",
+    "field_path": "relationships.BOM",
+    "old_value": null,
+    "new_value": {
+      "quantity": "2",
+      "targetId": "ac7ff39c-b309-4f9e-8d5a-d0d97fc79cdd",
+      "findNumber": 20,
+      "targetItemNumber": "PUC-1820"
+    },
+    "field_category": "relationship"
+  },
+  {
     "id": "7bafe786-146e-4391-a160-51101b694749",
     "item_version_id": "5da3b5b6-6526-43e7-88c7-4c2162eb1ede",
     "field_name": "bom_added",
@@ -17919,6 +18157,20 @@
     "field_category": "relationship"
   },
   {
+    "id": "90a8b7eb-c222-4e3b-b652-f7a437037ebd",
+    "item_version_id": "67b14ce0-d455-4d87-9009-72fa15575de4",
+    "field_name": "bom_added",
+    "field_path": "relationships.BOM",
+    "old_value": null,
+    "new_value": {
+      "quantity": "1",
+      "targetId": "7942b700-8388-4efe-aea3-cfe128ad9ea5",
+      "findNumber": 120,
+      "targetItemNumber": "PUC-1800"
+    },
+    "field_category": "relationship"
+  },
+  {
     "id": "9106fe2b-93ee-48f6-b718-f96dfc0a90bd",
     "item_version_id": "7225a387-3cf1-4502-a62e-e353e89d615d",
     "field_name": "bom_added",
@@ -18083,6 +18335,20 @@
       "targetId": "6f3bbd32-0646-4f3c-883e-54a7d7fb820e",
       "findNumber": 30,
       "targetItemNumber": "USV-1612"
+    },
+    "field_category": "relationship"
+  },
+  {
+    "id": "9bbb74a7-549d-4b80-b692-adf9edb01641",
+    "item_version_id": "96124d59-adac-4790-b96e-2cc9500cde43",
+    "field_name": "bom_added",
+    "field_path": "relationships.BOM",
+    "old_value": null,
+    "new_value": {
+      "quantity": "2",
+      "targetId": "88707b89-f2bc-4e57-89ff-a7888bd5f3b9",
+      "findNumber": 10,
+      "targetItemNumber": "PUC-1810"
     },
     "field_category": "relationship"
   },
@@ -18646,6 +18912,20 @@
     "field_category": "relationship"
   },
   {
+    "id": "d4391b60-ac82-4a9b-a26a-a849480edd1f",
+    "item_version_id": "96124d59-adac-4790-b96e-2cc9500cde43",
+    "field_name": "bom_added",
+    "field_path": "relationships.BOM",
+    "old_value": null,
+    "new_value": {
+      "quantity": "8",
+      "targetId": "0a062745-c404-406f-b4d0-c61305d2644d",
+      "findNumber": 60,
+      "targetItemNumber": "PUC-9017"
+    },
+    "field_category": "relationship"
+  },
+  {
     "id": "d43e2c7a-aab4-4808-a7fb-f982179a43f2",
     "item_version_id": "65320d0c-255f-497e-9e58-0c0b0e7cfc74",
     "field_name": "bom_added",
@@ -19048,6 +19328,20 @@
       "targetId": "6d7b7c58-0dca-481d-9ba8-60c6309fc81d",
       "findNumber": 190,
       "targetItemNumber": "PUC-9619"
+    },
+    "field_category": "relationship"
+  },
+  {
+    "id": "f61e0d50-6fd8-4432-97eb-3a0c1e819841",
+    "item_version_id": "96124d59-adac-4790-b96e-2cc9500cde43",
+    "field_name": "bom_added",
+    "field_path": "relationships.BOM",
+    "old_value": null,
+    "new_value": {
+      "quantity": "8",
+      "targetId": "5b5f54e2-69ff-4784-9950-a6e0256e4488",
+      "findNumber": 40,
+      "targetItemNumber": "PUC-9001"
     },
     "field_category": "relationship"
   },
@@ -23921,6 +24215,15 @@
     "field_category": "type"
   },
   {
+    "id": "880767be-a9da-4c27-af7c-19a635f6627e",
+    "item_version_id": "87da9068-30de-48a9-9386-0af6383770a6",
+    "field_name": "description",
+    "field_path": null,
+    "old_value": "Cart bed: raised-diamond checker plate 1220 x 760 x 3 mm (1/8 in) with 12x Ø9 mounting holes for M8 button-head screws into frame rivet nuts.",
+    "new_value": "Cart bed: raised-diamond checker plate 1220 x 760 x 3 mm (1/8 in) with 12x Ø9 mounting holes for M8 button-head screws into frame rivet nuts. 10x stake pockets welded to the deck along the four wall lines (3 per side, 2 per end), colinear within each line, so the PUC-1800 wall panels drop straight in.",
+    "field_category": "type"
+  },
+  {
     "id": "8f0955f1-ee86-42ac-8769-a61f52276c8c",
     "item_version_id": "a375116b-1b11-413d-bab5-bd4e85ce1489",
     "field_name": "description",
@@ -24449,6 +24752,15 @@
     "field_path": null,
     "old_value": null,
     "new_value": "Routing template for PUC cart production.",
+    "field_category": "type"
+  },
+  {
+    "id": "fb991ba6-6a3b-4db0-9b57-c5a4dc593f21",
+    "item_version_id": "6f0a2db0-06c8-4601-a90e-17be563f91d0",
+    "field_name": "description",
+    "field_path": null,
+    "old_value": "Walk-behind four-wheel-drive skid-steer utility cart: HSS tube chassis, checker-plate bed, four 250 W ElectroCraft gearmotors on 14 in flat-free wheels, 24 V 50 Ah LiFePO4 power, Sabertooth 2x60 controller, joystick control arm with E-stop.",
+    "new_value": "Walk-behind four-wheel-drive skid-steer utility cart: HSS tube chassis, checker-plate bed, four 250 W ElectroCraft gearmotors on 14 in flat-free wheels, 24 V 50 Ah LiFePO4 power, Sabertooth 2x60 controller, joystick control arm with E-stop. Deck carries stake pockets for the drop-in wall kit PUC-1800, which fits and removes without tools and leaves the flat-deck configuration available for long stock.",
     "field_category": "type"
   },
   {
@@ -29718,6 +30030,15 @@
     "field_category": "type"
   },
   {
+    "id": "c549d684-d8b6-40d1-b3be-9d7e78093388",
+    "item_version_id": "87da9068-30de-48a9-9386-0af6383770a6",
+    "field_name": "weight",
+    "field_path": null,
+    "old_value": "24.747",
+    "new_value": "27.196",
+    "field_category": "type"
+  },
+  {
     "id": "c66cfc33-8f8d-4072-a180-759a5b83c5d7",
     "item_version_id": "594bfd42-d0b1-4ed3-a88b-e4be17c66726",
     "field_name": "weight",
@@ -29733,6 +30054,15 @@
     "field_path": null,
     "old_value": null,
     "new_value": "0.0010",
+    "field_category": "type"
+  },
+  {
+    "id": "cbe06b42-062c-4f6d-915c-4b15ef5e7257",
+    "item_version_id": "6f0a2db0-06c8-4601-a90e-17be563f91d0",
+    "field_name": "weight",
+    "field_path": null,
+    "old_value": "133.136",
+    "new_value": "155.798",
     "field_category": "type"
   },
   {

@@ -208,6 +208,22 @@
     "releasing_at": null
   },
   {
+    "id": "59639793-9370-44d5-9fa8-950e29c2ad42",
+    "workflow_definition_id": "00000000-0000-4000-8000-000000000102",
+    "item_id": "d195d1f9-622b-45e1-9a3a-7ebb79308f7c",
+    "current_state": "Approved",
+    "started_at": "2026-09-08 06:31:14.542721-07",
+    "completed_at": "2026-09-08 06:31:38.095-07",
+    "context": {
+      "actorId": "00000000-0000-4000-8000-000000000000"
+    },
+    "instance_states": null,
+    "instance_transitions": null,
+    "scope_locked": true,
+    "scope_locked_at": "2026-09-08 06:31:37.422-07",
+    "releasing_at": null
+  },
+  {
     "id": "271bf691-3638-46ac-a625-104c42bd9a35",
     "workflow_definition_id": "00000000-0000-4000-8000-000000000105",
     "item_id": "36744087-aeff-48a2-81fd-1408c5654f88",

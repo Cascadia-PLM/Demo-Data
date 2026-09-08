@@ -108,6 +108,30 @@
     "lead_time_days": null
   },
   {
+    "item_id": "3394f07a-b548-4664-95da-937e87d44c7a",
+    "description": "3 mm formed steel angle bracket, 60 x 60 x 100, tying the side and end panels together at one corner of the drop-in wall kit. 2x Ø9 holes for M8 bolts with wing nuts (tool-free).",
+    "part_type": "Manufacture",
+    "tracking_mode": "none",
+    "material": "Steel sheet 3 mm S235JR, zinc plated",
+    "weight": "0.273",
+    "weight_unit": "kg",
+    "cost": null,
+    "cost_currency": "USD",
+    "lead_time_days": null
+  },
+  {
+    "item_id": "f0b59717-f8a5-490e-8bc1-0d604bae78cd",
+    "description": "3 mm formed steel angle bracket, 60 x 60 x 100, tying the side and end panels together at one corner of the drop-in wall kit. 2x Ø9 holes for M8 bolts with wing nuts (tool-free).",
+    "part_type": "Manufacture",
+    "tracking_mode": "none",
+    "material": "Steel sheet 3 mm S235JR, zinc plated",
+    "weight": "0.273",
+    "weight_unit": "kg",
+    "cost": null,
+    "cost_currency": "USD",
+    "lead_time_days": null
+  },
+  {
     "item_id": "273e623b-3218-4486-ad4c-a51aa1d478f4",
     "description": "3 mm formed steel cradle: 290 x 316 floor, 245 mm side walls welded to the main rail inner faces, 60 mm end lips, 4x Ø9 holes for J-bolt hold-downs, drain holes.",
     "part_type": "Manufacture",
@@ -1752,6 +1776,18 @@
     "lead_time_days": null
   },
   {
+    "item_id": "3c204f99-e0f3-48f6-9019-041889ff2bb3",
+    "description": "Cart bed: raised-diamond checker plate 1220 x 760 x 3 mm (1/8 in) with 12x Ø9 mounting holes for M8 button-head screws into frame rivet nuts. 10x stake pockets welded to the deck along the four wall lines (3 per side, 2 per end), colinear within each line, so the PUC-1800 wall panels drop straight in.",
+    "part_type": "Manufacture",
+    "tracking_mode": "none",
+    "material": "Steel checker plate 3 mm A786, hot-dip galvanised",
+    "weight": "27.196",
+    "weight_unit": "kg",
+    "cost": null,
+    "cost_currency": "USD",
+    "lead_time_days": null
+  },
+  {
     "item_id": "0a0c757e-9766-4791-b316-9a0554b5bd04",
     "description": "Cart bed: raised-diamond checker plate 1220 x 760 x 3 mm (1/8 in) with 12x Ø9 mounting holes for M8 button-head screws into frame rivet nuts.",
     "part_type": "Manufacture",
@@ -1986,6 +2022,54 @@
     "tracking_mode": "serial",
     "material": null,
     "weight": null,
+    "weight_unit": "kg",
+    "cost": null,
+    "cost_currency": "USD",
+    "lead_time_days": null
+  },
+  {
+    "item_id": "3517a7d1-20c9-4940-90e2-37c92ef39b48",
+    "description": "Drop-in end wall panel: 2 mm sheet 712 x 300 with a 25 mm top flange bent inboard, dropped through two deck stake pockets and butting inside the side panels. 2x Ø9 holes for the corner brackets. Interchangeable front and rear.",
+    "part_type": "Manufacture",
+    "tracking_mode": "none",
+    "material": "Steel sheet 2 mm S235JR, powder coat",
+    "weight": "3.594",
+    "weight_unit": "kg",
+    "cost": null,
+    "cost_currency": "USD",
+    "lead_time_days": null
+  },
+  {
+    "item_id": "ac7ff39c-b309-4f9e-8d5a-d0d97fc79cdd",
+    "description": "Drop-in end wall panel: 2 mm sheet 712 x 300 with a 25 mm top flange bent inboard, dropped through two deck stake pockets and butting inside the side panels. 2x Ø9 holes for the corner brackets. Interchangeable front and rear.",
+    "part_type": "Manufacture",
+    "tracking_mode": "none",
+    "material": "Steel sheet 2 mm S235JR, powder coat",
+    "weight": "3.594",
+    "weight_unit": "kg",
+    "cost": null,
+    "cost_currency": "USD",
+    "lead_time_days": null
+  },
+  {
+    "item_id": "3e8b3720-e14f-4eb6-8898-830b914522b1",
+    "description": "Drop-in side wall panel: 2 mm sheet 1180 x 300 with a 25 mm top flange bent inboard, dropped through three deck stake pockets. 2x Ø9 holes for the corner brackets. Interchangeable left and right.",
+    "part_type": "Manufacture",
+    "tracking_mode": "none",
+    "material": "Steel sheet 2 mm S235JR, powder coat",
+    "weight": "5.967",
+    "weight_unit": "kg",
+    "cost": null,
+    "cost_currency": "USD",
+    "lead_time_days": null
+  },
+  {
+    "item_id": "88707b89-f2bc-4e57-89ff-a7888bd5f3b9",
+    "description": "Drop-in side wall panel: 2 mm sheet 1180 x 300 with a 25 mm top flange bent inboard, dropped through three deck stake pockets. 2x Ø9 holes for the corner brackets. Interchangeable left and right.",
+    "part_type": "Manufacture",
+    "tracking_mode": "none",
+    "material": "Steel sheet 2 mm S235JR, powder coat",
+    "weight": "5.967",
     "weight_unit": "kg",
     "cost": null,
     "cost_currency": "USD",
@@ -3312,6 +3396,30 @@
     "lead_time_days": null
   },
   {
+    "item_id": "7942b700-8388-4efe-aea3-cfe128ad9ea5",
+    "description": "Tool-free 300 mm wall kit for the cart deck: two side panels and two end panels dropped through the deck stake pockets, tied at the corners by four angle brackets with M8 wing nuts. Fits and removes without tools; raises usable load volume from a flat deck to 0.28 m3.",
+    "part_type": "Manufacture",
+    "tracking_mode": "none",
+    "material": "assembly",
+    "weight": "20.213",
+    "weight_unit": "kg",
+    "cost": null,
+    "cost_currency": "USD",
+    "lead_time_days": null
+  },
+  {
+    "item_id": "e90387b4-0614-47ef-b72f-a3fa6266126f",
+    "description": "Tool-free 300 mm wall kit for the cart deck: two side panels and two end panels dropped through the deck stake pockets, tied at the corners by four angle brackets with M8 wing nuts. Fits and removes without tools; raises usable load volume from a flat deck to 0.28 m3.",
+    "part_type": "Manufacture",
+    "tracking_mode": "none",
+    "material": "assembly",
+    "weight": "20.213",
+    "weight_unit": "kg",
+    "cost": null,
+    "cost_currency": "USD",
+    "lead_time_days": null
+  },
+  {
     "item_id": "0a062745-c404-406f-b4d0-c61305d2644d",
     "description": "Tool-free battery hold-down nut.",
     "part_type": "Purchase",
@@ -3438,6 +3546,18 @@
     "tracking_mode": "serial",
     "material": null,
     "weight": null,
+    "weight_unit": "kg",
+    "cost": null,
+    "cost_currency": "USD",
+    "lead_time_days": null
+  },
+  {
+    "item_id": "a64ea593-51fa-4f45-9a42-c1a27164658c",
+    "description": "Walk-behind four-wheel-drive skid-steer utility cart: HSS tube chassis, checker-plate bed, four 250 W ElectroCraft gearmotors on 14 in flat-free wheels, 24 V 50 Ah LiFePO4 power, Sabertooth 2x60 controller, joystick control arm with E-stop. Deck carries stake pockets for the drop-in wall kit PUC-1800, which fits and removes without tools and leaves the flat-deck configuration available for long stock.",
+    "part_type": "Manufacture",
+    "tracking_mode": "serial",
+    "material": "assembly",
+    "weight": "155.798",
     "weight_unit": "kg",
     "cost": null,
     "cost_currency": "USD",

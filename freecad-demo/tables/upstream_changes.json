@@ -319,5 +319,74 @@
     "review_notes": null,
     "response_eco_id": null,
     "created_at": "2026-09-02 11:05:32.086732-07"
+  },
+  {
+    "id": "041a7adf-4281-4e52-a143-90d124d1c4e3",
+    "target_design_id": "c63690f0-f168-4bfb-8cfa-c25c6bdab27c",
+    "source_design_id": "53920542-d4ab-4a92-9d45-643eae596345",
+    "source_commit_id": "c06367b1-6d7e-428b-a18f-3a97eb3bc8af",
+    "source_eco_id": "d195d1f9-622b-45e1-9a3a-7ebb79308f7c",
+    "changed_items": [
+      {
+        "name": "Bed Plate, Checker 1220x760x3",
+        "itemType": "Part",
+        "masterId": "5e878498-393a-4151-a677-c9171f81c110",
+        "changeType": "modified",
+        "itemNumber": "PUC-1200",
+        "newRevision": "C",
+        "previousRevision": "B"
+      },
+      {
+        "name": "Side Wall Panel, Drop-In 1180x300",
+        "itemType": "Part",
+        "masterId": "7a1de3e7-4189-46f1-a9ca-d3ed7377499f",
+        "changeType": "added",
+        "itemNumber": "PUC-1810",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Powered Utility Cart, 4WD Skid-Steer, 24 V",
+        "itemType": "Part",
+        "masterId": "08ceb1ef-fcc4-4a01-b3fa-e34d18a652a6",
+        "changeType": "modified",
+        "itemNumber": "PUC-0000",
+        "newRevision": "D",
+        "previousRevision": "C"
+      },
+      {
+        "name": "End Wall Panel, Drop-In 712x300",
+        "itemType": "Part",
+        "masterId": "fc52a0d6-a9a7-4a42-8c05-c66ed1ecb831",
+        "changeType": "added",
+        "itemNumber": "PUC-1820",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Corner Bracket, Wall Kit",
+        "itemType": "Part",
+        "masterId": "21d3ad11-0f5f-4d0b-92da-6473b2ca8ce6",
+        "changeType": "added",
+        "itemNumber": "PUC-1830",
+        "newRevision": "A",
+        "previousRevision": ""
+      },
+      {
+        "name": "Drop-In Wall Kit, Cart Bed",
+        "itemType": "Part",
+        "masterId": "8b6a66d5-5253-400b-854a-94041957aea4",
+        "changeType": "added",
+        "itemNumber": "PUC-1800",
+        "newRevision": "A",
+        "previousRevision": ""
+      }
+    ],
+    "status": "pending",
+    "reviewed_by": null,
+    "reviewed_at": null,
+    "review_notes": null,
+    "response_eco_id": null,
+    "created_at": "2026-09-08 06:31:38.086579-07"
   }
 ]

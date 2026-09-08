@@ -232,5 +232,23 @@
     "risk_level": null,
     "is_baseline": false,
     "baseline_name": null
+  },
+  {
+    "item_id": "d195d1f9-622b-45e1-9a3a-7ebb79308f7c",
+    "change_type": "ECO",
+    "priority": "medium",
+    "description": "Weld ten stake pockets to the bed plate PUC-1200 along the four wall lines (3 per side, 2 per end, colinear within each line) and introduce the drop-in wall kit PUC-1800: two side panels PUC-1810, two end panels PUC-1820 and four corner brackets PUC-1830 with M8 wing nuts. Panels drop straight through the pockets and rest on the deck. Adds 22.7 kg to the cart and raises usable load volume from a flat deck to 0.28 m3. No change to the frame, drive, power or control systems.",
+    "reason_for_change": "Field reports: the flat deck sheds loose loads (gravel, offcuts, hand tools) on the ramp and over rough ground, and operators have been strapping plywood to the deck instead. Add a purpose-built 300 mm wall kit that fits and removes without tools, so the cart keeps its flat-deck use for long stock.",
+    "impact_description": null,
+    "implementation_date": null,
+    "submitted_at": "2026-09-08 06:31:37.428-07",
+    "approved_at": "2026-09-08 06:31:38.098-07",
+    "approved_by": "00000000-0000-4000-8000-000000000000",
+    "implemented_at": "2026-09-08 06:31:38.091-07",
+    "closed_at": "2026-09-08 06:31:38.094-07",
+    "impact_assessment_status": "pending",
+    "risk_level": null,
+    "is_baseline": false,
+    "baseline_name": null
   }
 ]
