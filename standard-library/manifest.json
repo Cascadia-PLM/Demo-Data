@@ -1,0 +1,49 @@
+{
+ "metadata": {
+  "name": "Cascadia Standard Parts Library demo components",
+  "generatedAt": "2026-09-08T10:27:50",
+  "source": "FreeCADDemo library/ (FreeCAD 1.1 headless + cad-converter)",
+  "design": "STD-LIB",
+  "note": "Parts seed unreleased into the Standard Parts Library; they belong to no product structure."
+ },
+ "parts": [
+  {
+   "key": "LIB-BATT-24V-75AH",
+   "name": "Battery, 24 V 75 Ah LiFePO4, Built-in BMS",
+   "description": "25.6 V nominal / 75 Ah (1920 Wh) lithium iron phosphate battery with integrated 100 A BMS and M8 terminals, 330 x 180 x 220 mm, ~19.5 kg. Library candidate for extended-range applications; not yet released to any design.",
+   "partType": "Purchase",
+   "material": "ABS case / LiFePO4 cells",
+   "manufacturer": "LiTime",
+   "manufacturerPartNumber": "LT-24V75AH",
+   "weightKg": 19.5,
+   "bboxMm": [
+    -165.0,
+    -90.5,
+    0.0,
+    165.0,
+    90.0,
+    240.0
+   ],
+   "cadFileBase": "LIB-BATT-24V-75AH"
+  },
+  {
+   "key": "LIB-BATT-24V-20AH",
+   "name": "Battery, 24 V 20 Ah LiFePO4, Built-in BMS",
+   "description": "25.6 V nominal / 20 Ah (512 Wh) lithium iron phosphate battery with integrated 30 A BMS and M8 terminals, 181 x 77 x 167 mm, ~5.0 kg. Library candidate for light or auxiliary loads; not yet released to any design.",
+   "partType": "Purchase",
+   "material": "ABS case / LiFePO4 cells",
+   "manufacturer": "LiTime",
+   "manufacturerPartNumber": "LT-24V20AH",
+   "weightKg": 5.0,
+   "bboxMm": [
+    -90.5,
+    -39.0,
+    0.0,
+    90.5,
+    38.5,
+    187.0
+   ],
+   "cadFileBase": "LIB-BATT-24V-20AH"
+  }
+ ]
+}
