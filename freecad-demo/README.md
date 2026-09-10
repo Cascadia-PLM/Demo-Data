@@ -42,6 +42,24 @@ bundle seeds to the same ids on every machine and every run. Re-baking a *fresh*
 pipeline run yields different ids, which is why `scripts/fetch-demo-data.ts` in
 the application repo pins a tag.
 
+## Assemblies can be taken apart in the viewer
+
+Every assembly GLB here carries one glTF node per leaf part — named by its
+instance path, placed by its own matrix — and the matching `nodes` manifest on
+the file's `cad_metadata` row. That is what lets the 3D viewer highlight a part
+under the cursor and open the part it belongs to; a viewer reading a GLB with no
+`nodes` key treats the model as one solid, which is what it is.
+
+127 of the 203 GLB rows are structured that way, describing 2,303 selectable
+parts between them — the cart's top-level model alone has 239. The other 76 are
+single parts, which have nothing to take apart and are written flat.
+
+Re-baking these is not a JSON rewrite: a flat GLB groups its triangles by
+colour, so an eighty-part assembly arrives as about six meshes with no part
+identity anywhere in the file. The structure has to come from the STEP, which is
+why the STEP blobs are shipped alongside — `python apply_to_dataset.py` in the
+application repo's re-bake tooling reconverts from them in about 100 seconds.
+
 ## STL files are deliberately absent
 
 The CAD converter emits an STL on the way from STEP to GLB, and the 3D viewer
