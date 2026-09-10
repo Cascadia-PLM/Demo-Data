@@ -11,3 +11,11 @@ freecad-demo/files/** binary
 # The table dumps are JSON and stay LF everywhere, so a re-bake compares clean.
 freecad-demo/**/*.json text eol=lf
 freecad-demo/README.md text eol=lf
+
+# The robot arm's manifest and its per-model node lists, for the same reason and
+# one more: this dataset ships as a Docker image built from a checkout, so a
+# maintainer building on Windows has to produce the same bytes as CI does on
+# Linux. Without this the node lists check out CRLF here and LF there, and
+# `robot-arm/manifest.json` had already drifted that way on disk.
+robot-arm/**/*.json text eol=lf
+robot-arm/README.md text eol=lf
