@@ -9,9 +9,10 @@
  *   tsx scripts/prepare-demo-cad.ts
  *
  * Env:
- *   CAD_IMAGE   override image ref (default: the published cascadia-cad-converter)
- *   FORCE       set to 1 to re-convert files that already have a GLB
- *   ONLY        substring filter on STEP basename (e.g., ONLY=SHOULDER)
+ *   CAD_IMAGE    override image ref (default: the published cascadia-cad-converter)
+ *   FORCE        set to 1 to re-convert files that already have a GLB
+ *   ONLY         substring filter on STEP basename (e.g., ONLY=SHOULDER)
+ *   SKIP_THUMBS  set to 1 to leave existing thumbnails alone (geometry-only re-bake)
  *
  * The converter used to be built from workers/cad-converter in the Cascadia-App
  * repo. That path does not exist here, so we pull the image the Cascadia-App CI
@@ -20,7 +21,7 @@
  */
 
 import { execFileSync, execSync, spawnSync } from 'node:child_process'
-import { existsSync, mkdirSync, readdirSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, readdirSync } from 'node:fs'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -30,6 +31,7 @@ const DEMO_DIR = join(REPO_ROOT, 'robot-arm')
 const STEP_DIR = join(DEMO_DIR, 'step')
 const GLB_DIR = join(DEMO_DIR, 'glb')
 const THUMB_DIR = join(DEMO_DIR, 'thumbnails')
+const NODE_DIR = join(DEMO_DIR, 'nodes')
 const SCRIPT_DIR = join(REPO_ROOT, 'scripts')
 const PYTHON_SCRIPT = join(SCRIPT_DIR, '_prepare-demo-cad.py')
 
@@ -76,6 +78,7 @@ console.log(`[prepare-demo-cad] image=${IMAGE}`)
 
 mkdirSync(GLB_DIR, { recursive: true })
 mkdirSync(THUMB_DIR, { recursive: true })
+mkdirSync(NODE_DIR, { recursive: true })
 
 // ----------------------------------------------------------------------------
 // Pull the converter image if missing
@@ -100,6 +103,7 @@ const args: Array<string> = [
   '-e', 'PYTHONUNBUFFERED=1',
   '-e', `FORCE=${process.env.FORCE ?? '0'}`,
   '-e', `ONLY=${process.env.ONLY ?? ''}`,
+  '-e', `SKIP_THUMBS=${process.env.SKIP_THUMBS ?? '0'}`,
   '--entrypoint', 'sh',
   IMAGE,
   '-c',
@@ -118,11 +122,25 @@ run('docker', args)
 
 const glbs = readdirSync(GLB_DIR).filter((f) => f.endsWith('.glb'))
 const thumbs = readdirSync(THUMB_DIR).filter((f) => f.endsWith('.png'))
+const nodeFiles = readdirSync(NODE_DIR).filter((f) => f.endsWith('.json'))
+
+// How many models the viewer will be able to take apart, and into how many
+// parts. A model with no nodes is a single part, which is not a failure.
+let structured = 0
+let parts = 0
+for (const f of nodeFiles) {
+  const { nodes } = JSON.parse(readFileSync(join(NODE_DIR, f), 'utf-8')) as {
+    nodes: Array<unknown>
+  }
+  if (nodes.length > 0) structured += 1
+  parts += nodes.length
+}
 
 console.log()
 console.log(`  STEP inputs:  ${steps.length}`)
 console.log(`  GLB outputs:  ${glbs.length}`)
 console.log(`  Thumbnails:   ${thumbs.length}`)
+console.log(`  Selectable:   ${structured} assemblies, ${parts} parts`)
 
 if (glbs.length === 0) {
   console.error('No GLBs produced. Check container logs above.')

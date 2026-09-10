@@ -1,0 +1,148 @@
+{
+ "nodes": [
+  {
+   "nodeKey": "217-3875-STEP-20140818",
+   "name": "217-3875-STEP-20140818",
+   "path": [
+    "217-3875-STEP-20140818"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "217-3875-STEP-20140818_1",
+   "name": "217-3875-STEP-20140818_1",
+   "path": [
+    "217-3875-STEP-20140818_1"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "TDJ-25-P-20001-SHOULDER-BASE",
+   "name": "TDJ-25-P-20001-SHOULDER-BASE",
+   "path": [
+    "TDJ-25-P-20001-SHOULDER-BASE"
+   ],
+   "polygonCount": 3384
+  },
+  {
+   "nodeKey": "217-3225-STEP",
+   "name": "217-3225-STEP",
+   "path": [
+    "217-3225-STEP"
+   ],
+   "polygonCount": 5916
+  },
+  {
+   "nodeKey": "SHOULDER-SHAFT",
+   "name": "SHOULDER-SHAFT",
+   "path": [
+    "SHOULDER-SHAFT"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "WCP-1017 Rev1",
+   "name": "WCP-1017 Rev1",
+   "path": [
+    "WCP-1017 Rev1"
+   ],
+   "polygonCount": 5490
+  },
+  {
+   "nodeKey": "TDJ-25-P-20003-STANCHION",
+   "name": "TDJ-25-P-20003-STANCHION",
+   "path": [
+    "TDJ-25-P-20003-STANCHION"
+   ],
+   "polygonCount": 208
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings",
+   "name": "97431A340_Side-Mount External Retaining Rings",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings_1",
+   "name": "97431A340_Side-Mount External Retaining Rings_1",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings_1"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "WCP-0941",
+   "name": "WCP-0941",
+   "path": [
+    "WCP-0941"
+   ],
+   "polygonCount": 74505
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_1",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_1",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_1"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_2",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_2",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_2"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_3",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_3",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_3"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_4",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_4",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_4"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-P-20002-PIVOT-SPACER",
+   "name": "TDJ-25-P-20002-PIVOT-SPACER",
+   "path": [
+    "TDJ-25-P-20002-PIVOT-SPACER"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-P-20002-PIVOT-SPACER_1",
+   "name": "TDJ-25-P-20002-PIVOT-SPACER_1",
+   "path": [
+    "TDJ-25-P-20002-PIVOT-SPACER_1"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY-0",
+   "name": "TDJ-25-A-20000-SHOULDER-ASSEMBLY-0",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY-0"
+   ],
+   "polygonCount": 316
+  }
+ ]
+}

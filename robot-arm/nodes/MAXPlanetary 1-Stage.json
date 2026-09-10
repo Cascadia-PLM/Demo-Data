@@ -1,0 +1,89 @@
+{
+ "nodes": [
+  {
+   "nodeKey": "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_0.500in Long",
+   "name": "#10 Socket Head Cap Screws_0.500in Long",
+   "path": [
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_1.000in Long",
+   "name": "#10 Socket Head Cap Screws_1.000in Long",
+   "path": [
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_1.000in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10-32 Button Head Cap Screws_0.500in Long",
+   "name": "#10-32 Button Head Cap Screws_0.500in Long",
+   "path": [
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10-32 Button Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 610
+  },
+  {
+   "nodeKey": "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_0.500in Long#2",
+   "name": "#10 Socket Head Cap Screws_0.500in Long",
+   "path": [
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_1.000in Long#2",
+   "name": "#10 Socket Head Cap Screws_1.000in Long",
+   "path": [
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_1.000in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-21-2106",
+   "name": "REV-21-2106",
+   "path": [
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-21-2106"
+   ],
+   "polygonCount": 3276
+  },
+  {
+   "nodeKey": "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-21-2104",
+   "name": "REV-21-2104",
+   "path": [
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-21-2104"
+   ],
+   "polygonCount": 25478
+  },
+  {
+   "nodeKey": "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-21-2108",
+   "name": "REV-21-2108",
+   "path": [
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-21-2108"
+   ],
+   "polygonCount": 1788
+  },
+  {
+   "nodeKey": "REV-21-2101",
+   "name": "REV-21-2101",
+   "path": [
+    "REV-21-2101"
+   ],
+   "polygonCount": 39100
+  }
+ ]
+}

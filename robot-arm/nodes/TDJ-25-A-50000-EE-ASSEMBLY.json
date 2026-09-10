@@ -1,0 +1,492 @@
+{
+ "nodes": [
+  {
+   "nodeKey": "Minion",
+   "name": "Minion",
+   "path": [
+    "Minion"
+   ],
+   "polygonCount": 33042
+  },
+  {
+   "nodeKey": "EE-SHAFT",
+   "name": "EE-SHAFT",
+   "path": [
+    "EE-SHAFT"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "TDJ-25-P-50002-EE-MOUNT",
+   "name": "TDJ-25-P-50002-EE-MOUNT",
+   "path": [
+    "TDJ-25-P-50002-EE-MOUNT"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "WCP-0899 Rev1",
+   "name": "WCP-0899 Rev1",
+   "path": [
+    "WCP-0899 Rev1"
+   ],
+   "polygonCount": 3096
+  },
+  {
+   "nodeKey": "TDJ-25-P-50004-ARM-A",
+   "name": "TDJ-25-P-50004-ARM-A",
+   "path": [
+    "TDJ-25-P-50004-ARM-A"
+   ],
+   "polygonCount": 448
+  },
+  {
+   "nodeKey": "TDJ-25-P-50004-ARM-A#2",
+   "name": "TDJ-25-P-50004-ARM-A",
+   "path": [
+    "TDJ-25-P-50004-ARM-A"
+   ],
+   "polygonCount": 448
+  },
+  {
+   "nodeKey": "TDJ-25-P-50006-ARM-C",
+   "name": "TDJ-25-P-50006-ARM-C",
+   "path": [
+    "TDJ-25-P-50006-ARM-C"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-P-50006-ARM-C_1",
+   "name": "TDJ-25-P-50006-ARM-C_1",
+   "path": [
+    "TDJ-25-P-50006-ARM-C_1"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-P-50005-ARM-B",
+   "name": "TDJ-25-P-50005-ARM-B",
+   "path": [
+    "TDJ-25-P-50005-ARM-B"
+   ],
+   "polygonCount": 332
+  },
+  {
+   "nodeKey": "TDJ-25-P-50005-ARM-B_1",
+   "name": "TDJ-25-P-50005-ARM-B_1",
+   "path": [
+    "TDJ-25-P-50005-ARM-B_1"
+   ],
+   "polygonCount": 332
+  },
+  {
+   "nodeKey": "TDJ-25-P-50003-EE-PLATE",
+   "name": "TDJ-25-P-50003-EE-PLATE",
+   "path": [
+    "TDJ-25-P-50003-EE-PLATE"
+   ],
+   "polygonCount": 1404
+  },
+  {
+   "nodeKey": "WCP-0683 Rev1",
+   "name": "WCP-0683 Rev1",
+   "path": [
+    "WCP-0683 Rev1"
+   ],
+   "polygonCount": 2244
+  },
+  {
+   "nodeKey": "WCP-0683 Rev1_1",
+   "name": "WCP-0683 Rev1_1",
+   "path": [
+    "WCP-0683 Rev1_1"
+   ],
+   "polygonCount": 2244
+  },
+  {
+   "nodeKey": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing",
+   "name": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing",
+   "path": [
+    "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing"
+   ],
+   "polygonCount": 2496
+  },
+  {
+   "nodeKey": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1",
+   "name": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1",
+   "path": [
+    "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1"
+   ],
+   "polygonCount": 2496
+  },
+  {
+   "nodeKey": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1#2",
+   "name": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1",
+   "path": [
+    "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1"
+   ],
+   "polygonCount": 2496
+  },
+  {
+   "nodeKey": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1#3",
+   "name": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1",
+   "path": [
+    "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1"
+   ],
+   "polygonCount": 2496
+  },
+  {
+   "nodeKey": "TDJ-25-P-50007-EE-TOP-PLATE",
+   "name": "TDJ-25-P-50007-EE-TOP-PLATE",
+   "path": [
+    "TDJ-25-P-50007-EE-TOP-PLATE"
+   ],
+   "polygonCount": 1216
+  },
+  {
+   "nodeKey": "EE_2",
+   "name": "EE_2",
+   "path": [
+    "EE_2"
+   ],
+   "polygonCount": 600
+  },
+  {
+   "nodeKey": "EE",
+   "name": "EE",
+   "path": [
+    "EE"
+   ],
+   "polygonCount": 600
+  },
+  {
+   "nodeKey": "EE_1",
+   "name": "EE_1",
+   "path": [
+    "EE_1"
+   ],
+   "polygonCount": 600
+  },
+  {
+   "nodeKey": "EE_2#2",
+   "name": "EE_2",
+   "path": [
+    "EE_2"
+   ],
+   "polygonCount": 600
+  },
+  {
+   "nodeKey": "217-7346 20200930_2",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "217-7346 20200930",
+   "name": "217-7346 20200930",
+   "path": [
+    "217-7346 20200930"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "217-7346 20200930_2#2",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "217-7346 20200930_1",
+   "name": "217-7346 20200930_1",
+   "path": [
+    "217-7346 20200930_1"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "217-7346 20200930_2#3",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "217-7346 20200930_2#4",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "217-7346 20200930_2#5",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "217-7346 20200930_2#6",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "TDJ-25-P-50008-MOTOR-SPACER",
+   "name": "TDJ-25-P-50008-MOTOR-SPACER",
+   "path": [
+    "TDJ-25-P-50008-MOTOR-SPACER"
+   ],
+   "polygonCount": 208
+  },
+  {
+   "nodeKey": "TDJ-25-P-50008-MOTOR-SPACER#2",
+   "name": "TDJ-25-P-50008-MOTOR-SPACER",
+   "path": [
+    "TDJ-25-P-50008-MOTOR-SPACER"
+   ],
+   "polygonCount": 208
+  },
+  {
+   "nodeKey": "TDJ-25-P-50008-MOTOR-SPACER#3",
+   "name": "TDJ-25-P-50008-MOTOR-SPACER",
+   "path": [
+    "TDJ-25-P-50008-MOTOR-SPACER"
+   ],
+   "polygonCount": 208
+  },
+  {
+   "nodeKey": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "98398A134_Bowed Side-Mount External Retaining Rings",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings",
+   "path": [
+    "98398A134_Bowed Side-Mount External Retaining Rings"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "98398A134_Bowed Side-Mount External Retaining Rings_2#2",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "98398A134_Bowed Side-Mount External Retaining Rings_2#3",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "98398A134_Bowed Side-Mount External Retaining Rings_2#4",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "98398A134_Bowed Side-Mount External Retaining Rings_1",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_1",
+   "path": [
+    "98398A134_Bowed Side-Mount External Retaining Rings_1"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "98398A134_Bowed Side-Mount External Retaining Rings_2#5",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "98398A134_Bowed Side-Mount External Retaining Rings_2#6",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "TDJ-25-P-50009-SPACER",
+   "name": "TDJ-25-P-50009-SPACER",
+   "path": [
+    "TDJ-25-P-50009-SPACER"
+   ],
+   "polygonCount": 216
+  },
+  {
+   "nodeKey": "TDJ-25-P-50009-SPACER#2",
+   "name": "TDJ-25-P-50009-SPACER",
+   "path": [
+    "TDJ-25-P-50009-SPACER"
+   ],
+   "polygonCount": 216
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain#2",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain#3",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain#4",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-P-50010-GRIPPER",
+   "name": "TDJ-25-P-50010-GRIPPER",
+   "path": [
+    "TDJ-25-P-50010-GRIPPER"
+   ],
+   "polygonCount": 702
+  },
+  {
+   "nodeKey": "TDJ-25-P-50010-GRIPPER#2",
+   "name": "TDJ-25-P-50010-GRIPPER",
+   "path": [
+    "TDJ-25-P-50010-GRIPPER"
+   ],
+   "polygonCount": 702
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain#2",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain",
+   "name": "CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 424
+  },
+  {
+   "nodeKey": "CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain#2",
+   "name": "CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 424
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain#2",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain#3",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-P-50011-STANCHION",
+   "name": "TDJ-25-P-50011-STANCHION",
+   "path": [
+    "TDJ-25-P-50011-STANCHION"
+   ],
+   "polygonCount": 208
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain#2",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain",
+   "path": [
+    "HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings_4",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings_4#2",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  }
+ ]
+}

@@ -7,12 +7,14 @@ Invoked by scripts/prepare-demo-cad.ts. Requires Xvfb running on DISPLAY=:99
 for thumbnail rendering — the orchestrator handles that.
 
 Honors:
-  FORCE=1   re-convert files that already have a GLB
-  ONLY=str  only process basenames containing the substring
+  FORCE=1        re-convert files that already have a GLB
+  ONLY=str       only process basenames containing the substring
+  SKIP_THUMBS=1  leave existing thumbnails alone (geometry-only re-bake)
 """
 
 from __future__ import annotations
 
+import json
 import os
 import sys
 import time
@@ -27,9 +29,20 @@ TMP_STL_DIR = Path("/tmp/demo-stl")
 
 FORCE = os.environ.get("FORCE", "0") == "1"
 ONLY = os.environ.get("ONLY", "")
+SKIP_THUMBS = os.environ.get("SKIP_THUMBS", "0") == "1"
+
+# One JSON per GLB, naming the parts inside it — looked up by the same
+# `cadFileBase` key as glb/ and thumbnails/, so the seed needs no index.
+# Written because the converter now returns them and the app needs them: an
+# assembly GLB carries a glTF node per leaf part, and
+# `vault_files.cad_metadata.nodes` is what tells the viewer a model can be
+# taken apart. A model with no parts to select gets `{"nodes": []}` rather than
+# no file, so a missing file means "not converted yet" and not "single part".
+NODE_DIR = WORK_DIR / "nodes"
 
 GLB_DIR.mkdir(parents=True, exist_ok=True)
 THUMB_DIR.mkdir(parents=True, exist_ok=True)
+NODE_DIR.mkdir(parents=True, exist_ok=True)
 TMP_STL_DIR.mkdir(parents=True, exist_ok=True)
 
 # Make the cad_converter package importable.
@@ -53,23 +66,33 @@ for i, step in enumerate(steps, start=1):
     base = step.stem
     glb_out = GLB_DIR / f"{base}.glb"
     thumb_out = THUMB_DIR / f"{base}.png"
+    node_out = NODE_DIR / f"{base}.json"
     stl_out = TMP_STL_DIR / f"{base}.stl"
 
-    if not FORCE and glb_out.exists() and thumb_out.exists():
+    if not FORCE and glb_out.exists() and thumb_out.exists() and node_out.exists():
         skipped += 1
         continue
 
+    # Re-rendering a thumbnail from unchanged geometry produces a different
+    # PNG for the same picture, which is churn in a 197 MB dataset for nothing.
+    want_thumb = None if (SKIP_THUMBS and thumb_out.exists()) else str(thumb_out)
+
     print(f"[{i:>3}/{len(steps)}] {base}", flush=True)
     try:
-        convert_single_with_colors(
+        result = convert_single_with_colors(
             str(step),
             str(stl_out),
             str(glb_out),
             MeshQuality.STANDARD,
             True,
-            str(thumb_out),
+            want_thumb,
         )
         if glb_out.exists():
+            nodes = [n.model_dump() for n in result.glb_nodes]
+            node_out.write_text(
+                json.dumps({"nodes": nodes}, indent=1), encoding="utf-8"
+            )
+            print(f"        {len(nodes)} selectable part(s)", flush=True)
             ok += 1
         else:
             failed.append((base, "GLB not produced"))

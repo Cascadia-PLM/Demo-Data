@@ -5,3 +5,6 @@ node_modules
 # which ARE committed. See README.md.
 robot-arm/step/
 robot-arm/step-merged/
+
+# Bytecode from scripts/_prepare-demo-cad.py when it is run on the host.
+__pycache__/

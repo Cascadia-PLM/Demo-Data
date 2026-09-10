@@ -4,7 +4,11 @@ The datasets behind the [Cascadia PLM](https://github.com/Cascadia-PLM/Cascadia-
 demo:
 
 - **`robot-arm/`** — a 6-axis robot arm, ~88 parts and ~101 BOM relationships,
-  pre-converted to web-ready GLB with per-face colors. Geometry and structure.
+  pre-converted to web-ready GLB with per-face colors. Geometry and structure —
+  and since the GLBs carry a glTF node per leaf part, structure you can click:
+  11 of the 13 assemblies are selectable, 500 parts between them, 225 in the
+  main assembly. (The other two are single-solid pulleys, with nothing to take
+  apart.)
 - **`freecad-demo/`** — two products taken through the *whole* PLM record: a
   powered utility cart (`PUC`) and a survey catamaran (`USV`), with BOM and AML,
   requirements and V&V, ECO history, KiCad boards and firmware source, MES
@@ -20,7 +24,8 @@ datasets, and every image build shipped them as build context.
 
 | Path | What | Size |
 |---|---|---|
-| `robot-arm/glb/` | 79 GLB models, colors baked per face | 197 MB |
+| `robot-arm/glb/` | 79 GLB models, colors baked per face, assemblies split into per-part nodes | 198 MB |
+| `robot-arm/nodes/` | The selectable parts inside each model, one JSON per `cadFileBase` | 244 KB |
 | `robot-arm/thumbnails/` | 79 PNG thumbnails, one per model | 2.1 MB |
 | `robot-arm/manifest.json` | Part numbers, BOM structure, Make/Buy classification | 44 KB |
 | `robot-arm/step/` | STEP sources — **gitignored**, regenerated on demand | 393 MB |
@@ -70,9 +75,20 @@ pwsh ./scripts/export-demo-steps.ps1
 # 2. Rebuild manifest.json and stage canonical STEPs into robot-arm/step/.
 npm run build:manifest
 
-# 3. STEP -> GLB + thumbnails, via the published cad-converter image.
+# 3. STEP -> GLB + thumbnails + nodes, via the published cad-converter image.
 npm run build:cad
+
+#    ...or, when only the geometry needs rebuilding, keep the thumbnails:
+#    re-rendering one from unchanged geometry yields a different PNG of the
+#    same picture, which is churn in a 198 MB dataset for nothing.
+FORCE=1 SKIP_THUMBS=1 npm run build:cad
 ```
+
+`build:cad` writes `nodes/<cadFileBase>.json` beside each GLB: the parts inside
+that model, which Cascadia-App's seed folds into the file's `cad_metadata` so
+the 3D viewer can select one. A model with nothing to select gets an empty
+list rather than no file, so a missing one means "not converted yet" and not
+"single part".
 
 `prepare-demo-cad.ts` pulls `ghcr.io/cascadia-plm/cascadia-cad-converter:latest`.
 Set `CAD_IMAGE` to a locally-built tag to test a converter change before it lands.

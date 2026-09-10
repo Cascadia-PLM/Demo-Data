@@ -1,0 +1,416 @@
+{
+ "nodes": [
+  {
+   "nodeKey": "TDJ-25-P-40005-HTD-CUSTOM-PULLEY.SLDASM/Pulley_HTD_5mm-18.0Tx12mm",
+   "name": "Pulley_HTD_5mm-18.0Tx12mm",
+   "path": [
+    "TDJ-25-P-40005-HTD-CUSTOM-PULLEY.SLDASM",
+    "Pulley_HTD_5mm-18.0Tx12mm"
+   ],
+   "polygonCount": 2256
+  },
+  {
+   "nodeKey": "TDJ-25-P-40005-HTD-CUSTOM-PULLEY_1.SLDASM/Pulley_HTD_5mm-18.0Tx12mm_1",
+   "name": "Pulley_HTD_5mm-18.0Tx12mm_1",
+   "path": [
+    "TDJ-25-P-40005-HTD-CUSTOM-PULLEY_1.SLDASM",
+    "Pulley_HTD_5mm-18.0Tx12mm_1"
+   ],
+   "polygonCount": 2256
+  },
+  {
+   "nodeKey": "TDJ-25-P-40007-HTD-STEPPER-PULLEY.SLDASM/Pulley_HTD_5mm-12.0Tx9mm",
+   "name": "Pulley_HTD_5mm-12.0Tx9mm",
+   "path": [
+    "TDJ-25-P-40007-HTD-STEPPER-PULLEY.SLDASM",
+    "Pulley_HTD_5mm-12.0Tx9mm"
+   ],
+   "polygonCount": 1592
+  },
+  {
+   "nodeKey": "TDJ-25-P-40007-HTD-STEPPER-PULLEY_1.SLDASM/Pulley_HTD_5mm-12.0Tx9mm",
+   "name": "Pulley_HTD_5mm-12.0Tx9mm",
+   "path": [
+    "TDJ-25-P-40007-HTD-STEPPER-PULLEY_1.SLDASM",
+    "Pulley_HTD_5mm-12.0Tx9mm"
+   ],
+   "polygonCount": 1592
+  },
+  {
+   "nodeKey": "217-2592-001 Rev7_3",
+   "name": "217-2592-001 Rev7_3",
+   "path": [
+    "217-2592-001 Rev7_3"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "TDJ-25-P-40002-WRIST-SPACER",
+   "name": "TDJ-25-P-40002-WRIST-SPACER",
+   "path": [
+    "TDJ-25-P-40002-WRIST-SPACER"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "217-2592-001 Rev7_3#2",
+   "name": "217-2592-001 Rev7_3",
+   "path": [
+    "217-2592-001 Rev7_3"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "TDJ-25-P-40001-WRIST-PLATE",
+   "name": "TDJ-25-P-40001-WRIST-PLATE",
+   "path": [
+    "TDJ-25-P-40001-WRIST-PLATE"
+   ],
+   "polygonCount": 2316
+  },
+  {
+   "nodeKey": "217-2592-001 Rev7_3#3",
+   "name": "217-2592-001 Rev7_3",
+   "path": [
+    "217-2592-001 Rev7_3"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "TDJ-25-P-40002-WRIST-SPACER#2",
+   "name": "TDJ-25-P-40002-WRIST-SPACER",
+   "path": [
+    "TDJ-25-P-40002-WRIST-SPACER"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-P-40001-WRIST-PLATE#2",
+   "name": "TDJ-25-P-40001-WRIST-PLATE",
+   "path": [
+    "TDJ-25-P-40001-WRIST-PLATE"
+   ],
+   "polygonCount": 2316
+  },
+  {
+   "nodeKey": "217-2592-001 Rev7_3#4",
+   "name": "217-2592-001 Rev7_3",
+   "path": [
+    "217-2592-001 Rev7_3"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings_4",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings_4#2",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "WRIST-SHAFT",
+   "name": "WRIST-SHAFT",
+   "path": [
+    "WRIST-SHAFT"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "WRIST-SHAFT_1",
+   "name": "WRIST-SHAFT_1",
+   "path": [
+    "WRIST-SHAFT_1"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "17HS19-2004S1",
+   "name": "17HS19-2004S1",
+   "path": [
+    "17HS19-2004S1"
+   ],
+   "polygonCount": 10539
+  },
+  {
+   "nodeKey": "17HS19-2004S1#2",
+   "name": "17HS19-2004S1",
+   "path": [
+    "17HS19-2004S1"
+   ],
+   "polygonCount": 10539
+  },
+  {
+   "nodeKey": "WCP-0752",
+   "name": "WCP-0752",
+   "path": [
+    "WCP-0752"
+   ],
+   "polygonCount": 3238
+  },
+  {
+   "nodeKey": "WCP-0752_1",
+   "name": "WCP-0752_1",
+   "path": [
+    "WCP-0752_1"
+   ],
+   "polygonCount": 3238
+  },
+  {
+   "nodeKey": "TDJ-25-P-40008-BEVEL-GEAR-PLATE",
+   "name": "TDJ-25-P-40008-BEVEL-GEAR-PLATE",
+   "path": [
+    "TDJ-25-P-40008-BEVEL-GEAR-PLATE"
+   ],
+   "polygonCount": 696
+  },
+  {
+   "nodeKey": "217-3875-STEP-20140818_3",
+   "name": "217-3875-STEP-20140818_3",
+   "path": [
+    "217-3875-STEP-20140818_3"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "217-3875-STEP-20140818_3#2",
+   "name": "217-3875-STEP-20140818_3",
+   "path": [
+    "217-3875-STEP-20140818_3"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "217-3875-STEP-20140818_4",
+   "name": "217-3875-STEP-20140818_4",
+   "path": [
+    "217-3875-STEP-20140818_4"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "WCP-0752_2",
+   "name": "WCP-0752_2",
+   "path": [
+    "WCP-0752_2"
+   ],
+   "polygonCount": 3238
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#2",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#3",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#4",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#5",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#6",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#7",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#8",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#2",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#3",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#4",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#5",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#6",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#7",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#8",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#2",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#3",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#4",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#5",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#6",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#7",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#8",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY-3",
+   "name": "TDJ-25-A-40000-WRIST-ASSEMBLY-3",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY-3"
+   ],
+   "polygonCount": 324
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY-4",
+   "name": "TDJ-25-A-40000-WRIST-ASSEMBLY-4",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY-4"
+   ],
+   "polygonCount": 316
+  }
+ ]
+}

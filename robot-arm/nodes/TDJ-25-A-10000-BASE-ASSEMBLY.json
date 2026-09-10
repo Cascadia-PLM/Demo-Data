@@ -1,0 +1,526 @@
+{
+ "nodes": [
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_0.500in Long",
+   "name": "#10 Socket Head Cap Screws_0.500in Long",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_1.000in Long",
+   "name": "#10 Socket Head Cap Screws_1.000in Long",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_1.000in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10-32 Button Head Cap Screws_0.500in Long",
+   "name": "#10-32 Button Head Cap Screws_0.500in Long",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10-32 Button Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 610
+  },
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_0.500in Long#2",
+   "name": "#10 Socket Head Cap Screws_0.500in Long",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_1.000in Long#2",
+   "name": "#10 Socket Head Cap Screws_1.000in Long",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_1.000in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-21-2106",
+   "name": "REV-21-2106",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-21-2106"
+   ],
+   "polygonCount": 3276
+  },
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-21-2104",
+   "name": "REV-21-2104",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-21-2104"
+   ],
+   "polygonCount": 25478
+  },
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-21-2108",
+   "name": "REV-21-2108",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-21-2108"
+   ],
+   "polygonCount": 1788
+  },
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-21-2101",
+   "name": "REV-21-2101",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-21-2101"
+   ],
+   "polygonCount": 39100
+  },
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/Falcon Motor Short Shaft V2 (217-7944)",
+   "name": "Falcon Motor Short Shaft V2 (217-7944)",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "Falcon Motor Short Shaft V2 (217-7944)"
+   ],
+   "polygonCount": 7352
+  },
+  {
+   "nodeKey": "FALCON-MAX-PLANETARY-ASSY.SLDASM/Falcon 500 v3, Powered by Talon FX (217-6515)",
+   "name": "Falcon 500 v3, Powered by Talon FX (217-6515)",
+   "path": [
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "Falcon 500 v3, Powered by Talon FX (217-6515)"
+   ],
+   "polygonCount": 147340
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/217-3199-001 Rev4",
+   "name": "217-3199-001 Rev4",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "217-3199-001 Rev4"
+   ],
+   "polygonCount": 15886
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/217-3199-002 Rev3",
+   "name": "217-3199-002 Rev3",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "217-3199-002 Rev3"
+   ],
+   "polygonCount": 14160
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/217-3199-001 Rev4_1",
+   "name": "217-3199-001 Rev4_1",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "217-3199-001 Rev4_1"
+   ],
+   "polygonCount": 16168
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/217-2592-001 Rev7",
+   "name": "217-2592-001 Rev7",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "217-2592-001 Rev7"
+   ],
+   "polygonCount": 4696
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/217-2592-001 Rev7_1",
+   "name": "217-2592-001 Rev7_1",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "217-2592-001 Rev7_1"
+   ],
+   "polygonCount": 4682
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_1",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_1",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_1"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_2",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_2",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_2"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_3",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_3",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_3"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_4",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_4",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_4"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_5",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_5",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_5"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_6",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_6",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_6"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_7",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_7",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_7"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_8",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_8",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_8"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_9",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_9",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_9"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_10",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_10",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_10"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_11",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_11",
+   "path": [
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_11"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "REV-21-2120",
+   "name": "REV-21-2120",
+   "path": [
+    "REV-21-2120"
+   ],
+   "polygonCount": 58880
+  },
+  {
+   "nodeKey": "TDJ-25-P-10003-TUBE",
+   "name": "TDJ-25-P-10003-TUBE",
+   "path": [
+    "TDJ-25-P-10003-TUBE"
+   ],
+   "polygonCount": 2720
+  },
+  {
+   "nodeKey": "HORIZONTAL-HEX",
+   "name": "HORIZONTAL-HEX",
+   "path": [
+    "HORIZONTAL-HEX"
+   ],
+   "polygonCount": 228
+  },
+  {
+   "nodeKey": "TDJ-25-PM-10003-MOTOR-TUBE-MIR",
+   "name": "TDJ-25-PM-10003-MOTOR-TUBE-MIR",
+   "path": [
+    "TDJ-25-PM-10003-MOTOR-TUBE-MIR"
+   ],
+   "polygonCount": 2720
+  },
+  {
+   "nodeKey": "VERTICAL-HEX",
+   "name": "VERTICAL-HEX",
+   "path": [
+    "VERTICAL-HEX"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "217-3225-STEP_1",
+   "name": "217-3225-STEP_1",
+   "path": [
+    "217-3225-STEP_1"
+   ],
+   "polygonCount": 5916
+  },
+  {
+   "nodeKey": "TDJ-25-P-10004-FRAME-TUBE",
+   "name": "TDJ-25-P-10004-FRAME-TUBE",
+   "path": [
+    "TDJ-25-P-10004-FRAME-TUBE"
+   ],
+   "polygonCount": 1484
+  },
+  {
+   "nodeKey": "WCP-0374",
+   "name": "WCP-0374",
+   "path": [
+    "WCP-0374"
+   ],
+   "polygonCount": 3512
+  },
+  {
+   "nodeKey": "WCP-0374#2",
+   "name": "WCP-0374",
+   "path": [
+    "WCP-0374"
+   ],
+   "polygonCount": 3512
+  },
+  {
+   "nodeKey": "BASE-ROTATION-HEX",
+   "name": "BASE-ROTATION-HEX",
+   "path": [
+    "BASE-ROTATION-HEX"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "217-3875-STEP-20140818_2",
+   "name": "217-3875-STEP-20140818_2",
+   "path": [
+    "217-3875-STEP-20140818_2"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings_2",
+   "name": "97431A340_Side-Mount External Retaining Rings_2",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings_4",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain#2",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain#3",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain#4",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain#5",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain#6",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "DIN 7991 - M4x35 Steel 4.6 Plain",
+   "name": "DIN 7991 - M4x35 Steel 4.6 Plain",
+   "path": [
+    "DIN 7991 - M4x35 Steel 4.6 Plain"
+   ],
+   "polygonCount": 518
+  },
+  {
+   "nodeKey": "DIN 7991 - M4x35 Steel 4.6 Plain_1",
+   "name": "DIN 7991 - M4x35 Steel 4.6 Plain_1",
+   "path": [
+    "DIN 7991 - M4x35 Steel 4.6 Plain_1"
+   ],
+   "polygonCount": 518
+  },
+  {
+   "nodeKey": "DIN 7991 - M4x35 Steel 4.6 Plain_2",
+   "name": "DIN 7991 - M4x35 Steel 4.6 Plain_2",
+   "path": [
+    "DIN 7991 - M4x35 Steel 4.6 Plain_2"
+   ],
+   "polygonCount": 518
+  },
+  {
+   "nodeKey": "DIN 7991 - M4x35 Steel 4.6 Plain_3",
+   "name": "DIN 7991 - M4x35 Steel 4.6 Plain_3",
+   "path": [
+    "DIN 7991 - M4x35 Steel 4.6 Plain_3"
+   ],
+   "polygonCount": 518
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain#2",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain#3",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain#4",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain#5",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain#6",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings_3",
+   "name": "97431A340_Side-Mount External Retaining Rings_3",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings_3"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "Configuration 1-1",
+   "name": "Configuration 1-1",
+   "path": [
+    "Configuration 1-1"
+   ],
+   "polygonCount": 440
+  }
+ ]
+}

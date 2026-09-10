@@ -1,0 +1,44 @@
+{
+ "nodes": [
+  {
+   "nodeKey": "#10 Socket Head Cap Screws_0.500in Long",
+   "name": "#10 Socket Head Cap Screws_0.500in Long",
+   "path": [
+    "#10 Socket Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "#10 Socket Head Cap Screws_1.000in Long",
+   "name": "#10 Socket Head Cap Screws_1.000in Long",
+   "path": [
+    "#10 Socket Head Cap Screws_1.000in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "#10-32 Button Head Cap Screws_0.500in Long",
+   "name": "#10-32 Button Head Cap Screws_0.500in Long",
+   "path": [
+    "#10-32 Button Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 610
+  },
+  {
+   "nodeKey": "#10 Socket Head Cap Screws_0.500in Long#2",
+   "name": "#10 Socket Head Cap Screws_0.500in Long",
+   "path": [
+    "#10 Socket Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "#10 Socket Head Cap Screws_1.000in Long#2",
+   "name": "#10 Socket Head Cap Screws_1.000in Long",
+   "path": [
+    "#10 Socket Head Cap Screws_1.000in Long"
+   ],
+   "polygonCount": 480
+  }
+ ]
+}

@@ -1,0 +1,2083 @@
+{
+ "nodes": [
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/217-3875-STEP-20140818",
+   "name": "217-3875-STEP-20140818",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "217-3875-STEP-20140818"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/217-3875-STEP-20140818_1",
+   "name": "217-3875-STEP-20140818_1",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "217-3875-STEP-20140818_1"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/TDJ-25-P-20001-SHOULDER-BASE",
+   "name": "TDJ-25-P-20001-SHOULDER-BASE",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "TDJ-25-P-20001-SHOULDER-BASE"
+   ],
+   "polygonCount": 3384
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/217-3225-STEP",
+   "name": "217-3225-STEP",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "217-3225-STEP"
+   ],
+   "polygonCount": 5916
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/SHOULDER-SHAFT",
+   "name": "SHOULDER-SHAFT",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "SHOULDER-SHAFT"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/WCP-1017 Rev1",
+   "name": "WCP-1017 Rev1",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "WCP-1017 Rev1"
+   ],
+   "polygonCount": 5490
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/TDJ-25-P-20003-STANCHION",
+   "name": "TDJ-25-P-20003-STANCHION",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "TDJ-25-P-20003-STANCHION"
+   ],
+   "polygonCount": 208
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/97431A340_Side-Mount External Retaining Rings",
+   "name": "97431A340_Side-Mount External Retaining Rings",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/97431A340_Side-Mount External Retaining Rings_1",
+   "name": "97431A340_Side-Mount External Retaining Rings_1",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings_1"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/WCP-0941",
+   "name": "WCP-0941",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "WCP-0941"
+   ],
+   "polygonCount": 74505
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_1",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_1",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_1"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_2",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_2",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_2"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_3",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_3",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_3"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_4",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_4",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1 Steel Grade 2 Plain_4"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/TDJ-25-P-20002-PIVOT-SPACER",
+   "name": "TDJ-25-P-20002-PIVOT-SPACER",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "TDJ-25-P-20002-PIVOT-SPACER"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/TDJ-25-P-20002-PIVOT-SPACER_1",
+   "name": "TDJ-25-P-20002-PIVOT-SPACER_1",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "TDJ-25-P-20002-PIVOT-SPACER_1"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM/TDJ-25-A-20000-SHOULDER-ASSEMBLY-0",
+   "name": "TDJ-25-A-20000-SHOULDER-ASSEMBLY-0",
+   "path": [
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY.SLDASM",
+    "TDJ-25-A-20000-SHOULDER-ASSEMBLY-0"
+   ],
+   "polygonCount": 316
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_0.500in Long",
+   "name": "#10 Socket Head Cap Screws_0.500in Long",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_1.000in Long",
+   "name": "#10 Socket Head Cap Screws_1.000in Long",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_1.000in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10-32 Button Head Cap Screws_0.500in Long",
+   "name": "#10-32 Button Head Cap Screws_0.500in Long",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10-32 Button Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 610
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_0.500in Long#2",
+   "name": "#10 Socket Head Cap Screws_0.500in Long",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_0.500in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-25-2107_1-Stage.SLDASM/#10 Socket Head Cap Screws_1.000in Long#2",
+   "name": "#10 Socket Head Cap Screws_1.000in Long",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-25-2107_1-Stage.SLDASM",
+    "#10 Socket Head Cap Screws_1.000in Long"
+   ],
+   "polygonCount": 480
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-21-2106",
+   "name": "REV-21-2106",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-21-2106"
+   ],
+   "polygonCount": 3276
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-21-2104",
+   "name": "REV-21-2104",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-21-2104"
+   ],
+   "polygonCount": 25478
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM/REV-21-2108",
+   "name": "REV-21-2108",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-25-2109_1-Stage (No Shaft, For NEO).SLDASM",
+    "REV-21-2108"
+   ],
+   "polygonCount": 1788
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/MAXPlanetary 1-Stage.SLDASM/REV-21-2101",
+   "name": "REV-21-2101",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "MAXPlanetary 1-Stage.SLDASM",
+    "REV-21-2101"
+   ],
+   "polygonCount": 39100
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/Falcon Motor Short Shaft V2 (217-7944)",
+   "name": "Falcon Motor Short Shaft V2 (217-7944)",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "Falcon Motor Short Shaft V2 (217-7944)"
+   ],
+   "polygonCount": 7348
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/FALCON-MAX-PLANETARY-ASSY.SLDASM/Falcon 500 v3, Powered by Talon FX (217-6515)",
+   "name": "Falcon 500 v3, Powered by Talon FX (217-6515)",
+   "path": [
+    "Configuration 1.SLDASM",
+    "FALCON-MAX-PLANETARY-ASSY.SLDASM",
+    "Falcon 500 v3, Powered by Talon FX (217-6515)"
+   ],
+   "polygonCount": 147340
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/217-3199-001 Rev4",
+   "name": "217-3199-001 Rev4",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "217-3199-001 Rev4"
+   ],
+   "polygonCount": 15886
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/217-3199-002 Rev3",
+   "name": "217-3199-002 Rev3",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "217-3199-002 Rev3"
+   ],
+   "polygonCount": 14160
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/217-3199-001 Rev4_1",
+   "name": "217-3199-001 Rev4_1",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "217-3199-001 Rev4_1"
+   ],
+   "polygonCount": 16168
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/217-2592-001 Rev7",
+   "name": "217-2592-001 Rev7",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "217-2592-001 Rev7"
+   ],
+   "polygonCount": 4696
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/217-2592-001 Rev7_1",
+   "name": "217-2592-001 Rev7_1",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "217-2592-001 Rev7_1"
+   ],
+   "polygonCount": 4682
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_1",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_1",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_1"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_2",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_2",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_2"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_3",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_3",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_3"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_4",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_4",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_4"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_5",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_5",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_5"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_6",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_6",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_6"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_7",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_7",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_7"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_8",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_8",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_8"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_9",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_9",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_9"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_10",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_10",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_10"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3199-STEP.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_11",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_11",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3199-STEP.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_11"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/REV-21-2120",
+   "name": "REV-21-2120",
+   "path": [
+    "Configuration 1.SLDASM",
+    "REV-21-2120"
+   ],
+   "polygonCount": 58876
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/TDJ-25-P-10003-TUBE",
+   "name": "TDJ-25-P-10003-TUBE",
+   "path": [
+    "Configuration 1.SLDASM",
+    "TDJ-25-P-10003-TUBE"
+   ],
+   "polygonCount": 2720
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HORIZONTAL-HEX",
+   "name": "HORIZONTAL-HEX",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HORIZONTAL-HEX"
+   ],
+   "polygonCount": 228
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/TDJ-25-PM-10003-MOTOR-TUBE-MIR",
+   "name": "TDJ-25-PM-10003-MOTOR-TUBE-MIR",
+   "path": [
+    "Configuration 1.SLDASM",
+    "TDJ-25-PM-10003-MOTOR-TUBE-MIR"
+   ],
+   "polygonCount": 2720
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/VERTICAL-HEX",
+   "name": "VERTICAL-HEX",
+   "path": [
+    "Configuration 1.SLDASM",
+    "VERTICAL-HEX"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3225-STEP_1",
+   "name": "217-3225-STEP_1",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3225-STEP_1"
+   ],
+   "polygonCount": 5916
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/TDJ-25-P-10004-FRAME-TUBE",
+   "name": "TDJ-25-P-10004-FRAME-TUBE",
+   "path": [
+    "Configuration 1.SLDASM",
+    "TDJ-25-P-10004-FRAME-TUBE"
+   ],
+   "polygonCount": 1484
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/WCP-0374",
+   "name": "WCP-0374",
+   "path": [
+    "Configuration 1.SLDASM",
+    "WCP-0374"
+   ],
+   "polygonCount": 3512
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/WCP-0374#2",
+   "name": "WCP-0374",
+   "path": [
+    "Configuration 1.SLDASM",
+    "WCP-0374"
+   ],
+   "polygonCount": 3512
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/BASE-ROTATION-HEX",
+   "name": "BASE-ROTATION-HEX",
+   "path": [
+    "Configuration 1.SLDASM",
+    "BASE-ROTATION-HEX"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/217-3875-STEP-20140818_2",
+   "name": "217-3875-STEP-20140818_2",
+   "path": [
+    "Configuration 1.SLDASM",
+    "217-3875-STEP-20140818_2"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/97431A340_Side-Mount External Retaining Rings_2",
+   "name": "97431A340_Side-Mount External Retaining Rings_2",
+   "path": [
+    "Configuration 1.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/97431A340_Side-Mount External Retaining Rings_4",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "Configuration 1.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain#2",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain#3",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain#4",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain#5",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain#6",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/DIN 7991 - M4x35 Steel 4.6 Plain",
+   "name": "DIN 7991 - M4x35 Steel 4.6 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "DIN 7991 - M4x35 Steel 4.6 Plain"
+   ],
+   "polygonCount": 518
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/DIN 7991 - M4x35 Steel 4.6 Plain_1",
+   "name": "DIN 7991 - M4x35 Steel 4.6 Plain_1",
+   "path": [
+    "Configuration 1.SLDASM",
+    "DIN 7991 - M4x35 Steel 4.6 Plain_1"
+   ],
+   "polygonCount": 518
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/DIN 7991 - M4x35 Steel 4.6 Plain_2",
+   "name": "DIN 7991 - M4x35 Steel 4.6 Plain_2",
+   "path": [
+    "Configuration 1.SLDASM",
+    "DIN 7991 - M4x35 Steel 4.6 Plain_2"
+   ],
+   "polygonCount": 518
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/DIN 7991 - M4x35 Steel 4.6 Plain_3",
+   "name": "DIN 7991 - M4x35 Steel 4.6 Plain_3",
+   "path": [
+    "Configuration 1.SLDASM",
+    "DIN 7991 - M4x35 Steel 4.6 Plain_3"
+   ],
+   "polygonCount": 518
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain#2",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain#3",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain#4",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain#5",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain#6",
+   "name": "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "Configuration 1.SLDASM",
+    "HSHCS ASME B18.3 - 10-24 UNC x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/97431A340_Side-Mount External Retaining Rings_3",
+   "name": "97431A340_Side-Mount External Retaining Rings_3",
+   "path": [
+    "Configuration 1.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings_3"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "Configuration 1.SLDASM/Configuration 1-1",
+   "name": "Configuration 1-1",
+   "path": [
+    "Configuration 1.SLDASM",
+    "Configuration 1-1"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/TDJ-25-P-30003-ARM-TUBE",
+   "name": "TDJ-25-P-30003-ARM-TUBE",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "TDJ-25-P-30003-ARM-TUBE"
+   ],
+   "polygonCount": 4872
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/217-2592-001 Rev7_2",
+   "name": "217-2592-001 Rev7_2",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "217-2592-001 Rev7_2"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/217-2592-001 Rev7_2#2",
+   "name": "217-2592-001 Rev7_2",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "217-2592-001 Rev7_2"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/217-3875-STEP-20140818_3",
+   "name": "217-3875-STEP-20140818_3",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "217-3875-STEP-20140818_3"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/217-3875-STEP-20140818_3#2",
+   "name": "217-3875-STEP-20140818_3",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "217-3875-STEP-20140818_3"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/TDJ-25-P-30005-OUTER-ARM-PLATE",
+   "name": "TDJ-25-P-30005-OUTER-ARM-PLATE",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "TDJ-25-P-30005-OUTER-ARM-PLATE"
+   ],
+   "polygonCount": 1944
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/WCP-0941_1",
+   "name": "WCP-0941_1",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "WCP-0941_1"
+   ],
+   "polygonCount": 74320
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/217-3225-STEP_1",
+   "name": "217-3225-STEP_1",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "217-3225-STEP_1"
+   ],
+   "polygonCount": 5916
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/WCP-1017 Rev1_1",
+   "name": "WCP-1017 Rev1_1",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "WCP-1017 Rev1_1"
+   ],
+   "polygonCount": 5490
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/TDJ-25-P-30002-SPACER",
+   "name": "TDJ-25-P-30002-SPACER",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "TDJ-25-P-30002-SPACER"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/TDJ-25-P-30002-SPACER#2",
+   "name": "TDJ-25-P-30002-SPACER",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "TDJ-25-P-30002-SPACER"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/TDJ-25-P-30005-OUTER-ARM-PLATE#2",
+   "name": "TDJ-25-P-30005-OUTER-ARM-PLATE",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "TDJ-25-P-30005-OUTER-ARM-PLATE"
+   ],
+   "polygonCount": 1944
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/ELBOW-SHAFT",
+   "name": "ELBOW-SHAFT",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "ELBOW-SHAFT"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#2",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#3",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#4",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#2",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#3",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#4",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/97431A340_Side-Mount External Retaining Rings_4",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/97431A340_Side-Mount External Retaining Rings_4#2",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain#2",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain#3",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain#4",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "name": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#2",
+   "name": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#3",
+   "name": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#4",
+   "name": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#5",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#6",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#7",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#8",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM/TDJ-25-A-30000-ELBOW-ASSEMBLY-2",
+   "name": "TDJ-25-A-30000-ELBOW-ASSEMBLY-2",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY.SLDASM",
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY-2"
+   ],
+   "polygonCount": 320
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-P-40005-HTD-CUSTOM-PULLEY.SLDASM/Pulley_HTD_5mm-18.0Tx12mm",
+   "name": "Pulley_HTD_5mm-18.0Tx12mm",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-P-40005-HTD-CUSTOM-PULLEY.SLDASM",
+    "Pulley_HTD_5mm-18.0Tx12mm"
+   ],
+   "polygonCount": 2256
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-P-40005-HTD-CUSTOM-PULLEY_1.SLDASM/Pulley_HTD_5mm-18.0Tx12mm_1",
+   "name": "Pulley_HTD_5mm-18.0Tx12mm_1",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-P-40005-HTD-CUSTOM-PULLEY_1.SLDASM",
+    "Pulley_HTD_5mm-18.0Tx12mm_1"
+   ],
+   "polygonCount": 2256
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-P-40007-HTD-STEPPER-PULLEY.SLDASM/Pulley_HTD_5mm-12.0Tx9mm",
+   "name": "Pulley_HTD_5mm-12.0Tx9mm",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-P-40007-HTD-STEPPER-PULLEY.SLDASM",
+    "Pulley_HTD_5mm-12.0Tx9mm"
+   ],
+   "polygonCount": 1592
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-P-40007-HTD-STEPPER-PULLEY_1.SLDASM/Pulley_HTD_5mm-12.0Tx9mm",
+   "name": "Pulley_HTD_5mm-12.0Tx9mm",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-P-40007-HTD-STEPPER-PULLEY_1.SLDASM",
+    "Pulley_HTD_5mm-12.0Tx9mm"
+   ],
+   "polygonCount": 1592
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/217-2592-001 Rev7_3",
+   "name": "217-2592-001 Rev7_3",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "217-2592-001 Rev7_3"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-P-40002-WRIST-SPACER",
+   "name": "TDJ-25-P-40002-WRIST-SPACER",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-P-40002-WRIST-SPACER"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/217-2592-001 Rev7_3#2",
+   "name": "217-2592-001 Rev7_3",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "217-2592-001 Rev7_3"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-P-40001-WRIST-PLATE",
+   "name": "TDJ-25-P-40001-WRIST-PLATE",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-P-40001-WRIST-PLATE"
+   ],
+   "polygonCount": 2316
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/217-2592-001 Rev7_3#3",
+   "name": "217-2592-001 Rev7_3",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "217-2592-001 Rev7_3"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-P-40002-WRIST-SPACER#2",
+   "name": "TDJ-25-P-40002-WRIST-SPACER",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-P-40002-WRIST-SPACER"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-P-40001-WRIST-PLATE#2",
+   "name": "TDJ-25-P-40001-WRIST-PLATE",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-P-40001-WRIST-PLATE"
+   ],
+   "polygonCount": 2316
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/217-2592-001 Rev7_3#4",
+   "name": "217-2592-001 Rev7_3",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "217-2592-001 Rev7_3"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/97431A340_Side-Mount External Retaining Rings_4",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/97431A340_Side-Mount External Retaining Rings_4#2",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/WRIST-SHAFT",
+   "name": "WRIST-SHAFT",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "WRIST-SHAFT"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/WRIST-SHAFT_1",
+   "name": "WRIST-SHAFT_1",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "WRIST-SHAFT_1"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/17HS19-2004S1",
+   "name": "17HS19-2004S1",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "17HS19-2004S1"
+   ],
+   "polygonCount": 10539
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/17HS19-2004S1#2",
+   "name": "17HS19-2004S1",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "17HS19-2004S1"
+   ],
+   "polygonCount": 10539
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/WCP-0752",
+   "name": "WCP-0752",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "WCP-0752"
+   ],
+   "polygonCount": 3238
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/WCP-0752_1",
+   "name": "WCP-0752_1",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "WCP-0752_1"
+   ],
+   "polygonCount": 3238
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-P-40008-BEVEL-GEAR-PLATE",
+   "name": "TDJ-25-P-40008-BEVEL-GEAR-PLATE",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-P-40008-BEVEL-GEAR-PLATE"
+   ],
+   "polygonCount": 696
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/217-3875-STEP-20140818_3",
+   "name": "217-3875-STEP-20140818_3",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "217-3875-STEP-20140818_3"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/217-3875-STEP-20140818_3#2",
+   "name": "217-3875-STEP-20140818_3",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "217-3875-STEP-20140818_3"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/217-3875-STEP-20140818_4",
+   "name": "217-3875-STEP-20140818_4",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "217-3875-STEP-20140818_4"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/WCP-0752_2",
+   "name": "WCP-0752_2",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "WCP-0752_2"
+   ],
+   "polygonCount": 3238
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#2",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#3",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#4",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#5",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#6",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#7",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain#8",
+   "name": "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HSHCS ANSI B18.3 - 8-32 UNC x 7_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#2",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#3",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#4",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#5",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#6",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#7",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12#8",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_12"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#2",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#3",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#4",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#5",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#6",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#7",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain#8",
+   "name": "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "BHS JIS B 1111 - M2.2x6 Steel 4.6 Plain"
+   ],
+   "polygonCount": 952
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-A-40000-WRIST-ASSEMBLY-3",
+   "name": "TDJ-25-A-40000-WRIST-ASSEMBLY-3",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-A-40000-WRIST-ASSEMBLY-3"
+   ],
+   "polygonCount": 324
+  },
+  {
+   "nodeKey": "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM/TDJ-25-A-40000-WRIST-ASSEMBLY-4",
+   "name": "TDJ-25-A-40000-WRIST-ASSEMBLY-4",
+   "path": [
+    "TDJ-25-A-40000-WRIST-ASSEMBLY.SLDASM",
+    "TDJ-25-A-40000-WRIST-ASSEMBLY-4"
+   ],
+   "polygonCount": 316
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/Minion",
+   "name": "Minion",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "Minion"
+   ],
+   "polygonCount": 33006
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/EE-SHAFT",
+   "name": "EE-SHAFT",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "EE-SHAFT"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50002-EE-MOUNT",
+   "name": "TDJ-25-P-50002-EE-MOUNT",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50002-EE-MOUNT"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/WCP-0899 Rev1",
+   "name": "WCP-0899 Rev1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "WCP-0899 Rev1"
+   ],
+   "polygonCount": 3096
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50004-ARM-A",
+   "name": "TDJ-25-P-50004-ARM-A",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50004-ARM-A"
+   ],
+   "polygonCount": 448
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50004-ARM-A#2",
+   "name": "TDJ-25-P-50004-ARM-A",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50004-ARM-A"
+   ],
+   "polygonCount": 448
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50006-ARM-C",
+   "name": "TDJ-25-P-50006-ARM-C",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50006-ARM-C"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50006-ARM-C_1",
+   "name": "TDJ-25-P-50006-ARM-C_1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50006-ARM-C_1"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50005-ARM-B",
+   "name": "TDJ-25-P-50005-ARM-B",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50005-ARM-B"
+   ],
+   "polygonCount": 332
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50005-ARM-B_1",
+   "name": "TDJ-25-P-50005-ARM-B_1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50005-ARM-B_1"
+   ],
+   "polygonCount": 332
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50003-EE-PLATE",
+   "name": "TDJ-25-P-50003-EE-PLATE",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50003-EE-PLATE"
+   ],
+   "polygonCount": 1404
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/WCP-0683 Rev1",
+   "name": "WCP-0683 Rev1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "WCP-0683 Rev1"
+   ],
+   "polygonCount": 2244
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/WCP-0683 Rev1_1",
+   "name": "WCP-0683 Rev1_1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "WCP-0683 Rev1_1"
+   ],
+   "polygonCount": 2244
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing",
+   "name": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing"
+   ],
+   "polygonCount": 2496
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1",
+   "name": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1"
+   ],
+   "polygonCount": 2496
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1#2",
+   "name": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1"
+   ],
+   "polygonCount": 2496
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1#3",
+   "name": "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "6627K402_Chemical-Resistant Dry-Running Flanged Sleeve Bearing_1"
+   ],
+   "polygonCount": 2496
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50007-EE-TOP-PLATE",
+   "name": "TDJ-25-P-50007-EE-TOP-PLATE",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50007-EE-TOP-PLATE"
+   ],
+   "polygonCount": 1216
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/EE_2",
+   "name": "EE_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "EE_2"
+   ],
+   "polygonCount": 600
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/EE",
+   "name": "EE",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "EE"
+   ],
+   "polygonCount": 600
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/EE_1",
+   "name": "EE_1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "EE_1"
+   ],
+   "polygonCount": 600
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/EE_2#2",
+   "name": "EE_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "EE_2"
+   ],
+   "polygonCount": 600
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/217-7346 20200930_2",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/217-7346 20200930",
+   "name": "217-7346 20200930",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "217-7346 20200930"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/217-7346 20200930_2#2",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/217-7346 20200930_1",
+   "name": "217-7346 20200930_1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "217-7346 20200930_1"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/217-7346 20200930_2#3",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/217-7346 20200930_2#4",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/217-7346 20200930_2#5",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/217-7346 20200930_2#6",
+   "name": "217-7346 20200930_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "217-7346 20200930_2"
+   ],
+   "polygonCount": 1192
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50008-MOTOR-SPACER",
+   "name": "TDJ-25-P-50008-MOTOR-SPACER",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50008-MOTOR-SPACER"
+   ],
+   "polygonCount": 208
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50008-MOTOR-SPACER#2",
+   "name": "TDJ-25-P-50008-MOTOR-SPACER",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50008-MOTOR-SPACER"
+   ],
+   "polygonCount": 208
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50008-MOTOR-SPACER#3",
+   "name": "TDJ-25-P-50008-MOTOR-SPACER",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50008-MOTOR-SPACER"
+   ],
+   "polygonCount": 208
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/98398A134_Bowed Side-Mount External Retaining Rings",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "98398A134_Bowed Side-Mount External Retaining Rings"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/98398A134_Bowed Side-Mount External Retaining Rings_2#2",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/98398A134_Bowed Side-Mount External Retaining Rings_2#3",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/98398A134_Bowed Side-Mount External Retaining Rings_2#4",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/98398A134_Bowed Side-Mount External Retaining Rings_1",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_1",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "98398A134_Bowed Side-Mount External Retaining Rings_1"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/98398A134_Bowed Side-Mount External Retaining Rings_2#5",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/98398A134_Bowed Side-Mount External Retaining Rings_2#6",
+   "name": "98398A134_Bowed Side-Mount External Retaining Rings_2",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "98398A134_Bowed Side-Mount External Retaining Rings_2"
+   ],
+   "polygonCount": 772
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50009-SPACER",
+   "name": "TDJ-25-P-50009-SPACER",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50009-SPACER"
+   ],
+   "polygonCount": 216
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50009-SPACER#2",
+   "name": "TDJ-25-P-50009-SPACER",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50009-SPACER"
+   ],
+   "polygonCount": 216
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain#2",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain#3",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain#4",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1_4 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50010-GRIPPER",
+   "name": "TDJ-25-P-50010-GRIPPER",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50010-GRIPPER"
+   ],
+   "polygonCount": 702
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50010-GRIPPER#2",
+   "name": "TDJ-25-P-50010-GRIPPER",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50010-GRIPPER"
+   ],
+   "polygonCount": 702
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain#2",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 5_8 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain",
+   "name": "CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 424
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain#2",
+   "name": "CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "CBHMSN ANSI B18.6.3 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 424
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain#2",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain#3",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/TDJ-25-P-50011-STANCHION",
+   "name": "TDJ-25-P-50011-STANCHION",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "TDJ-25-P-50011-STANCHION"
+   ],
+   "polygonCount": 208
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain#2",
+   "name": "HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "HSBHCS ANSI B18.3 - #10-32 x 5_16 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 786
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/97431A340_Side-Mount External Retaining Rings_4",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM/97431A340_Side-Mount External Retaining Rings_4#2",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "TDJ-25-A-50000-EE-ASSEMBLY.SLDASM",
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  }
+ ]
+}

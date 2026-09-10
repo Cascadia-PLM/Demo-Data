@@ -1,0 +1,292 @@
+{
+ "nodes": [
+  {
+   "nodeKey": "TDJ-25-P-30003-ARM-TUBE",
+   "name": "TDJ-25-P-30003-ARM-TUBE",
+   "path": [
+    "TDJ-25-P-30003-ARM-TUBE"
+   ],
+   "polygonCount": 4872
+  },
+  {
+   "nodeKey": "217-2592-001 Rev7_2",
+   "name": "217-2592-001 Rev7_2",
+   "path": [
+    "217-2592-001 Rev7_2"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "217-2592-001 Rev7_2#2",
+   "name": "217-2592-001 Rev7_2",
+   "path": [
+    "217-2592-001 Rev7_2"
+   ],
+   "polygonCount": 4384
+  },
+  {
+   "nodeKey": "217-3875-STEP-20140818_3",
+   "name": "217-3875-STEP-20140818_3",
+   "path": [
+    "217-3875-STEP-20140818_3"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "217-3875-STEP-20140818_3#2",
+   "name": "217-3875-STEP-20140818_3",
+   "path": [
+    "217-3875-STEP-20140818_3"
+   ],
+   "polygonCount": 1716
+  },
+  {
+   "nodeKey": "TDJ-25-P-30005-OUTER-ARM-PLATE",
+   "name": "TDJ-25-P-30005-OUTER-ARM-PLATE",
+   "path": [
+    "TDJ-25-P-30005-OUTER-ARM-PLATE"
+   ],
+   "polygonCount": 1944
+  },
+  {
+   "nodeKey": "WCP-0941_1",
+   "name": "WCP-0941_1",
+   "path": [
+    "WCP-0941_1"
+   ],
+   "polygonCount": 74312
+  },
+  {
+   "nodeKey": "217-3225-STEP_1",
+   "name": "217-3225-STEP_1",
+   "path": [
+    "217-3225-STEP_1"
+   ],
+   "polygonCount": 5916
+  },
+  {
+   "nodeKey": "WCP-1017 Rev1_1",
+   "name": "WCP-1017 Rev1_1",
+   "path": [
+    "WCP-1017 Rev1_1"
+   ],
+   "polygonCount": 5490
+  },
+  {
+   "nodeKey": "TDJ-25-P-30002-SPACER",
+   "name": "TDJ-25-P-30002-SPACER",
+   "path": [
+    "TDJ-25-P-30002-SPACER"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-P-30002-SPACER#2",
+   "name": "TDJ-25-P-30002-SPACER",
+   "path": [
+    "TDJ-25-P-30002-SPACER"
+   ],
+   "polygonCount": 248
+  },
+  {
+   "nodeKey": "TDJ-25-P-30005-OUTER-ARM-PLATE#2",
+   "name": "TDJ-25-P-30005-OUTER-ARM-PLATE",
+   "path": [
+    "TDJ-25-P-30005-OUTER-ARM-PLATE"
+   ],
+   "polygonCount": 1944
+  },
+  {
+   "nodeKey": "ELBOW-SHAFT",
+   "name": "ELBOW-SHAFT",
+   "path": [
+    "ELBOW-SHAFT"
+   ],
+   "polygonCount": 276
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#2",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#3",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#4",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#2",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#3",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#4",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings_4",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "97431A340_Side-Mount External Retaining Rings_4#2",
+   "name": "97431A340_Side-Mount External Retaining Rings_4",
+   "path": [
+    "97431A340_Side-Mount External Retaining Rings_4"
+   ],
+   "polygonCount": 556
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain#2",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain#3",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain#4",
+   "name": "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ASME B18.3 - 10-32 UNF x 2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "name": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#2",
+   "name": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#3",
+   "name": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain#4",
+   "name": "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain",
+   "path": [
+    "HSHCS ANSI B18.3 - 10-32 UNF x 1 1_2 Steel Grade 2 Plain"
+   ],
+   "polygonCount": 646
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#5",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#6",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#7",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain#8",
+   "name": "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain",
+   "path": [
+    "HMSN ANSI B18.2.2 - 10-32 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 456
+  },
+  {
+   "nodeKey": "TDJ-25-A-30000-ELBOW-ASSEMBLY-2",
+   "name": "TDJ-25-A-30000-ELBOW-ASSEMBLY-2",
+   "path": [
+    "TDJ-25-A-30000-ELBOW-ASSEMBLY-2"
+   ],
+   "polygonCount": 320
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "nodes": [
+  {
+   "nodeKey": "217-3199-001 Rev4",
+   "name": "217-3199-001 Rev4",
+   "path": [
+    "217-3199-001 Rev4"
+   ],
+   "polygonCount": 15886
+  },
+  {
+   "nodeKey": "217-3199-002 Rev3",
+   "name": "217-3199-002 Rev3",
+   "path": [
+    "217-3199-002 Rev3"
+   ],
+   "polygonCount": 14160
+  },
+  {
+   "nodeKey": "217-3199-001 Rev4_1",
+   "name": "217-3199-001 Rev4_1",
+   "path": [
+    "217-3199-001 Rev4_1"
+   ],
+   "polygonCount": 16168
+  },
+  {
+   "nodeKey": "217-2592-001 Rev7",
+   "name": "217-2592-001 Rev7",
+   "path": [
+    "217-2592-001 Rev7"
+   ],
+   "polygonCount": 4696
+  },
+  {
+   "nodeKey": "217-2592-001 Rev7_1",
+   "name": "217-2592-001 Rev7_1",
+   "path": [
+    "217-2592-001 Rev7_1"
+   ],
+   "polygonCount": 4682
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_1",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_1",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_1"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_2",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_2",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_2"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_3",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_3",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_3"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_4",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_4",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_4"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_5",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_5",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_5"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_6",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_6",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_6"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_7",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_7",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_7"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_8",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_8",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_8"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_9",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_9",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_9"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_10",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_10",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_10"
+   ],
+   "polygonCount": 440
+  },
+  {
+   "nodeKey": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_11",
+   "name": "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_11",
+   "path": [
+    "HMSN ANSI B18.2.2 - 8-36 Steel Grade 2H Plain_11"
+   ],
+   "polygonCount": 440
+  }
+ ]
+}
