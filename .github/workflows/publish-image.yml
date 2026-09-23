@@ -21,6 +21,7 @@ on:
     paths:
       - 'robot-arm/**'
       - 'freecad-demo/**'
+      - 'standard-library/**'
       - 'Dockerfile'
       - '.dockerignore'
       - '.github/workflows/publish-image.yml'
@@ -78,20 +79,32 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
 
-      # Guards the contract Cascadia-App's seed depends on: 79 GLB + 79
-      # thumbnails at /demo-data/robot-arm, and no STEP files. Runs on PRs too —
-      # that is where a broken dataset should be caught, before it is published.
+      # Guards the contract Cascadia-App's seed depends on: every dataset in this
+      # repo is in the image, 79 GLB + 79 thumbnails at /demo-data/robot-arm, and
+      # no STEP files. Runs on PRs too — that is where a broken dataset should be
+      # caught, before it is published.
+      #
+      # The dataset list comes from the repo (each top-level directory holding a
+      # manifest.json) rather than being written out here, because a list here
+      # drifts exactly as the Dockerfile's COPY lines did: standard-library/ was
+      # added in v1.4.0 with no COPY, this step checked robot-arm alone and
+      # passed, and the quickstart's seed has exited 1 before the app could start
+      # ever since.
       - name: Verify image contents
         run: |
           set -euo pipefail
           docker buildx build --load -t demo-data:verify .
+          datasets=$(for m in */manifest.json; do dirname "$m"; done)
+          echo "datasets in repo:" $datasets
           docker run --rm demo-data:verify sh -c '
             set -e
+            for d in "$@"; do
+              test -f "/demo-data/$d/manifest.json" || { echo "$d/ is in the repo but not in the image: add a COPY to the Dockerfile"; exit 1; }
+            done
             test ! -d /demo-data/robot-arm/step || { echo "step/ leaked into the image"; exit 1; }
-            test -f /demo-data/robot-arm/manifest.json
             glb=$(ls /demo-data/robot-arm/glb | wc -l)
             png=$(ls /demo-data/robot-arm/thumbnails | wc -l)
             echo "glb=$glb thumbnails=$png"
             test "$glb" -eq 79
             test "$png" -eq 79
-          '
+          ' sh $datasets

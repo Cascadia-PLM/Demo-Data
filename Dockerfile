@@ -13,13 +13,21 @@
 # be trimmed by path the way robot-arm/step is. It is already trimmed at bake
 # time instead: the exporter leaves STL out, since the viewer reads only the GLB.
 #
+# Every dataset directory needs its own COPY. Cascadia-App's `seed-demo.ts`
+# seeds every dataset and exits non-zero when one is missing, and the quickstart
+# only starts the server once that seed succeeds — so a dataset left out here is
+# not a smaller demo, it is a demo that never boots. standard-library/ went
+# missing exactly that way when it was added in v1.4.0. The publish workflow's
+# "Verify image contents" step now checks every manifest.
+#
 #   docker build -t cascadia-demo-data .
 
 FROM alpine:3.20
 
 COPY robot-arm /demo-data/robot-arm
 COPY freecad-demo /demo-data/freecad-demo
+COPY standard-library /demo-data/standard-library
 
 LABEL org.opencontainers.image.source="https://github.com/Cascadia-PLM/Demo-Data"
-LABEL org.opencontainers.image.description="Cascadia PLM demo datasets (TDJ-25 robot arm, and the FreeCAD/KiCad PUC cart + USV catamaran)."
+LABEL org.opencontainers.image.description="Cascadia PLM demo datasets (TDJ-25 robot arm, the FreeCAD/KiCad PUC cart + USV catamaran, and standard-library components)."
 LABEL org.opencontainers.image.licenses="AGPL-3.0-only"
