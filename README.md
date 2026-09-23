@@ -39,7 +39,10 @@ contains and why it is baked rather than scripted.
 ## How it is consumed
 
 Published as `ghcr.io/cascadia-plm/cascadia-demo-data`, an `alpine` image whose
-only content is `/demo-data/robot-arm` and `/demo-data/freecad-demo`.
+only content is one directory per dataset: `/demo-data/robot-arm`,
+`/demo-data/freecad-demo` and `/demo-data/standard-library`. A new dataset needs
+its own `COPY` in the Dockerfile; the publish workflow fails a pull request
+whose image is missing one.
 Cascadia-App's `docker-compose.demo.yml` runs it as a one-shot init container
 that copies the datasets into a named volume, which the app then reads via
 `DEMO_DATA_DIR`.
